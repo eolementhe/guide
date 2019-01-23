@@ -32,7 +32,7 @@
 </details>
 
 <details>
-  <summary><b>Some blocks are red when I try to create a workflow</b></summary>
+  <summary><b>Some blocks are red when I try to create a workflow.</b></summary>
   
 
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
