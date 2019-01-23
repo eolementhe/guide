@@ -1,7 +1,7 @@
-## Workflows
+### Workflows
 
 <details>
-  <summary>How to create a new workflow?</summary>
+  <summary><b>How to create a new workflow?</b></summary>
   
   Click on `Workflow Editor` view.
 
@@ -31,7 +31,7 @@
 </details>
 
 <details>
-  <summary>Some blocks are red when I try to create a workflow</summary>
+  <summary><b>Some blocks are red when I try to create a workflow</b></summary>
   
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
 
@@ -43,7 +43,7 @@
 </details>
 
 <details>
-  <summary>How to save a workflow?</summary>
+  <summary><b>How to save a workflow?</b></summary>
   
   Build or load a workflow.
 
@@ -57,7 +57,7 @@
 </details>
 
 <details>
-  <summary>How to load an existing workflow?</summary>
+  <summary><b>How to load an existing workflow?</b></summary>
   
   Click on `Select a workflow`.
 
