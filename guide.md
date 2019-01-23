@@ -62,10 +62,27 @@
 <details>
   <summary><b>How to load an existing workflow?</b></summary>
   
-  
+
   Click on `Select a workflow`.
 
   ![Select a workflow](images/workflow-select.png)
 
   Select the workflow you want to load.
+</details>
+
+### Library
+
+<details>
+  <summary><b>How to open the subtitle editing view?</b></summary>
+  
+
+  Click on `Library` menu.
+
+  ![Library](images/library-menu.png)
+
+  Click on an `SRT` file.
+  
+  Only subtitles with .srt extension will show the subtitle editing interface.
+
+  ![Subtitle editing](images/library-subtitle-editing.png)
 </details>
