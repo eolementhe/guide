@@ -3,6 +3,7 @@
 <details>
   <summary><b>How to create a new workflow?</b></summary>
   
+
   Click on `Workflow Editor` view.
 
   ![Workflow editor](images/workflow-editor-header.png)
@@ -33,6 +34,7 @@
 <details>
   <summary><b>Some blocks are red when I try to create a workflow</b></summary>
   
+
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
 
   Check your contract to see if the dates and tools should be available.
@@ -45,6 +47,7 @@
 <details>
   <summary><b>How to save a workflow?</b></summary>
   
+
   Build or load a workflow.
 
   Click on `save` to save modifications on an existing workflow
@@ -58,6 +61,7 @@
 
 <details>
   <summary><b>How to load an existing workflow?</b></summary>
+  
   
   Click on `Select a workflow`.
 
