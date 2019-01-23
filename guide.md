@@ -70,6 +70,57 @@
   Select the workflow you want to load.
 </details>
 
+<details>
+  <summary><b>How to share a workflow?</b></summary>
+  
+Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
+
+Load an existing workflow and click on `Share`.
+
+![workflow-share](images/workflow-share.png)
+
+In the modal you can share the workflow. And see the list of users to whom the workflow is shared.
+
+![workflow-share-modal](images/workflow-share-modal.png)
+
+</details>
+
+
+<details>
+  <summary><b>How to use naming rule in my workflow?</b></summary>
+  
+Click on  `Naming rule`.
+
+![dropdown-manage](images/dropdown-manage.png)](images/dropdown-manage.png)
+
+
+Here you can add naming rules with your custom format. Enter the name of your rule and then you can write the format of naming you want.
+
+Here example of naming rule :
+![workflow-namingrule](images/workflow-namingrule.png)
+For adding variable like "Days", "Months", "FileName" you just have to click on it.
+
+After adding one, on each block you can select the naming rule . 
+
+![workflow-naming-rule](images/workflow-naming-rule.png)
+
+This will be applied to all output files of the block. 
+
+</details>
+
+<details>
+  <summary><b>How to notify someone ?</b></summary>
+  
+
+You can notify the status of your workflow to other users. 
+
+You can Add a user to the email recipients. Recipient Email select appear in Pause and Delivery block. 
+
+The  recipient email allows users to be added so that they benefit from the same follow-up as the owner of the workflows (monitoring, notifications ...)
+
+
+</details>
+
 ### Library
 
 <details>
@@ -85,4 +136,11 @@
   Only subtitles with .srt extension will show the subtitle editing interface.
 
   ![Subtitle editing](images/library-subtitle-editing.png)
+
+If your view library does not include timecodes and other information as above, you are in simplified views. You will just have to click on the button below : 
+
+![library-view-subtitle](images/library-view-subtitle.png)
+
+
+
 </details>
