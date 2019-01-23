@@ -3,15 +3,15 @@
 <details>
   <summary>How to create a new workflow?</summary>
   
-  Click on **Workflow Editor** view.
+  Click on `Workflow Editor` view.
 
   ![Workflow editor](images/workflow-editor-header.png)
 
-  Click on **+** button.
+  Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
-  Add some blocks and end your workflow with a **Delivery** block.
+  Add some blocks and end your workflow with a `Delivery` block.
 
   Select the tool to use for each block (including ingest).
 
@@ -21,7 +21,7 @@
 
   ![Fill block](images/workflow-fill-block.png)
 
-  Select some files to send on **Ingest block**.
+  Select some files to send on `Ingest block`.
 
   ![Ingest](images/workflow-ingest-files.png)
 
@@ -47,11 +47,11 @@
   
   Build or load a workflow.
 
-  Click on **save** to save modifications on an existing workflow
+  Click on `save` to save modifications on an existing workflow
 
   ![Save](images/workflow-save.png)
 
-  Click on **save as** to save as a new workflow. You will be asked to enter a name for this workflow.
+  Click on `save as` to save as a new workflow. You will be asked to enter a name for this workflow.
 
   ![Save as](images/workflow-save-as.png)
 </details>
@@ -59,7 +59,7 @@
 <details>
   <summary>How to load an existing workflow?</summary>
   
-  Click on **Select a workflow**.
+  Click on `Select a workflow`.
 
   ![Select a workflow](images/workflow-select.png)
 
