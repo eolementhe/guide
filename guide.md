@@ -4,30 +4,18 @@
   <summary>How to create a new workflow?</summary>
   
   * Click on **Workflow Editor** view.
-  
-  ![Workflow editor](images/workflow-editor-header.png)
-
+  * ![Workflow editor](images/workflow-editor-header.png)
   * Click on **+** button.
-  
-  ![Plus button](images/workflow-editor-plus.png)
-
+  * ![Plus button](images/workflow-editor-plus.png)
   * Add some blocks and end your workflow with a **Delivery** block.
-  
   * Select the tool to use for each block (including ingest).
-  
-  ![Select tool](images/workflow-select-tool.png)
-
+  * ![Select tool](images/workflow-select-tool.png)
   * Fill all red field in each block.
-  
-  ![Fill block](images/workflow-fill-block.png)
-
+  * ![Fill block](images/workflow-fill-block.png)
   * Select some files to send on **Ingest block**.
-  
-  ![Ingest](images/workflow-ingest-files.png)
-
+  * ![Ingest](images/workflow-ingest-files.png)
   * Click on execute workflow.
-  
-  ![Execute](images/workflow-execute.png)
+  * ![Execute](images/workflow-execute.png)
 </details>
 
 <details>
@@ -46,22 +34,16 @@
   <summary>How to save a workflow?</summary>
   
   * Build or load a workflow.
-  
   * Click on **save** to save modifications on an existing workflow
-  
-  ![Save](images/workflow-save.png)
-
+  * ![Save](images/workflow-save.png)
   * Click on **save as** to save as a new workflow. You will be asked to enter a name for this workflow.
-  
-  ![Save as](images/workflow-save-as.png)
+  * ![Save as](images/workflow-save-as.png)
 </details>
 
 <details>
   <summary>How to load an existing workflow?</summary>
   
   * Click on **Select a workflow**.
-  
-  ![Select a workflow](images/workflow-select.png)
-
+  * ![Select a workflow](images/workflow-select.png)
   * Select the workflow you want to load.
 </details>
