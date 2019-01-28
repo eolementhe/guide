@@ -1,7 +1,7 @@
 ### Workflows Editor
 
 <details>
-  <summary><b>How to create a new workflow?</b></summary>
+  <summary><b>How to create a new workflow ?</b></summary>
   
 
   Click on `Workflow Editor` view.
@@ -38,13 +38,13 @@
 - Standard :  upload file with HTTPS protocol.
 - Standard Object Storage : upload file from OVH, AZURE or AMAZON. 
 - Server File : use file already present on the platform.
-- Premium : upload file with Signiant App
+- Premium : upload file with Signiant App.
 - Premium Object Storage : upload file with Signiant App from OVH, AZURE or AMAZON.
 - Internet : upload file by URL internet video.
 - FTP : upload file with FTP protocol.
 - Aspera : upload file with Aspera specific protocol.
 - Live stream : upload file from live stream flux.
-- Twitter : upload file from twitter publication
+- Twitter : upload file from twitter publication.
 - Dropbox : upload file from DropBox account.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
@@ -85,7 +85,7 @@
 
 **Pause :** Create a pause in the execution of tasks in the workflow.
 
-**IMF :** Generate an IMF packages with .mxf file.
+**IMF :** Generate an IMF packages with `.mxf` file.
 
 **Subtitle :** Generates, converts or writes subtitles on a media file.
 - Convert : Convert subtitle files to another subtitle file format.
@@ -93,9 +93,9 @@
 - Translation Google : Generates subtitles with Google translation. 
 - Translation Microsoft : Generates subtitles with Microsoft translation. 
 - Translation Deepl :  Generates subtitles with Deepl translation. 
-- Speech to text : Allows to create subtitles using the soundtrack of a media file with autosub.
+- Speech to text : Allows to create subtitles using the soundtrack of a media file with Autosub.
 - Speechmatics : Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
-- VideoIndexer : Allows you to create subtitles using the soundtrack of a media file with videoindexer.
+- VideoIndexer : Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
 
 **Antivirus :** Detects the presence of viruses in media files. 
 - Clamav : Generate report with Clamav.
@@ -115,7 +115,7 @@
 </details>
 
 <details>
-  <summary><b>Some blocks are red when I try to create a workflow.</b></summary>
+  <summary><b>Some blocks are red when I try to create a workflow</b></summary>
   
 
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
@@ -129,7 +129,7 @@
 </details>
 
 <details>
-  <summary><b>How to save a workflow?</b></summary>
+  <summary><b>How to save a workflow ?</b></summary>
   
 
   Build or load a workflow.
@@ -144,7 +144,7 @@
 </details>
 
 <details>
-  <summary><b>How to load an existing workflow?</b></summary>
+  <summary><b>How to load an existing workflow ?</b></summary>
   
 
   Click on `Select a workflow`.
@@ -155,7 +155,7 @@
 </details>
 
 <details>
-  <summary><b>How to share a workflow?</b></summary>
+  <summary><b>How to share a workflow ?</b></summary>
   
 Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
 
@@ -178,7 +178,7 @@ View when a workflow is shared with you.
 
 
 <details>
-  <summary><b>How to use naming rule in my workflow?</b></summary>
+  <summary><b>How to use naming rule in my workflow ?</b></summary>
   
 Click on  `Naming rule`.
 
@@ -191,7 +191,7 @@ Here example of naming rule :
 
 ![workflow-namingrule](images/workflow-namingrule.png)
 
-For adding variable in your name like "Days", "Months", "File Name" you just have to click on it.
+For adding variable in your name like `Days`, `Months`, `File Name` you just have to click on it.
 
 After adding  naming rule, on each block appear this : 
 
@@ -235,14 +235,74 @@ A user starts a translation workflow. However, several translators must access t
 
 ![workflow-collaborative-subtitle](images/workflow-collaborative-subtitle.png)
 
-Once the workflow is paused. Users in recipient email of the pause block receive the file from previous block (here a speech to text block). So they will just have to correct the subtitles of this file. Once the corrections have been made, one of the users will simply have to continue the pause and the workflow will resume its execution with the corrected subtitle file.
+Once the workflow is paused. Users in recipient email of the pause block receive the file from previous block (here a speech to text block). So they will just have to correct the subtitles file `.srt`. Once the corrections have been made, one of the users will simply have to continue the pause and the workflow will resume its execution with the corrected subtitle file.
 
 </details>
 
 <details>
-  <summary><b>How to add Baton preset</b></summary>
+  <summary><b>How to organize my file by folder ?</b></summary>
 
-First add a 'Quality Control' block to your workflow. 
+In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
+
+The `Destination folder` field of the Ingest block allows you to redirect all source files to the folder tree you specified. 
+
+The `Destination folder` field of the Delivery block allows you to redirect all generated files to the folder tree you specified. 
+
+If you leave the fields empty as below: 
+
+![workflow-editor-ingest-delivery-destination-empty](images/workflow-editor-ingest-delivery-destination-empty.png)
+
+All your source and generated files will be sent to the root of your file server eolementhe.
+
+![workflow-editor-ingest-delivery-destination-empty-result](images/workflow-editor-ingest-delivery-destination-empty-result.png)
+
+If you specify the field `Destination folder` you will be able to classify your files simply. 
+
+Example : 
+
+![workflow-editor-ingest-destination-complete](images/workflow-editor-ingest-destination-complete.png)
+
+Here we redirect all the source files to the `eole` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is in the `test` folder.
+
+Result in the `File Library`: 
+
+![workflow-editor-ingest-delivery-destination-complete-result](images/workflow-editor-ingest-delivery-destination-complete-result.png)
+
+</details>
+
+<details>
+  <summary><b>How to create FTP watchfolder ?</b></summary>
+
+An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by eolementhe in a workflow of your choice. 
+
+First you will need to add your FTP server. For that nothing simpler put the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
+
+Click on `Add Server`
+
+![workflow-ftp-watch-folder-2](images/workflow-ftp-watch-folder-2.png)
+
+Fill in the data relating to your FTP server and click on `Submit`.
+
+![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
+
+Now go to the dropdown menu at the top right of eolementhe and click on `FTP Watch Folder`.
+
+![workflow-ftp-watch-folder-1](images/workflow-ftp-watch-folder-1.png)
+
+Select the FTP container you just entered just before. Select the folder that will be watched. Select the folder that will be watched. And click on `Submit`.
+
+![workflow-ftp-watch-folder-5](images/workflow-ftp-watch-folder-5.png)
+
+You should arrive on this page which lists all your Watchfolder folders that you have entered. This is also where you can delete FTP watchfolder by clicking on the red icon.
+
+![workflow-ftp-watch-folder-6](images/workflow-ftp-watch-folder-6.png)
+
+</details>
+
+<details>
+  <summary><b>How to add Baton preset ?</b></summary>
+
+First add a `Quality Control` block to your workflow. 
 
 Baton with preset allow quality control according to your requirements. If your test plan list is empty.
 You can add a test plan by click on  `Add a test plan`.
@@ -258,7 +318,7 @@ When your test plan is added click on `upload` to load your test plan on your pr
 
 ![workflow-baton-add-preset-3](images/workflow-baton-add-preset-3.png)
 
-Once uploaded your test plan will be displayed in the list like this (here we add test plan named "aaaaaa"). You can delete or download your test plan from here.
+Once uploaded your test plan will be displayed in the list like this (here we add test plan named `aaaaaa`). You can delete or download your test plan from here.
 
 ![workflow-baton-add-preset-4](images/workflow-baton-add-preset-4.png)
 
@@ -269,16 +329,16 @@ Return to your workflow and select the added test plan.
 </details>
 
 <details>
-  <summary><b>How to add Harmonic WFS preset</b></summary>
+  <summary><b>How to add Harmonic WFS preset ?</b></summary>
 
-First add a 'Transcoding' block to your workflow. 
+First add a `Transcoding`  block to your workflow. 
 
 Harmonic WFS preset allow transcode according to your requirements. If your preset list is empty.
 You can add a preset by click on  `Add Presets`.
 
 ![workflow-harmonic-add-preset-1](images/workflow-harmonic-add-preset-1.png)
 
-Clicking on `Add Workflow"`ad your workflow preset. 
+Clicking on `Add Workflow` for add your workflow preset. 
 ![workflow-harmonic-add-preset-2](images/workflow-harmonic-add-preset-2.png)
 
 When your workflow preset is added click  on `upload` to load.
@@ -289,7 +349,7 @@ Now add all presets used by your preset workflow and click `upload` again to loa
 
 ![workflow-harmonic-add-preset-4](images/workflow-harmonic-add-preset-4.png)
 
-Once uploaded your preset will be displayed in the list like this (here we add preset named "EOLE_2"). You can delete or download your test plan from here.
+Once uploaded your preset will be displayed in the list like this (here we add preset named `EOLE_2`). You can delete or download your test plan from here.
 
 ![workflow-harmonic-add-preset-5](images/workflow-harmonic-add-preset-5.png)
 
@@ -299,26 +359,59 @@ Return to your workflow and select the added preset.
 
 </details>
 
+<details>
+  <summary><b>Create and manipulate IMF packages</b></summary>
+
+Create a workflow with an IMF package block and with your `.mxf` file in Ingest as below.
+
+![workflow-imf-1](images/workflow-imf-1.png)
+
+When your workflow was executed go to the `File library`. You should have a folder with all of your MFI packages as below :
+
+![workflow-imf-2](images/workflow-imf-2.png)
+
+Click on the label `IMF` in `File library` :
+
+![workflow-IMF-button](images/workflow-IMF-button.png)
+
+This should open a window like the one below.
+
+![workflow-imf-3](images/workflow-imf-3.png)
+
+Eolementhe create a default video. But you can still create your own video with the settings you want with the list of all video files and all audio files. 
+
+![workflow-imf-4](images/workflow-imf-4.png)
+
+Once your media version have been created, you can click on the envelope icon as below : 
+
+![workflow-imf-6](images/workflow-imf-6.png)
+
+You will be redirected to a workflow with `Cambria` transcoding ready to generate your file.
+
+![workflow-imf-7](images/workflow-imf-7.png)
+
+</details>
+
 ### My Workflows
 
 <details>
-  <summary><b>Structure of monitoring view?</b></summary>
+  <summary><b>Structure of monitoring view ?</b></summary>
 
   Click on `My Workflows` view.
   
   ![workflow-monitoring](images/workflow-monitoring.png)
 
-The "My Workflows" view allow the user to monitor all the workflows you have started. 
+The `My Workflows` view allow the user to monitor all the workflows you have started. 
 
 ![workflow-monitoring-view](images/workflow-monitoring-view.png)
 
 The different buttons allows you to change the monitoring view. 
 
-A button allow you to switch from the Workflow view to the File view. 
+A button allow you to switch from the `My Workflow` view to the `My File` view. 
 
 ![workflow-monitoring-view-button-file](images/workflow-monitoring-view-button-file.png)
 
-And the other button allow you to switch from the Standard view which corresponds to all workflows and files sent by the normal ingest. And the premium view that will show all the workflows and files sent by the premium ingest post (Premium mode use Signiant).
+And the other button allow you to switch from the `Standard` view which corresponds to all workflows and files sent by the normal ingest. And the `Premium` view that will show all the workflows and files sent by the premium ingest post (Premium mode use Signiant).
 
 ![workflow-monitoring-view-button-premium](images/workflow-monitoring-view-button-premium.png)
 
@@ -359,7 +452,7 @@ Here is an exhaustive list of the different possible statuses.
 </details>
 
 <details>
-  <summary><b>Anatomie of workflow monitoring view?</b></summary>
+  <summary><b>Anatomie of workflow monitoring view ?</b></summary>
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
@@ -390,7 +483,7 @@ The file zone. This area contains all the files in the workflow (sources files a
 </details>
 
 <details>
-  <summary><b>Anatomie of file monitoring view?</b></summary>
+  <summary><b>Anatomie of file monitoring view ?</b></summary>
   
   Click on `My files` button.
 
@@ -419,22 +512,22 @@ In addition, many options in workflow monitoring allow you to delete files relat
 **Purge generated only** that purge all generates files of your workflow.<br>
 **Delete workflow** that removes all traces of the workflow on the platform (that delete : sources files, generates files and your workflow in monitoring view).
 
-If you want to delete a specific file you can click on the trash icon of your target file in "My workflow" : 
+If you want to delete a specific file you can click on the trash icon of your target file in `My workflow` : 
 
 ![workflow-monitoring-delete-specific](images/workflow-monitoring-delete-specific.png)
 
 </details>
 
-### Library
+### File Library
 
 <details>
-  <summary><b>Structure of file library view?</b></summary>
+  <summary><b>Structure of file library view ?</b></summary>
 
   Click on `File Library` menu.
 
 ![Library](images/library-menu.png)
 
-In the 'File Library' view we have on the left all the files related to our account. To open a file in the library, simply click on the file in this section.
+In the `File Library` view we have on the left all the files related to our account. To open a file in the library, simply click on the file in this section.
 ![library-view-file-tree](images/library-view-file-tree.png)    
 You can search for a specific file or folder using the search bar. 
 
@@ -470,32 +563,6 @@ And finally you can directly start a workflow with the selected files.
 
 ![library-button-launch](images/library-button-launch.png)
 
-If you select only files with the same extension. Another option appears Stitch file. That stitch all selected file.
-
-![library-button-stitch](images/library-button-stitch.png)
-
-Stitch option had a specific interface for stitch our selected file.
-![library-stitch-1](images/library-stitch-1.png)
-
-First select the file to put first by clicking on the icon: 
-
-![library-button-stitch-add](images/library-button-stitch-add.png)
-
-A view of your output file is displayed. Here you can see the name of the output file. And we can see the timeline of our output file with our first file added. 
-
-![library-stitch-2](images/library-stitch-2.png)
-
-Now let's add the second file. We can see on the timeline the white separation that marks the separation of our two files added.
-
-![library-stitch-3](images/library-stitch-3.png)
-
-You can reset the output file by clicking on : 
-
-![library-button-stitch-restart](images/library-button-stitch-restart.png)
-
-Or create the file by clicking on: 
-
-![library-stitch-final-button](images/library-stitch-final-button.png)
 
 <hr>
 
@@ -520,11 +587,195 @@ If you find that the preview video of the File library is too small to work comf
  ![library-view-file-fullscreen](images/library-view-file-fullscreen.png)
 
 
+A small keyboard icon is above the video player. When you hover your mouse over it, you will see the keyboard shortcuts of the player. 
+
+![library-view-shortcut](images/library-view-shortcut.png)
+
+Below the video player, there are the normal control buttons: `Back, Pause, Forward and take a screenshot`.
+
+![library-view-button-player](images/library-view-button-player.png)
+
+Below the video player, it also has a video playback speed control bar. 
+
+![library-view-button-playbackspeed](images/library-view-button-playbackspeed.png)
+
+On the left of the video player we have a space reserved for screenshots, information and video cutting : 
+
+`Captures view` list and manage all the screenshots taken on this file. 
+![library-view-panel-capture](images/library-view-panel-capture.png)
+
+
+`Information view` lists all available information about the media file. And it also allows you to add metadatas or export them. 
+![libray-view-panel-informations](images/libray-view-panel-informations.png)
+
+`Trim view`  trim certain parts of this media file. 
+![library-view-panel-trim](images/library-view-panel-trim.png)
+
+</details>
+
+<details>
+  <summary><b>How to do capture on file ?</b></summary>
+  
+Launch your video player. When you want to hang a capture press: 
+
+![library-view-capture-button](images/library-view-capture-button.png)
+
+In the tab `Captures`, the captures linked to the file are displayed on the left of your player. Here you can directly comment them thanks to the field : 
+
+![library-view-capture-view](images/library-view-capture-view.png)
+
+You can bring your video player to the frame of your capture click by simply clicking on the timecode below the image.
+
+ ![library-view-capture-timecode](images/library-view-capture-timecode.png)
+
+You can delete a capture by clicking on the icon: 
+
+![library-viw-capture-supress](images/library-viw-capture-supress.png)
+
+Finally you can export all your captures in `pdf` or `csv` format with the following two buttons :
+
+![library-view-capture-export](images/library-view-capture-export.png)
+
+</details>
+
+<details>
+  <summary><b>How to get informations of a file ?</b></summary>
+  
+In the tab `Information` you can have the complete list of information about the file.  
+
+  ![library-view-information-complete](images/library-view-information-complete.png)
+  
+
+We also have access to the metadatas of the file (if there are any) : 
+
+![library-view-information-metadata-list](images/library-view-information-metadata-list.png)
+
+
+We can also export the information in `.pdf` format or add metadatas to the file using these buttons: 
+
+![library-view-information-button-export-add](images/library-view-information-button-export-add.png)
+
+
+</details>
+
+<details>
+  <summary><b>How to trim a file ?</b></summary>
+
+
+In the `Trim` tab you can extract a part of the media file. 
+For that nothing simpler than two timecodes that delimit the trim of your video. 
+
+![library-view-trim-1](images/library-view-trim-1.png)
+
+The timescode input fields are automatically set to the timecode of your video being played back. Then click on `Trim`. 
+
+![library-view-trim-2](images/library-view-trim-2.png)
+
+Wait a little while : 
+
+![library-view-trim-3](images/library-view-trim-3.png)
+
+Your file was created and named in the format `BaseName_trim_trim_timecode1_timecode2` in your file Library.
+
+![library-view-trim-4](images/library-view-trim-4.png)
+
+</details>
+
+<details>
+  <summary><b>How to stitch files ?</b></summary>
+  
+In `File Library`, select several only files with the same extension by checking them.
+
+![library-stitch-preview](images/library-stitch-preview.png)
+
+Option appears `Stitch files`. That stitch all selected file.
+
+![library-button-stitch](images/library-button-stitch.png)
+
+Stitch option had a specific interface for stitch our selected file.
+![library-stitch-1](images/library-stitch-1.png)
+
+First select the file to put first by clicking on the icon: 
+
+![library-button-stitch-add](images/library-button-stitch-add.png)
+
+A view of your output file is displayed. Here you can see the name of the output file. And we can see the timeline of our output file with our first file added. 
+
+![library-stitch-2](images/library-stitch-2.png)
+
+Now let's add the second file. We can see on the timeline the white separation that marks the separation of our two files added.
+
+![library-stitch-3](images/library-stitch-3.png)
+
+You can reset your timeline by clicking on : 
+
+![library-button-stitch-restart](images/library-button-stitch-restart.png)
+
+Or create the file by clicking on: 
+
+![library-stitch-final-button](images/library-stitch-final-button.png)
+
 </details>
 
 
 <details>
-  <summary><b>How to open the subtitle editing view?</b></summary>
+  <summary><b>Structure of subtitle editing view ?</b></summary>
+ 
+  Click on `File Library` menu.
+
+  ![Library](images/library-menu.png)
+
+ Click on an `SRT` file.
+
+![library-view-structure-1](images/library-view-structure-1.png)
+
+If your view library does not include timecodes and other informations as above, you are in simplified view. You will just have to click on the button like below for complete view : 
+
+![library-view-subtitle](images/library-view-subtitle.png)
+
+The current subtitle is displayed as follows.
+
+![library-view-structure-2](images/library-view-structure-2.png)
+
+If you click on the character limits a modal opens allowing you to change the limits for all the file.
+
+![library-view-structure-3](images/library-view-structure-3.png)
+
+If you change the limit and some captions have more words per second than your limit they will appear in red like this : 
+![library-view-structure-11](images/library-view-structure-11.png)
+
+If you want to put your media player on a particular caption, just click on the subtitles caption timecode surrounded in red below :
+
+![library-view-structure-4](images/library-view-structure-4.png)
+
+If you want to change the timecodes you just have to click on the icon (surrounded in red below) next to the timecode to change it.
+
+![library-view-structure-5](images/library-view-structure-5.png)
+
+By clicking on icons bellow you could advance or reverse your capture by 100 miliseconds. 
+
+![library-view-structure-6](images/library-view-structure-6.png)
+
+You can delete a subtitles caption by clicking on the icon surrounded in red below.
+
+![library-view-structure-7](images/library-view-structure-7.png)
+
+You can add a caption by clicking on the icon surrounded in red below (the subtitles captions are added underneath)
+
+![library-view-structure-8](images/library-view-structure-8.png)
+
+By clicking on icons bellow you could advance or reverse by 100 miliseconds all subtitles captions of your file. 
+
+![library-view-structure-9](images/library-view-structure-9.png)
+
+When you have finished working on your subtitles, don't forget to save with the following button: 
+
+![library-view-structure-10](images/library-view-structure-10.png)
+
+</details>
+
+<details>
+  <summary><b>How to open the subtitle editing view ?</b></summary>
   
   Click on `File Library` menu.
 
@@ -553,7 +804,7 @@ On Eolementhe you can contact other user and talk to them. This messaging system
   ![Library](images/library-menu.png)
 
 
-To open the conversation of file click on the icon indicated by the red arrows at the bottom right on the image below on your open file. 
+To open the conversation of file click on the icon indicated by the red arrows at the bottom right on the image below. 
 
 ![workflow-library-chat](images/workflow-library-chat.png)
 
@@ -580,11 +831,11 @@ You will have something like this:
 
 ![dashboard-complete-view](images/dashboard-complete-view.png)
 
-If you click on a file raw that redirect your platform to the file library on the file you clicked : 
+If you click on a file raw that redirect your platform on `File library` on the file you clicked : 
 
 ![dashboard-click-raw](images/dashboard-click-raw.png)
 
-The select allows you to add or remove rows from the table. In order to customize your dashboard and not have any information that is useless to you. 
+The select allows you to add or remove rows from the table. In order to customize your dashboard and not have any information that is useless for you. 
 
 ![dashboard-select-filter](images/dashboard-select-filter.png)
 
@@ -596,7 +847,7 @@ We can also change the way the rows of your table are ordered by clicking on the
 
 ![dashboard-icon-ordered](images/dashboard-icon-ordered.png)
 
-We also have labels in State column corresponding to the workflow that was launched on the file. By clicking on this label the platform will redirect you to the workflow monitoring on the clicked workflow. 
+We also have labels in the State column corresponding to the workflow that was launched on the file. By clicking on this label the platform will redirect you to the `My Workflow` view monitoring on the clicked workflow. 
 
 ![dashboard-status-label](images/dashboard-status-label.png)
 
@@ -607,7 +858,7 @@ We also have labels in State column corresponding to the workflow that was launc
 ### Analytics
 
 <details>
-  <summary><b>How to use analytics effectively?</b></summary>
+  <summary><b>How to use analytics effectively ?</b></summary>
 
   Click on `Analytics` menu.  
   
@@ -624,7 +875,7 @@ Then an interface of the following form will be displayed :
 
 A list of selected emails is displayed. Allowing the management of our analytics.You can export report as a PDF or CSV file with both export buttons. 
 
-Below example of a part of the activity report.
+Below example of one schema of the activity report.
 
 ![analytics-graphic](images/analytics-graphic.png)
 
@@ -644,7 +895,8 @@ After a modal will ask you:
 
 ![2FA-modal](images/2FA-modal.png)
 
-If you click on "yes" then you will activate the 2FA. So at your next login on the platform you will be asked this: 
+If you click on `yes` then you will activate the 2FA. 
+<br>Next login on the platform you will be asked this: 
 
 ![2FA-login](images/2FA-login.png)
 
@@ -656,10 +908,13 @@ Code received by email to the email address of your account.
 <details>
   <summary><b>How to activate or disable notification ?</b></summary>
 
-  Click on `Activate notification`.
+If disabled click on `Activate notification`.
 
 ![dropdown-manage-notification](images/dropdown-manage-notification.png)
 
+If activated click on `Disable notification`.
+
+![dropdown-manage-notification-disab](images/dropdown-manage-notification-disab.png)
 
 </details>
 
@@ -674,15 +929,7 @@ If a team exists that behaves like this it will be displayed like this.
 
 ![team-view](images/team-view.png)
 
-  After that, just click on it to get all the information (if u are a simple suer you can only see your team manager. Only manager can see all  users of team).
+  After that, just click on it to get all the information (if u are a simple user you can only see your team manager. Only manager can see all users of team).
 ![team-complete-view](images/team-complete-view.png)
 
 </details>
-
-- Library file subtilte editing precis tuto
-- Folder ingest and outgest for block ingest/outgest
-- IMF
-
-
--Explique watchfolder<br>
--Activate notification<br>
