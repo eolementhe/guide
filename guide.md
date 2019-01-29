@@ -8,9 +8,6 @@
   
  ![Workflow editor](images/workflow-editor-header.png)
 
-&nbsp;
-&nbsp;
-
 Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
@@ -469,11 +466,12 @@ Here is an exhaustive list of the different possible statuses.
 
 **Completed :** workflow are about executing and delivering correctly. All tasks or files in the workflow were executed correctly. 
 
-
 </details>
 
+
 <details>
-  <summary><b>Anatomie of workflow monitoring view ?</b> </summary>
+  <summary><b>Anatomie of workflow monitoring view ?</b></summary>
+  
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
@@ -500,8 +498,8 @@ At top of the workflow zone we can see the title of file ingest. Below that show
 The file zone. This area contains all the files in the workflow (sources files and generated files). It is also in this area that you will find the deletion information for the different files in your workflow. 
 
 ![workflow-monitoring-file-zone](images/workflow-monitoring-file-zone.png)
-</details>
 
+</details>
 
 
 <details>
