@@ -498,8 +498,9 @@ At top of the workflow zone we can see the title of file ingest. Below that show
 The file zone. This area contains all the files in the workflow (sources files and generated files). It is also in this area that you will find the deletion information for the different files in your workflow. 
 
 ![workflow-monitoring-file-zone](images/workflow-monitoring-file-zone.png)
-
 </details>
+
+
 
 <details>
   <summary><b>Anatomie of file monitoring view ?</b></summary>
@@ -903,7 +904,7 @@ Below example of one schema of the activity report.
 <details>
   <summary><b>How to more secure my account ?</b>       
   </summary>
-
+   
 Click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
