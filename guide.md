@@ -877,7 +877,7 @@ We also have labels in the State column corresponding to the workflow that was l
 
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
- 
+  
 Click on `Analytics` menu.  
   
 
@@ -898,6 +898,7 @@ A list of selected emails is displayed. Allowing the management of our analytics
 Below example of one schema of the activity report.
 
 ![analytics-graphic](images/analytics-graphic.png)
+
 </details>
 
 ### Account
@@ -905,8 +906,7 @@ Below example of one schema of the activity report.
 
 <details>
   <summary><b>How to more secure my account ?</b></summary>
-      
-                              
+  
 Click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
@@ -920,6 +920,7 @@ If you click on `yes` then you will activate the 2FA.
 
 ![2FA-login](images/2FA-login.png)
 Code received by email to the email address of your account. 
+
 </details>
 
 
