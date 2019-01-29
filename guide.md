@@ -235,7 +235,7 @@ Recipient email appear in Pause and Delivery block.
 
 ![workflow-recipient-email](images/workflow-recipient-email.png)
 
-The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications ...). 
+The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications, emails, etc ...). 
 
 Your own email adress is automatically add in recipient email list.
 
