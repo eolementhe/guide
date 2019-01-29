@@ -3,30 +3,33 @@
 <details>
   <summary><b>How to create a new workflow ?</b></summary>
   
-
   Click on `Workflow Editor` view.
 
   ![Workflow editor](images/workflow-editor-header.png)
-
-  Click on `+` button.
+<br><br><br>
+Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
   Add some blocks and end your workflow with a `Delivery` block.
 
-  Select the tool to use for each block (including ingest).
+<br><br><br>
+<p style="text-align: center;"> Select the tool to use for each block (including ingest).</p>
 
   ![Select tool](images/workflow-select-tool.png)
 
-  Fill all red field in each block.
+<br><br><br>
+<p style="text-align: center;"> Fill all red field in each block.</p>
 
   ![Fill block](images/workflow-fill-block.png)
 
-  Select some files to send on `Ingest block`.
+<br><br><br>
+Select some files to send on `Ingest block`.
 
   ![Ingest](images/workflow-ingest-files.png)
 
-  Click on execute workflow.
+<br><br><br>
+<p style="text-align: center;"> Click on execute workflow.</p>
 
   ![Execute](images/workflow-execute.png)
 </details>
@@ -34,13 +37,16 @@
 <details>
   <summary><b>Presentation of all blocks</b></summary>
   
+
 **Ingest :** Allows to upload files to Eolementhe.
-- Standard :  upload file with HTTPS protocol.
-- Standard Object Storage : upload file from OVH, AZURE or AMAZON. 
-- Server File : use file already present on the platform.
-- Premium : upload file with Signiant App.
-- Premium Object Storage : upload file with Signiant App from OVH, AZURE or AMAZON.
-- Internet : upload file by URL internet video.
+<br>
+
+- ***Standard :***  upload file with HTTPS protocol.
+- ***Standard Object Storage :*** upload file from OVH, AZURE or AMAZON. 
+- ***Server File :*** use file already present on the platform.
+- ***Premium :*** upload file with Signiant App.
+- ***Premium Object Storage :*** upload file with Signiant App from OVH, AZURE or AMAZON.
+- ***Internet :*** upload file by URL internet video.
 - FTP : upload file with FTP protocol.
 - Aspera : upload file with Aspera specific protocol.
 - Live stream : upload file from live stream flux.
@@ -48,6 +54,7 @@
 - Dropbox : upload file from DropBox account.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
+
 - Manual : deliver file on Eolementhe platform.
 - Object Storage : deliver file on OVH, AZURE or AMAZON.
 - Mediashuttle : deliver file on mediashuttle portal.
@@ -59,12 +66,14 @@
 
 
 **Quality control :** Generates a quality control report in accordance with the preset entered. 
+
 - Baton : Generate a quality control with Baton.
 - Photon : Generate a quality control for package IMF.
 - Mediainfo : Generate file with informations of media.
 
 
 **Transcoding :** Generate a new media file in accordance with the preset entered.
+
 - Harmonic WFS : Transcode file according to your Harmonic WFS workflows/presets.
 - File360 : Transcode file on File360 service.
 - RewrappAS10 : Rewrapp .mxf file with AS10 complient metadata.
@@ -74,11 +83,13 @@
 
 
 **Loudness :** Generates or corrects errors in the soundtracks of the media file.
+
 - Minnetonka ATS :  Check and fix loudness with Minnetonka.
 - ffmpeg : Check and fix loudness with ffmpeg.
 
 
 **Metadata :** Add or read metadatas to a media in accordance with the presets.
+
 - Metadata : Add metadatas according to your preset.
 - Auto retrieve : Retrieves metadatas from media files and generate file with metadatas.
 
@@ -88,6 +99,7 @@
 **IMF :** Generate an IMF packages with `.mxf` file.
 
 **Subtitle :** Generates, converts or writes subtitles on a media file.
+
 - Convert : Convert subtitle files to another subtitle file format.
 - Burn : Allows to integrate the subtitle file into a media file. 
 - Translation Google : Generates subtitles with Google translation. 
@@ -98,17 +110,20 @@
 - VideoIndexer : Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
 
 **Antivirus :** Detects the presence of viruses in media files. 
+
 - Clamav : Generate report with Clamav.
 
 
 **Trim :** Allow to cut a media to the time codes specified by the user. 
 
 **Expand :** Allow to modify the workflow with parallel or conditions.
+
 - Parallel : Allow the user to create parallel branches to perform tasks simultaneously. 
 - Conditional : Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
 
 
 **AI :** Allows to use artificial intelligence to detect faces, tags etc ...
+
 - Videobox : Detects faces, nudity images and tags with Videobox.
 - VideoIndexer :  Detects faces with VideoIndexer.
 
@@ -452,7 +467,7 @@ Here is an exhaustive list of the different possible statuses.
 </details>
 
 <details>
-  <summary><b>Anatomie of workflow monitoring view ?</b></summary>
+  <summary><b>Anatomie of workflow monitoring view ?</b> </summary>
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
@@ -818,9 +833,9 @@ And now communicate simply.
 ### Dashboard
 
 <details>
-  <summary><b>How to use dashboard effectively ?</b></summary>
-
-  Click on `Dashboard` menu.  
+  <summary><b>How to use dashboard effectively ?</b>     </summary>
+  
+Click on `Dashboard` menu.  
 
 ![dashboard-header](images/dashboard-header.png)
 
@@ -850,17 +865,15 @@ We can also change the way the rows of your table are ordered by clicking on the
 We also have labels in the State column corresponding to the workflow that was launched on the file. By clicking on this label the platform will redirect you to the `My Workflow` view monitoring on the clicked workflow. 
 
 ![dashboard-status-label](images/dashboard-status-label.png)
-
-
 </details>
 
 
 ### Analytics
 
 <details>
-  <summary><b>How to use analytics effectively ?</b></summary>
+  <summary><b>How to use analytics effectively ?</b>     </summary>
 
-  Click on `Analytics` menu.  
+Click on `Analytics` menu.  
   
 ![analytics-header](images/analytics-header.png)
 
@@ -878,16 +891,15 @@ A list of selected emails is displayed. Allowing the management of our analytics
 Below example of one schema of the activity report.
 
 ![analytics-graphic](images/analytics-graphic.png)
-
-
 </details>
 
 ### Account
 
 <details>
-  <summary><b>How to more secure my account ?</b></summary>
+  <summary><b>How to more secure my account ?</b>       
+  </summary>
 
-  Click on `Enable 2FA`.
+Click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
 
