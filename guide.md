@@ -7,11 +7,9 @@
   Click on `Workflow Editor` view.
   
   ![Workflow editor](images/workflow-editor-header.png)
+<br><br><br>
 
-||
-|:--:|
-| Click on `+` button. |
-
+Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
@@ -128,7 +126,7 @@ Click on execute workflow.
 **AI :** Allows to use artificial intelligence to detect faces, tags etc ...
 
 - ***Videobox :*** Detects faces, nudity images and tags with Videobox.
-- ***VideoIndexer :***  Detects faces with VideoIndexer.
+- ***VideoIndexer :  Detects faces with VideoIndexer.
 
 </details>
 
