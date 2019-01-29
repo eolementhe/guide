@@ -517,8 +517,11 @@ At top of the file zone we can see the title of source file. Below that show the
 
 </details>
 
+
+
 <details>
   <summary><b>How to purge file ?</b></summary>
+  
 
 As specified in the monitoring workflows, the files have a deletion deadline. Each file created is kept on the platform for 5 days before it is automatically deleted. 
 
@@ -526,9 +529,12 @@ As specified in the monitoring workflows, the files have a deletion deadline. Ea
 
 In addition, many options in workflow monitoring allow you to delete files related to a workflow. 
 
-**Purge all files** that purge all sources and generates files of your workflow.<br>
-**Purge source only** that purge all sources files of your workflow. <br>
-**Purge generated only** that purge all generates files of your workflow.<br>
+**Purge all files** that purge all sources and generates files of your workflow.
+
+**Purge source only** that purge all sources files of your workflow.
+
+**Purge generated only** that purge all generates files of your workflow.
+
 **Delete workflow** that removes all traces of the workflow on the platform (that delete : sources files, generates files and your workflow in monitoring view).
 
 If you want to delete a specific file you can click on the trash icon of your target file in `My workflow` : 
@@ -536,6 +542,7 @@ If you want to delete a specific file you can click on the trash icon of your ta
 ![workflow-monitoring-delete-specific](images/workflow-monitoring-delete-specific.png)
 
 </details>
+
 
 ### File Library
 
