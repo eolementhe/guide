@@ -16,12 +16,12 @@ Click on `+` button.
   Add some blocks and end your workflow with a `Delivery` block.
 
 
-<p style="text-align: center;"> Select the tool to use for each block (including ingest).</p>
+Select the tool to use for each block (including ingest).
 
   ![Select tool](images/workflow-select-tool.png)
 
 
-<p style="text-align: center;"> Fill all red field in each block.</p>
+Fill all red field in each block.
 
   ![Fill block](images/workflow-fill-block.png)
 
@@ -32,9 +32,10 @@ Select some files to send on `Ingest block`.
 
 
 
-<p style="text-align: center;"> Click on execute workflow.</p>
+Click on execute workflow.
 
   ![Execute](images/workflow-execute.png)
+
 </details>
 
 <details>
