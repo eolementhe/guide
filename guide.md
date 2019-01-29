@@ -13,26 +13,27 @@ Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
-  Add some blocks and end your workflow with a `Delivery` block.
+  Add some blocks and end your workflow with a `Delivery` block. <br><br><br>
 
 
 Select the tool to use for each block (including ingest).
 
   ![Select tool](images/workflow-select-tool.png)
+<br><br><br>
 
 
 Fill all red field in each block.
 
   ![Fill block](images/workflow-fill-block.png)
-
+<br><br><br>
 
 Select some files to send on `Ingest block`.
 
   ![Ingest](images/workflow-ingest-files.png)
+<br><br><br>
 
 
-
-Click on execute workflow.
+Click on execute workflow. 
 
   ![Execute](images/workflow-execute.png)
 </details>
