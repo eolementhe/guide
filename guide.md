@@ -918,7 +918,6 @@ If you click on `yes` then you will activate the 2FA.
 
 ![2FA-login](images/2FA-login.png)
 Code received by email to the email address of your account.
-
 </details>
 
 
