@@ -8,7 +8,6 @@
   
  ![Workflow editor](images/workflow-editor-header.png)
 
-</br></br>
 
 Click on `+` button.
 
@@ -16,22 +15,18 @@ Click on `+` button.
 
   Add some blocks and end your workflow with a `Delivery` block.
 
-</br></br>
 Select the tool to use for each block (including ingest).
 
   ![Select tool](images/workflow-select-tool.png)
 
-</br></br>
 Fill all red field in each block.
 
   ![Fill block](images/workflow-fill-block.png)
 
-</br></br>
 Select some files to send on `Ingest block`.
 
   ![Ingest](images/workflow-ingest-files.png)
 
-</br></br>
 Click on `Execute workflow`.
 
   ![Execute](images/workflow-execute.png)
@@ -235,7 +230,7 @@ Recipient email appear in Pause and Delivery block.
 
 ![workflow-recipient-email](images/workflow-recipient-email.png)
 
-The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications, emails, etc ...). 
+The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
 
 Your own email adress is automatically add in recipient email list.
 
