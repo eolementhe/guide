@@ -645,7 +645,7 @@ You can bring your video player to the frame of your capture click by simply cli
 
 You can delete a capture by clicking on the icon: 
 
-![library-viw-capture-supress](images/library-viw-capture-supress.png)
+![library-view-capture-supress](images/library-view-capture-supress.png)
 
 Finally you can export all your captures in `pdf` or `csv` format with the following two buttons :
 
