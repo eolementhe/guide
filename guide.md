@@ -31,7 +31,7 @@ Select some files to send on `Ingest block`.
   ![Ingest](images/workflow-ingest-files.png)
 <br><br><br>
 
-Click on execute workflow.
+Click on `Execute workflow`.
 
   ![Execute](images/workflow-execute.png)
   
