@@ -1,7 +1,7 @@
 ### Workflows Editor
 
 <details>
-  <summary><b>How to create a new workflow ?</b></summary>
+  <summary><b>How to create a new workflow?</b></summary>
   
 
   Click on `Workflow Editor` view.
@@ -34,7 +34,7 @@ Click on `Execute workflow`.
 </details>
 
 <details>
-  <summary><b>Presentation of all blocks</b></summary>
+  <summary><b>Presentation of all blocks.</b></summary>
 
 **Ingest :** Allows to upload files to Eolementhe.
 
@@ -129,7 +129,7 @@ Click on `Execute workflow`.
 
 
 <details>
-  <summary><b>Some blocks are red when I try to create a workflow</b></summary>
+  <summary><b>Some blocks are red when I try to create a workflow.</b></summary>
   
 
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
@@ -143,7 +143,7 @@ Click on `Execute workflow`.
 </details>
 
 <details>
-  <summary><b>How to save a workflow ?</b></summary>
+  <summary><b>How to save a workflow?</b></summary>
   
 
   Build or load a workflow.
@@ -158,7 +158,7 @@ Click on `Execute workflow`.
 </details>
 
 <details>
-  <summary><b>How to load an existing workflow ?</b></summary>
+  <summary><b>How to load an existing workflow?</b></summary>
   
 
   Click on `Select a workflow`.
@@ -169,7 +169,7 @@ Click on `Execute workflow`.
 </details>
 
 <details>
-  <summary><b>How to share a workflow ?</b></summary>
+  <summary><b>How to share a workflow?</b></summary>
   
 
 Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
@@ -194,7 +194,7 @@ View when a workflow is shared with you.
 
 
 <details>
-  <summary><b>How to use naming rule in my workflow ?</b></summary>
+  <summary><b>How to use naming rule in my workflow?</b></summary>
   
 
 Click on  `Naming rule`.
@@ -220,7 +220,7 @@ So select your naming rule and this will be applied to all output files of the b
 </details>
 
 <details>
-  <summary><b>How to notify someone ?</b></summary>
+  <summary><b>How to notify someone?</b></summary>
   
 
 You can notify the status of your workflow to other users with the recipient email feature. 
@@ -239,7 +239,7 @@ Your own email adress is automatically add in recipient email list.
 </details>
 
 <details>
-  <summary><b>Good practices for collaborate in a workflow</b></summary>
+  <summary><b>Good practices for collaborate in a workflow.</b></summary>
 
 If you want to create collaborative workflows. Some good practices must be respected.
 
@@ -258,7 +258,7 @@ Once the workflow is paused. Users in recipient email of the pause block receive
 </details>
 
 <details>
-  <summary><b>How to organize my file by folder ?</b></summary>
+  <summary><b>How to organize my file by folder?</b></summary>
 
 In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
 
@@ -289,7 +289,7 @@ Result in the `File Library`:
 </details>
 
 <details>
-  <summary><b>How to create FTP watchfolder ?</b></summary>
+  <summary><b>How to create FTP watchfolder?</b></summary>
 
 An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by eolementhe in a workflow of your choice. 
 
@@ -318,7 +318,7 @@ You should arrive on this page which lists all your Watchfolder folders that you
 </details>
 
 <details>
-  <summary><b>How to add Baton preset ?</b></summary>
+  <summary><b>How to add Baton preset?</b></summary>
 
 First add a `Quality Control` block to your workflow. 
 
@@ -347,7 +347,7 @@ Return to your workflow and select the added test plan.
 </details>
 
 <details>
-  <summary><b>How to add Harmonic WFS preset ?</b></summary>
+  <summary><b>How to add Harmonic WFS preset?</b></summary>
 
 First add a `Transcoding`  block to your workflow. 
 
@@ -378,7 +378,7 @@ Return to your workflow and select the added preset.
 </details>
 
 <details>
-  <summary><b>Create and manipulate IMF packages</b></summary>
+  <summary><b>Create and manipulate IMF packages.</b></summary>
 
 Create a workflow with an IMF package block and with your `.mxf` file in Ingest as below.
 
@@ -413,7 +413,7 @@ You will be redirected to a workflow with `Cambria` transcoding ready to gener
 ### My Workflows
 
 <details>
-  <summary><b>Structure of monitoring view ?</b></summary>
+  <summary><b>Structure of monitoring view.</b></summary>
 
   Click on `My Workflows` view.
   
@@ -442,7 +442,7 @@ You can also filter your workflow list by dates, file name, file status, etc... 
 
 
 <details>
-  <summary><b>Different state display in monitoring view ?</b></summary>
+  <summary><b>Different state display in monitoring view.</b></summary>
 
 Whether in the file or workflow motoring the steps are categorized by color codes corresponding to states.
 
@@ -472,7 +472,7 @@ Here is an exhaustive list of the different possible statuses.
 
 
 <details>
-  <summary><b>Anatomie of workflow monitoring view ?</b></summary>
+  <summary><b>Anatomie of workflow monitoring view.</b></summary>
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
@@ -506,7 +506,7 @@ The file zone. This area contains all the files in the workflow (sources files a
 
 
 <details>
-  <summary><b>Anatomie of file monitoring view ?</b></summary>
+  <summary><b>Anatomie of file monitoring view</b></summary>
 
 Click on `My files` button.
 
@@ -523,7 +523,7 @@ At top of the file zone we can see the title of source file. Below that show the
 
 
 <details>
-  <summary><b>How to purge file ?</b></summary>
+  <summary><b>How to purge file?</b></summary>
   
 
 As specified in the monitoring workflows, the files have a deletion deadline. Each file created is kept on the platform for 5 days before it is automatically deleted. 
@@ -550,7 +550,7 @@ If you want to delete a specific file you can click on the trash icon of your ta
 ### File Library
 
 <details>
-  <summary><b>Structure of file library view ?</b></summary>
+  <summary><b>Structure of file library view.</b></summary>
 
   Click on `File Library` menu.
 
@@ -643,7 +643,7 @@ On the left of the video player we have a space reserved for screenshots, inform
 </details>
 
 <details>
-  <summary><b>How to do capture on file ?</b></summary>
+  <summary><b>How to do capture on file?</b></summary>
   
 Launch your video player. When you want to hang a capture press: 
 
@@ -668,7 +668,7 @@ Finally you can export all your captures in `pdf` or `csv` format with the follo
 </details>
 
 <details>
-  <summary><b>How to get informations of a file ?</b></summary>
+  <summary><b>How to get informations of a file?</b></summary>
 
 
 In the tab `Information` you can have the complete list of information about the file.  
@@ -689,7 +689,7 @@ We can also export the information in `.pdf` format or add metadatas to the file
 </details>
 
 <details>
-  <summary><b>How to trim a file ?</b></summary>
+  <summary><b>How to trim a file?</b></summary>
 
 
 In the `Trim` tab you can extract a part of the media file. 
@@ -712,7 +712,7 @@ Your file was created and named in the format `BaseName_trim_trim_timecode1_time
 </details>
 
 <details>
-  <summary><b>How to stitch files ?</b></summary>
+  <summary><b>How to stitch files?</b></summary>
 
 
 In `File Library`, select several only files with the same extension by checking them.
@@ -750,7 +750,7 @@ Or create the file by clicking on:
 
 
 <details>
-  <summary><b>Structure of subtitle editing view ?</b></summary>
+  <summary><b>Structure of subtitle editing view.</b></summary>
 
 
 Click on `File Library` menu.
@@ -807,7 +807,7 @@ When you have finished working on your subtitles, don't forget to save with the 
 </details>
 
 <details>
-  <summary> <b>How to open the subtitle editing view ?</b></summary>
+  <summary><b>How to open the subtitle editing view?</b></summary>
 
 
 Click on `File Library` menu.
@@ -827,7 +827,7 @@ If your view library does not include timecodes and other informations as above,
 
 
 <details>
-  <summary><b>How to contact an other user on platform ?</b></summary>
+  <summary><b>How to contact an other user on platform?</b></summary>
   
 On Eolementhe you can contact other user and talk to them. This messaging system are per file. Each file has its own messaging system and allows different users working on the same file to communicate simply.
 
@@ -850,7 +850,8 @@ And now communicate simply.
 ### Dashboard
 
 <details>
-  <summary><b>How to use dashboard effectively ?</b>     </summary>
+  <summary><b>How to use dashboard effectively?</b>     
+  </summary>
 
 
 Click on `Dashboard` menu.  
@@ -889,7 +890,7 @@ We also have labels in the State column corresponding to the workflow that was l
 ### Analytics
 
 <details>
-  <summary><b>How to use analytics effectively ?</b>     </summary>
+  <summary><b>How to use analytics effectively?</b>     </summary>
 
   Click on `Analytics` menu.  
   
@@ -918,7 +919,7 @@ Below example of one schema of the activity report.
 
 
 <details>
-  <summary><b>How to more secure my account ?</b></summary>
+  <summary><b>How to more secure my account?</b></summary>
 
   Click on `Enable 2FA`.
 
@@ -939,7 +940,7 @@ Code received by email to the email address of your account.
 
 
 <details>
-  <summary><b>How to activate or disable notification ?</b></summary>
+  <summary><b>How to activate or disable notification?</b></summary>
 
   If disabled click on `Activate notification`.
 
@@ -953,7 +954,7 @@ If activated click on `Disable notification`.
 
 
 <details>
-  <summary><b>How to see my team ?</b></summary>
+  <summary><b>How to see my team?</b></summary>
 
   Click on `Teams`.
 
