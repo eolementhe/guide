@@ -17,8 +17,10 @@ Click on `+` button.
 
   Add some blocks and end your workflow with a `Delivery` block.
 
+
 </br>
 </br>
+
 
 Select the tool to use for each block (including ingest).
 
@@ -40,6 +42,7 @@ Select some files to send on `Ingest block`.
 
 </br>
 </br>
+
 
 Click on `Execute workflow`.
 
