@@ -891,8 +891,7 @@ We also have labels in the State column corresponding to the workflow that was l
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
 
-
-Click on `Analytics` menu.  
+  Click on `Analytics` menu.  
   
 
 ![analytics-header](images/analytics-header.png)
