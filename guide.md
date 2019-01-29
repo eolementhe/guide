@@ -8,8 +8,10 @@
   
   ![Workflow editor](images/workflow-editor-header.png)
 
+||
+|:--:|
+| Click on `+` button. |
 
-Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
