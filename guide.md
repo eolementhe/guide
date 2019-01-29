@@ -808,7 +808,7 @@ When you have finished working on your subtitles, don't forget to save with the 
 
 <details>
   <summary><b>How to open the subtitle editing view ?</b></summary>
-
+  
   
 Click on `File Library` menu.
 
@@ -919,8 +919,8 @@ Below example of one schema of the activity report.
 
 <details>
   <summary><b>How to more secure my account ?</b></summary>
-  
-Click on `Enable 2FA`.
+
+  Click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
 
@@ -940,8 +940,8 @@ Code received by email to the email address of your account.
 
 <details>
   <summary><b>How to activate or disable notification ?</b></summary>
-  
-If disabled click on `Activate notification`.
+
+  If disabled click on `Activate notification`.
 
 ![dropdown-manage-notification](images/dropdown-manage-notification.png)
 
