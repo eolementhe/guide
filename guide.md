@@ -852,7 +852,7 @@ And now communicate simply.
 
 <details>
   <summary><b>How to use dashboard effectively ?</b>     </summary>
-
+  
   Click on `Dashboard` menu.  
 
 ![dashboard-header](images/dashboard-header.png)
@@ -890,7 +890,7 @@ We also have labels in the State column corresponding to the workflow that was l
 
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
-
+ 
  Click on `Analytics` menu.  
   
 
