@@ -808,8 +808,9 @@ When you have finished working on your subtitles, don't forget to save with the 
 
 <details>
   <summary><b>How to open the subtitle editing view ?</b></summary>
-  
-  Click on `File Library` menu.
+
+
+Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
 
