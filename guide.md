@@ -3,7 +3,7 @@
 <details>
   <summary><b>How to create a new workflow ?</b></summary>
   
-  Click on `Workflow Editor` view.
+
 
 
   ![Workflow editor](images/workflow-editor-header.png)
@@ -877,7 +877,6 @@ We also have labels in the State column corresponding to the workflow that was l
 
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
-  
 Click on `Analytics` menu.  
   
 
