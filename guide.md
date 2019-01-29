@@ -35,7 +35,9 @@ Click on `Execute workflow`.
 
   ![Execute](images/workflow-execute.png)
   
+
 </details>
+
 
 <details>
   <summary><b>Presentation of all blocks</b></summary>
