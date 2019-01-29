@@ -7,7 +7,8 @@
   Click on `Workflow Editor` view.
   
   ![Workflow editor](images/workflow-editor-header.png)
-<br><br><br>
+
+
 Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
@@ -33,6 +34,7 @@ Select some files to send on `Ingest block`.
 Click on execute workflow.
 
   ![Execute](images/workflow-execute.png)
+  
 </details>
 
 <details>
