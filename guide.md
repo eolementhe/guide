@@ -127,7 +127,7 @@ Click on `Execute workflow`.
 **AI :** Allows to use artificial intelligence to detect faces, tags etc ...
 
 - ***Videobox :*** Detects faces, nudity images and tags with Videobox.
-- ***VideoIndexer :  Detects faces with VideoIndexer.
+- ***VideoIndexer :***  Detects faces with VideoIndexer.
 
 </details>
 
@@ -176,6 +176,7 @@ Click on `Execute workflow`.
 <details>
   <summary><b>How to share a workflow ?</b></summary>
   
+
 Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
 
 Load an existing workflow and click on `Share`.
@@ -193,12 +194,14 @@ View when you share your workflow.
 View when a workflow is shared with you. 
 
 ![workflows-share-with-me](images/workflows-share-with-me.png)
+
 </details>
 
 
 <details>
   <summary><b>How to use naming rule in my workflow ?</b></summary>
   
+
 Click on  `Naming rule`.
 
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
@@ -217,6 +220,7 @@ After adding  naming rule, on each block appear this :
 ![workflow-naming-rule](images/workflow-naming-rule.png)
 
 So select your naming rule and this will be applied to all output files of the block. 
+
 
 </details>
 
