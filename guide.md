@@ -669,7 +669,8 @@ Finally you can export all your captures in `pdf` or `csv` format with the follo
 
 <details>
   <summary><b>How to get informations of a file ?</b></summary>
-  
+
+
 In the tab `Information` you can have the complete list of information about the file.  
 
   ![library-view-information-complete](images/library-view-information-complete.png)
@@ -712,7 +713,8 @@ Your file was created and named in the format `BaseName_trim_trim_timecode1_time
 
 <details>
   <summary><b>How to stitch files ?</b></summary>
-  
+
+
 In `File Library`, select several only files with the same extension by checking them.
 
 ![library-stitch-preview](images/library-stitch-preview.png)
@@ -749,12 +751,13 @@ Or create the file by clicking on:
 
 <details>
   <summary><b>Structure of subtitle editing view ?</b></summary>
- 
-  Click on `File Library` menu.
+
+
+Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
 
- Click on an `SRT` file.
+Click on an `SRT` file.
 
 ![library-view-structure-1](images/library-view-structure-1.png)
 
@@ -805,8 +808,9 @@ When you have finished working on your subtitles, don't forget to save with the 
 
 <details>
   <summary><b>How to open the subtitle editing view ?</b></summary>
+
   
-  Click on `File Library` menu.
+Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
 
