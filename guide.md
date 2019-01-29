@@ -895,6 +895,7 @@ A list of selected emails is displayed. Allowing the management of our analytics
 Below example of one schema of the activity report.
 
 ![analytics-graphic](images/analytics-graphic.png)
+
 </details>
 
 ### Account
@@ -934,6 +935,7 @@ If activated click on `Disable notification`.
 
 </details>
 
+
 <details>
   <summary><b>How to see my team ?</b></summary>
 
@@ -949,3 +951,5 @@ If a team exists that behaves like this it will be displayed like this.
 ![team-complete-view](images/team-complete-view.png)
 
 </details>
+
+
