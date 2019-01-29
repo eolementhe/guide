@@ -9,8 +9,7 @@
   ![Workflow editor](images/workflow-editor-header.png)
 <br><br><br>
 
-<p style="text-align: center;"> Click on  +
- button.</p>
+Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
