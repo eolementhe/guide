@@ -7,6 +7,7 @@
   Click on `Workflow Editor` view.
   
   ![Workflow editor](images/workflow-editor-header.png)
+<br><br>
 
 
 Click on `+` button.
