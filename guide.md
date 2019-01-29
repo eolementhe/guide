@@ -1,86 +1,94 @@
 ### Workflows Editor
 
 <details>
-  <summary><b>How to create a new workflow ?</b></summary>
+  <summary><b>How to create a new workflow?</b></summary>
   
 
   Click on `Workflow Editor` view.
+  
+ ![Workflow editor](images/workflow-editor-header.png)
 
-  ![Workflow editor](images/workflow-editor-header.png)
-
-  Click on `+` button.
+Click on `+` button.
 
   ![Plus button](images/workflow-editor-plus.png)
 
   Add some blocks and end your workflow with a `Delivery` block.
 
-  Select the tool to use for each block (including ingest).
+Select the tool to use for each block (including ingest).
 
   ![Select tool](images/workflow-select-tool.png)
 
-  Fill all red field in each block.
+Fill all red field in each block.
 
   ![Fill block](images/workflow-fill-block.png)
 
-  Select some files to send on `Ingest block`.
+Select some files to send on `Ingest block`.
 
   ![Ingest](images/workflow-ingest-files.png)
 
-  Click on execute workflow.
+Click on `Execute workflow`.
 
   ![Execute](images/workflow-execute.png)
+  
+
 </details>
 
 <details>
-  <summary><b>Presentation of all blocks</b></summary>
-  
+  <summary><b>Presentation of all blocks.</b></summary>
+
 **Ingest :** Allows to upload files to Eolementhe.
-- Standard :  upload file with HTTPS protocol.
-- Standard Object Storage : upload file from OVH, AZURE or AMAZON. 
-- Server File : use file already present on the platform.
-- Premium : upload file with Signiant App.
-- Premium Object Storage : upload file with Signiant App from OVH, AZURE or AMAZON.
-- Internet : upload file by URL internet video.
-- FTP : upload file with FTP protocol.
-- Aspera : upload file with Aspera specific protocol.
-- Live stream : upload file from live stream flux.
-- Twitter : upload file from twitter publication.
-- Dropbox : upload file from DropBox account.
+
+- ***Standard :***  upload file with HTTPS protocol.
+- ***Standard Object Storage :*** upload file from OVH, AZURE or AMAZON. 
+- ***Server File :*** use file already present on the platform.
+- ***Premium :*** upload file with Signiant App.
+- ***Premium Object Storage :*** upload file with Signiant App from OVH, AZURE or AMAZON.
+- ***Internet :*** upload file by URL internet video.
+- ***FTP :*** upload file with FTP protocol.
+- ***Aspera :*** upload file with Aspera specific protocol.
+- ***Live stream :*** upload file from live stream flux.
+- ***Twitter :*** upload file from twitter publication.
+- ***Dropbox :*** upload file from DropBox account.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
-- Manual : deliver file on Eolementhe platform.
-- Object Storage : deliver file on OVH, AZURE or AMAZON.
-- Mediashuttle : deliver file on mediashuttle portal.
-- FTP export : deliver file on FTP instance.
-- Youtube : deliver file on youtube account.
-- Aspera connect : deliver file with Aspera protocol.
-- Twitter :  deliver file on twitter account.
-- Dropbox :  deliver file on dropbox account.
+
+- ***Manual :*** deliver file on Eolementhe platform.
+- ***Object Storage :*** deliver file on OVH, AZURE or AMAZON.
+- ***Mediashuttle :*** deliver file on mediashuttle portal.
+- ***FTP export :*** deliver file on FTP instance.
+- ***Youtube :*** deliver file on youtube account.
+- ***Aspera connect :*** deliver file with Aspera protocol.
+- ***Twitter :***  deliver file on twitter account.
+- ***Dropbox :***  deliver file on dropbox account.
 
 
 **Quality control :** Generates a quality control report in accordance with the preset entered. 
-- Baton : Generate a quality control with Baton.
-- Photon : Generate a quality control for package IMF.
-- Mediainfo : Generate file with informations of media.
+
+- ***Baton :*** Generate a quality control with Baton.
+- ***Photon :*** Generate a quality control for package IMF.
+- ***Mediainfo :*** Generate file with informations of media.
 
 
 **Transcoding :** Generate a new media file in accordance with the preset entered.
-- Harmonic WFS : Transcode file according to your Harmonic WFS workflows/presets.
-- File360 : Transcode file on File360 service.
-- RewrappAS10 : Rewrapp .mxf file with AS10 complient metadata.
-- ffmpeg : Transcode file with ffmpeg.
-- Titan File : Transcode file with Titan File.
-- Cambria : Transcode file with Cambria.
+
+- ***Harmonic WFS :*** Transcode file according to your Harmonic WFS workflows/presets.
+- ***File360 :*** Transcode file on File360 service.
+- ***RewrappAS10 :*** Rewrapp .mxf file with AS10 complient metadata.
+- ***ffmpeg :*** Transcode file with ffmpeg.
+- ***Titan File :*** Transcode file with Titan File.
+- ***Cambria :*** Transcode file with Cambria.
 
 
 **Loudness :** Generates or corrects errors in the soundtracks of the media file.
-- Minnetonka ATS :  Check and fix loudness with Minnetonka.
-- ffmpeg : Check and fix loudness with ffmpeg.
+
+- ***Minnetonka ATS :***  Check and fix loudness with Minnetonka.
+- ***ffmpeg :*** Check and fix loudness with ffmpeg.
 
 
 **Metadata :** Add or read metadatas to a media in accordance with the presets.
-- Metadata : Add metadatas according to your preset.
-- Auto retrieve : Retrieves metadatas from media files and generate file with metadatas.
+
+- ***Metadata :*** Add metadatas according to your preset.
+- ***Auto retrieve :*** Retrieves metadatas from media files and generate file with metadatas.
 
 
 **Pause :** Create a pause in the execution of tasks in the workflow.
@@ -88,34 +96,40 @@
 **IMF :** Generate an IMF packages with `.mxf` file.
 
 **Subtitle :** Generates, converts or writes subtitles on a media file.
-- Convert : Convert subtitle files to another subtitle file format.
-- Burn : Allows to integrate the subtitle file into a media file. 
-- Translation Google : Generates subtitles with Google translation. 
-- Translation Microsoft : Generates subtitles with Microsoft translation. 
-- Translation Deepl :  Generates subtitles with Deepl translation. 
-- Speech to text : Allows to create subtitles using the soundtrack of a media file with Autosub.
-- Speechmatics : Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
-- VideoIndexer : Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
+
+- ***Convert :*** Convert subtitle files to another subtitle file format.
+- ***Burn :*** Allows to integrate the subtitle file into a media file. 
+- ***Translation Google :*** Generates subtitles with Google translation. 
+- ***Translation Microsoft :*** Generates subtitles with Microsoft translation. 
+- ***Translation Deepl :***  Generates subtitles with Deepl translation. 
+- ***Speech to text :*** Allows to create subtitles using the soundtrack of a media file with Autosub.
+- ***Speechmatics :*** Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
+- ***VideoIndexer :*** Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
 
 **Antivirus :** Detects the presence of viruses in media files. 
-- Clamav : Generate report with Clamav.
+
+- ***Clamav :*** Generate report with Clamav.
 
 
 **Trim :** Allow to cut a media to the time codes specified by the user. 
 
 **Expand :** Allow to modify the workflow with parallel or conditions.
-- Parallel : Allow the user to create parallel branches to perform tasks simultaneously. 
-- Conditional : Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
+
+- ***Parallel :*** Allow the user to create parallel branches to perform tasks simultaneously. 
+- ***Conditional :*** Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
 
 
 **AI :** Allows to use artificial intelligence to detect faces, tags etc ...
-- Videobox : Detects faces, nudity images and tags with Videobox.
-- VideoIndexer :  Detects faces with VideoIndexer.
+
+- ***Videobox :*** Detects faces, nudity images and tags with Videobox.
+- ***VideoIndexer :***  Detects faces with VideoIndexer.
 
 </details>
 
+
+
 <details>
-  <summary><b>Some blocks are red when I try to create a workflow</b></summary>
+  <summary><b>Some blocks are red when I try to create a workflow.</b></summary>
   
 
   If you see red blocks like the following screenshot, this means that you don't have right to use these blocks.
@@ -129,7 +143,7 @@
 </details>
 
 <details>
-  <summary><b>How to save a workflow ?</b></summary>
+  <summary><b>How to save a workflow?</b></summary>
   
 
   Build or load a workflow.
@@ -144,7 +158,7 @@
 </details>
 
 <details>
-  <summary><b>How to load an existing workflow ?</b></summary>
+  <summary><b>How to load an existing workflow?</b></summary>
   
 
   Click on `Select a workflow`.
@@ -155,8 +169,9 @@
 </details>
 
 <details>
-  <summary><b>How to share a workflow ?</b></summary>
+  <summary><b>How to share a workflow?</b></summary>
   
+
 Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
 
 Load an existing workflow and click on `Share`.
@@ -174,12 +189,14 @@ View when you share your workflow.
 View when a workflow is shared with you. 
 
 ![workflows-share-with-me](images/workflows-share-with-me.png)
+
 </details>
 
 
 <details>
-  <summary><b>How to use naming rule in my workflow ?</b></summary>
+  <summary><b>How to use naming rule in my workflow?</b></summary>
   
+
 Click on  `Naming rule`.
 
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
@@ -199,10 +216,11 @@ After adding  naming rule, on each block appear this :
 
 So select your naming rule and this will be applied to all output files of the block. 
 
+
 </details>
 
 <details>
-  <summary><b>How to notify someone ?</b></summary>
+  <summary><b>How to notify someone?</b></summary>
   
 
 You can notify the status of your workflow to other users with the recipient email feature. 
@@ -211,7 +229,7 @@ Recipient email appear in Pause and Delivery block.
 
 ![workflow-recipient-email](images/workflow-recipient-email.png)
 
-The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications ...). 
+The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
 
 Your own email adress is automatically add in recipient email list.
 
@@ -221,7 +239,7 @@ Your own email adress is automatically add in recipient email list.
 </details>
 
 <details>
-  <summary><b>Good practices for collaborate in a workflow</b></summary>
+  <summary><b>Good practices for collaborate in a workflow.</b></summary>
 
 If you want to create collaborative workflows. Some good practices must be respected.
 
@@ -240,7 +258,7 @@ Once the workflow is paused. Users in recipient email of the pause block receive
 </details>
 
 <details>
-  <summary><b>How to organize my file by folder ?</b></summary>
+  <summary><b>How to organize my file by folder?</b></summary>
 
 In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
 
@@ -271,7 +289,7 @@ Result in the `File Library`:
 </details>
 
 <details>
-  <summary><b>How to create FTP watchfolder ?</b></summary>
+  <summary><b>How to create FTP watchfolder?</b></summary>
 
 An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by eolementhe in a workflow of your choice. 
 
@@ -300,7 +318,7 @@ You should arrive on this page which lists all your Watchfolder folders that you
 </details>
 
 <details>
-  <summary><b>How to add Baton preset ?</b></summary>
+  <summary><b>How to add Baton preset?</b></summary>
 
 First add a `Quality Control` block to your workflow. 
 
@@ -329,7 +347,7 @@ Return to your workflow and select the added test plan.
 </details>
 
 <details>
-  <summary><b>How to add Harmonic WFS preset ?</b></summary>
+  <summary><b>How to add Harmonic WFS preset?</b></summary>
 
 First add a `Transcoding`  block to your workflow. 
 
@@ -360,7 +378,7 @@ Return to your workflow and select the added preset.
 </details>
 
 <details>
-  <summary><b>Create and manipulate IMF packages</b></summary>
+  <summary><b>Create and manipulate IMF packages.</b></summary>
 
 Create a workflow with an IMF package block and with your `.mxf` file in Ingest as below.
 
@@ -395,7 +413,7 @@ You will be redirected to a workflow with `Cambria` transcoding ready to gener
 ### My Workflows
 
 <details>
-  <summary><b>Structure of monitoring view ?</b></summary>
+  <summary><b>Structure of monitoring view.</b></summary>
 
   Click on `My Workflows` view.
   
@@ -421,8 +439,10 @@ You can also filter your workflow list by dates, file name, file status, etc... 
 
 </details>
 
+
+
 <details>
-  <summary><b>Different state display in monitoring view ?</b></summary>
+  <summary><b>Different state display in monitoring view.</b></summary>
 
 Whether in the file or workflow motoring the steps are categorized by color codes corresponding to states.
 
@@ -448,17 +468,17 @@ Here is an exhaustive list of the different possible statuses.
 
 **Completed :** workflow are about executing and delivering correctly. All tasks or files in the workflow were executed correctly. 
 
-
 </details>
 
+
 <details>
-  <summary><b>Anatomie of workflow monitoring view ?</b></summary>
+  <summary><b>Anatomie of workflow monitoring view.</b></summary>
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
 ![workflow-monitoring-unfold-workflow](images/workflow-monitoring-unfold-workflow.png)
 
-Then we will be able to see two sub-menus. Two different zones. The first monitoring zone of workflow and the second is the file zone.<br>
+Then we will be able to see two sub-menus. Two different zones. The first monitoring zone of workflow and the second is the file zone.
 As in the first step, unfold the two submenus.
 
 ![workflow-monitoring-view-zone](images/workflow-monitoring-view-zone.png)
@@ -479,13 +499,16 @@ At top of the workflow zone we can see the title of file ingest. Below that show
 The file zone. This area contains all the files in the workflow (sources files and generated files). It is also in this area that you will find the deletion information for the different files in your workflow. 
 
 ![workflow-monitoring-file-zone](images/workflow-monitoring-file-zone.png)
-
 </details>
 
+
+
+
+
 <details>
-  <summary><b>Anatomie of file monitoring view ?</b></summary>
-  
-  Click on `My files` button.
+  <summary><b>Anatomie of file monitoring view.</b></summary>
+
+Click on `My files` button.
 
 ![workflow-monitoring-view-button-file-selected](images/workflow-monitoring-view-button-file-selected.png)
 
@@ -495,11 +518,13 @@ In the file monitoring view you can have details of the progress of each task on
 ![workflow-monitoring-file-file-zone](images/workflow-monitoring-file-file-zone.png)
   
 At top of the file zone we can see the title of source file. Below that show the progress and status of each task in your source file, with the task information and the files generated by each task. 
-
 </details>
 
+
+
 <details>
-  <summary><b>How to purge file ?</b></summary>
+  <summary><b>How to purge file?</b></summary>
+  
 
 As specified in the monitoring workflows, the files have a deletion deadline. Each file created is kept on the platform for 5 days before it is automatically deleted. 
 
@@ -507,9 +532,12 @@ As specified in the monitoring workflows, the files have a deletion deadline. Ea
 
 In addition, many options in workflow monitoring allow you to delete files related to a workflow. 
 
-**Purge all files** that purge all sources and generates files of your workflow.<br>
-**Purge source only** that purge all sources files of your workflow. <br>
-**Purge generated only** that purge all generates files of your workflow.<br>
+**Purge all files** that purge all sources and generates files of your workflow.
+
+**Purge source only** that purge all sources files of your workflow.
+
+**Purge generated only** that purge all generates files of your workflow.
+
 **Delete workflow** that removes all traces of the workflow on the platform (that delete : sources files, generates files and your workflow in monitoring view).
 
 If you want to delete a specific file you can click on the trash icon of your target file in `My workflow` : 
@@ -518,10 +546,11 @@ If you want to delete a specific file you can click on the trash icon of your ta
 
 </details>
 
+
 ### File Library
 
 <details>
-  <summary><b>Structure of file library view ?</b></summary>
+  <summary><b>Structure of file library view.</b></summary>
 
   Click on `File Library` menu.
 
@@ -614,7 +643,7 @@ On the left of the video player we have a space reserved for screenshots, inform
 </details>
 
 <details>
-  <summary><b>How to do capture on file ?</b></summary>
+  <summary><b>How to do capture on file?</b></summary>
   
 Launch your video player. When you want to hang a capture press: 
 
@@ -630,7 +659,7 @@ You can bring your video player to the frame of your capture click by simply cli
 
 You can delete a capture by clicking on the icon: 
 
-![library-viw-capture-supress](images/library-viw-capture-supress.png)
+![library-view-capture-supress](images/library-view-capture-supress.png)
 
 Finally you can export all your captures in `pdf` or `csv` format with the following two buttons :
 
@@ -639,8 +668,9 @@ Finally you can export all your captures in `pdf` or `csv` format with the follo
 </details>
 
 <details>
-  <summary><b>How to get informations of a file ?</b></summary>
-  
+  <summary><b>How to get informations of a file?</b></summary>
+
+
 In the tab `Information` you can have the complete list of information about the file.  
 
   ![library-view-information-complete](images/library-view-information-complete.png)
@@ -659,7 +689,7 @@ We can also export the information in `.pdf` format or add metadatas to the file
 </details>
 
 <details>
-  <summary><b>How to trim a file ?</b></summary>
+  <summary><b>How to trim a file?</b></summary>
 
 
 In the `Trim` tab you can extract a part of the media file. 
@@ -682,8 +712,9 @@ Your file was created and named in the format `BaseName_trim_trim_timecode1_time
 </details>
 
 <details>
-  <summary><b>How to stitch files ?</b></summary>
-  
+  <summary><b>How to stitch files?</b></summary>
+
+
 In `File Library`, select several only files with the same extension by checking them.
 
 ![library-stitch-preview](images/library-stitch-preview.png)
@@ -719,13 +750,14 @@ Or create the file by clicking on:
 
 
 <details>
-  <summary><b>Structure of subtitle editing view ?</b></summary>
- 
-  Click on `File Library` menu.
+  <summary><b>Structure of subtitle editing view.</b></summary>
+
+
+Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
 
- Click on an `SRT` file.
+Click on an `SRT` file.
 
 ![library-view-structure-1](images/library-view-structure-1.png)
 
@@ -775,9 +807,10 @@ When you have finished working on your subtitles, don't forget to save with the 
 </details>
 
 <details>
-  <summary><b>How to open the subtitle editing view ?</b></summary>
-  
-  Click on `File Library` menu.
+  <summary><b>How to open the subtitle editing view?</b></summary>
+
+
+Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
 
@@ -790,12 +823,11 @@ When you have finished working on your subtitles, don't forget to save with the 
 If your view library does not include timecodes and other informations as above, you are in simplified view. You will just have to click on the button below for complete view : 
 
 ![library-view-subtitle](images/library-view-subtitle.png)
-
 </details>
 
 
 <details>
-  <summary><b>How to contact an other user on platform ?</b></summary>
+  <summary><b>How to contact an other user on platform?</b></summary>
   
 On Eolementhe you can contact other user and talk to them. This messaging system are per file. Each file has its own messaging system and allows different users working on the same file to communicate simply.
 
@@ -818,9 +850,11 @@ And now communicate simply.
 ### Dashboard
 
 <details>
-  <summary><b>How to use dashboard effectively ?</b></summary>
+  <summary><b>How to use dashboard effectively?</b>     
+  </summary>
 
-  Click on `Dashboard` menu.  
+
+Click on `Dashboard` menu.  
 
 ![dashboard-header](images/dashboard-header.png)
 
@@ -850,25 +884,25 @@ We can also change the way the rows of your table are ordered by clicking on the
 We also have labels in the State column corresponding to the workflow that was launched on the file. By clicking on this label the platform will redirect you to the `My Workflow` view monitoring on the clicked workflow. 
 
 ![dashboard-status-label](images/dashboard-status-label.png)
-
-
 </details>
 
 
 ### Analytics
 
 <details>
-  <summary><b>How to use analytics effectively ?</b></summary>
+  <summary><b>How to use analytics effectively?</b>     </summary>
 
   Click on `Analytics` menu.  
   
+
 ![analytics-header](images/analytics-header.png)
+
 
 Analytics allow to have a follow-up of the activity of one or more users over a given period of time.
 
 ![analytics-view-complete](images/analytics-view-complete.png)
 
-Select a user email and a period.<br>
+Select a user email and a period.
 Then an interface of the following form will be displayed : 
 
 ![analytics-interface-view](images/analytics-interface-view.png)
@@ -879,13 +913,13 @@ Below example of one schema of the activity report.
 
 ![analytics-graphic](images/analytics-graphic.png)
 
-
 </details>
 
 ### Account
 
+
 <details>
-  <summary><b>How to more secure my account ?</b></summary>
+  <summary><b>How to more secure my account?</b></summary>
 
   Click on `Enable 2FA`.
 
@@ -896,19 +930,19 @@ After a modal will ask you:
 ![2FA-modal](images/2FA-modal.png)
 
 If you click on `yes` then you will activate the 2FA. 
-<br>Next login on the platform you will be asked this: 
+
+Next login on the platform you will be asked this: 
 
 ![2FA-login](images/2FA-login.png)
-
-Code received by email to the email address of your account.
-
+Code received by email to the email address of your account. 
 
 </details>
 
-<details>
-  <summary><b>How to activate or disable notification ?</b></summary>
 
-If disabled click on `Activate notification`.
+<details>
+  <summary><b>How to activate or disable notification?</b></summary>
+
+  If disabled click on `Activate notification`.
 
 ![dropdown-manage-notification](images/dropdown-manage-notification.png)
 
@@ -918,8 +952,9 @@ If activated click on `Disable notification`.
 
 </details>
 
+
 <details>
-  <summary><b>How to see my team ?</b></summary>
+  <summary><b>How to see my team?</b></summary>
 
   Click on `Teams`.
 
@@ -933,3 +968,5 @@ If a team exists that behaves like this it will be displayed like this.
 ![team-complete-view](images/team-complete-view.png)
 
 </details>
+
+
