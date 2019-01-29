@@ -904,7 +904,7 @@ Below example of one schema of the activity report.
 <details>
   <summary><b>How to more secure my account ?</b>       
   </summary>
-   
+
 Click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
@@ -919,9 +919,11 @@ If you click on `yes` then you will activate the 2FA.
 ![2FA-login](images/2FA-login.png)
 
 Code received by email to the email address of your account.
-
-
 </details>
+
+
+
+
 
 <details>
   <summary><b>How to activate or disable notification ?</b></summary>
