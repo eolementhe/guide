@@ -471,7 +471,6 @@ Here is an exhaustive list of the different possible statuses.
 </details>
 
 
-
 <details>
   <summary><b>Anatomie of workflow monitoring view ?</b></summary>
 
@@ -479,7 +478,7 @@ First unfold the details of your workflow by clicking on its name in the list.
 
 ![workflow-monitoring-unfold-workflow](images/workflow-monitoring-unfold-workflow.png)
 
-Then we will be able to see two sub-menus. Two different zones. The first monitoring zone of workflow and the second is the file zone.<br>
+Then we will be able to see two sub-menus. Two different zones. The first monitoring zone of workflow and the second is the file zone.
 As in the first step, unfold the two submenus.
 
 ![workflow-monitoring-view-zone](images/workflow-monitoring-view-zone.png)
@@ -898,7 +897,7 @@ Analytics allow to have a follow-up of the activity of one or more users over a 
 
 ![analytics-view-complete](images/analytics-view-complete.png)
 
-Select a user email and a period.<br>
+Select a user email and a period.
 Then an interface of the following form will be displayed : 
 
 ![analytics-interface-view](images/analytics-interface-view.png)
@@ -926,7 +925,8 @@ After a modal will ask you:
 ![2FA-modal](images/2FA-modal.png)
 
 If you click on `yes` then you will activate the 2FA. 
-<br>Next login on the platform you will be asked this: 
+
+Next login on the platform you will be asked this: 
 
 ![2FA-login](images/2FA-login.png)
 Code received by email to the email address of your account. 
