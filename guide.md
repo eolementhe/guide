@@ -474,7 +474,6 @@ Here is an exhaustive list of the different possible statuses.
 
 <details>
   <summary><b>Anatomie of workflow monitoring view ?</b></summary>
-  
 
 First unfold the details of your workflow by clicking on its name in the list. 
 
