@@ -877,10 +877,12 @@ We also have labels in the State column corresponding to the workflow that was l
 
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
-          
+ 
 Click on `Analytics` menu.  
   
+
 ![analytics-header](images/analytics-header.png)
+
 
 Analytics allow to have a follow-up of the activity of one or more users over a given period of time.
 
