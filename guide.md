@@ -4,6 +4,7 @@
   <summary><b>How to create a new workflow ?</b></summary>
   
 
+  Click on `Workflow Editor` view.
 
 
   ![Workflow editor](images/workflow-editor-header.png)
@@ -35,7 +36,6 @@ Select some files to send on `Ingest block`.
 Click on execute workflow.
 
   ![Execute](images/workflow-execute.png)
-
 </details>
 
 <details>
@@ -877,6 +877,7 @@ We also have labels in the State column corresponding to the workflow that was l
 
 <details>
   <summary><b>How to use analytics effectively ?</b>     </summary>
+ 
 Click on `Analytics` menu.  
   
 
