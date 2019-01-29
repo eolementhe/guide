@@ -807,7 +807,7 @@ When you have finished working on your subtitles, don't forget to save with the 
 </details>
 
 <details>
-  <summary><b>How to open the subtitle editing view ?</b></summary>
+  <summary> <b>How to open the subtitle editing view ?</b></summary>
 
 
 Click on `File Library` menu.
@@ -823,7 +823,6 @@ Click on `File Library` menu.
 If your view library does not include timecodes and other informations as above, you are in simplified view. You will just have to click on the button below for complete view : 
 
 ![library-view-subtitle](images/library-view-subtitle.png)
-
 </details>
 
 
