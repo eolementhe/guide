@@ -40,10 +40,8 @@ Click on execute workflow.
 
 <details>
   <summary><b>Presentation of all blocks</b></summary>
-  
 
 **Ingest :** Allows to upload files to Eolementhe.
-<br>
 
 - ***Standard :***  upload file with HTTPS protocol.
 - ***Standard Object Storage :*** upload file from OVH, AZURE or AMAZON. 
@@ -132,6 +130,8 @@ Click on execute workflow.
 - VideoIndexer :  Detects faces with VideoIndexer.
 
 </details>
+
+
 
 <details>
   <summary><b>Some blocks are red when I try to create a workflow</b></summary>
