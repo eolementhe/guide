@@ -48,51 +48,51 @@ Click on execute workflow.
 - ***Premium :*** upload file with Signiant App.
 - ***Premium Object Storage :*** upload file with Signiant App from OVH, AZURE or AMAZON.
 - ***Internet :*** upload file by URL internet video.
-- FTP : upload file with FTP protocol.
-- Aspera : upload file with Aspera specific protocol.
-- Live stream : upload file from live stream flux.
-- Twitter : upload file from twitter publication.
-- Dropbox : upload file from DropBox account.
+- ***FTP :*** upload file with FTP protocol.
+- ***Aspera :*** upload file with Aspera specific protocol.
+- ***Live stream :*** upload file from live stream flux.
+- ***Twitter :*** upload file from twitter publication.
+- ***Dropbox :*** upload file from DropBox account.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
 
-- Manual : deliver file on Eolementhe platform.
-- Object Storage : deliver file on OVH, AZURE or AMAZON.
-- Mediashuttle : deliver file on mediashuttle portal.
-- FTP export : deliver file on FTP instance.
-- Youtube : deliver file on youtube account.
-- Aspera connect : deliver file with Aspera protocol.
-- Twitter :  deliver file on twitter account.
-- Dropbox :  deliver file on dropbox account.
+- ***Manual :*** deliver file on Eolementhe platform.
+- ***Object Storage :*** deliver file on OVH, AZURE or AMAZON.
+- ***Mediashuttle :*** deliver file on mediashuttle portal.
+- ***FTP export :*** deliver file on FTP instance.
+- ***Youtube :*** deliver file on youtube account.
+- ***Aspera connect :*** deliver file with Aspera protocol.
+- ***Twitter :***  deliver file on twitter account.
+- ***Dropbox :***  deliver file on dropbox account.
 
 
 **Quality control :** Generates a quality control report in accordance with the preset entered. 
 
-- Baton : Generate a quality control with Baton.
-- Photon : Generate a quality control for package IMF.
-- Mediainfo : Generate file with informations of media.
+- ***Baton :*** Generate a quality control with Baton.
+- ***Photon :*** Generate a quality control for package IMF.
+- ***Mediainfo :*** Generate file with informations of media.
 
 
 **Transcoding :** Generate a new media file in accordance with the preset entered.
 
-- Harmonic WFS : Transcode file according to your Harmonic WFS workflows/presets.
-- File360 : Transcode file on File360 service.
-- RewrappAS10 : Rewrapp .mxf file with AS10 complient metadata.
-- ffmpeg : Transcode file with ffmpeg.
-- Titan File : Transcode file with Titan File.
-- Cambria : Transcode file with Cambria.
+- ***Harmonic WFS :*** Transcode file according to your Harmonic WFS workflows/presets.
+- ***File360 :*** Transcode file on File360 service.
+- ***RewrappAS10 :*** Rewrapp .mxf file with AS10 complient metadata.
+- ***ffmpeg :*** Transcode file with ffmpeg.
+- ***Titan File :*** Transcode file with Titan File.
+- ***Cambria :*** Transcode file with Cambria.
 
 
 **Loudness :** Generates or corrects errors in the soundtracks of the media file.
 
-- Minnetonka ATS :  Check and fix loudness with Minnetonka.
-- ffmpeg : Check and fix loudness with ffmpeg.
+- ***Minnetonka ATS :***  Check and fix loudness with Minnetonka.
+- ***ffmpeg :*** Check and fix loudness with ffmpeg.
 
 
 **Metadata :** Add or read metadatas to a media in accordance with the presets.
 
-- Metadata : Add metadatas according to your preset.
-- Auto retrieve : Retrieves metadatas from media files and generate file with metadatas.
+- ***Metadata :*** Add metadatas according to your preset.
+- ***Auto retrieve :*** Retrieves metadatas from media files and generate file with metadatas.
 
 
 **Pause :** Create a pause in the execution of tasks in the workflow.
@@ -101,32 +101,32 @@ Click on execute workflow.
 
 **Subtitle :** Generates, converts or writes subtitles on a media file.
 
-- Convert : Convert subtitle files to another subtitle file format.
-- Burn : Allows to integrate the subtitle file into a media file. 
-- Translation Google : Generates subtitles with Google translation. 
-- Translation Microsoft : Generates subtitles with Microsoft translation. 
-- Translation Deepl :  Generates subtitles with Deepl translation. 
-- Speech to text : Allows to create subtitles using the soundtrack of a media file with Autosub.
-- Speechmatics : Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
-- VideoIndexer : Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
+- ***Convert :*** Convert subtitle files to another subtitle file format.
+- ***Burn :*** Allows to integrate the subtitle file into a media file. 
+- ***Translation Google :*** Generates subtitles with Google translation. 
+- ***Translation Microsoft :*** Generates subtitles with Microsoft translation. 
+- ***Translation Deepl :***  Generates subtitles with Deepl translation. 
+- ***Speech to text :*** Allows to create subtitles using the soundtrack of a media file with Autosub.
+- ***Speechmatics :*** Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
+- ***VideoIndexer :*** Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
 
 **Antivirus :** Detects the presence of viruses in media files. 
 
-- Clamav : Generate report with Clamav.
+- ***Clamav :*** Generate report with Clamav.
 
 
 **Trim :** Allow to cut a media to the time codes specified by the user. 
 
 **Expand :** Allow to modify the workflow with parallel or conditions.
 
-- Parallel : Allow the user to create parallel branches to perform tasks simultaneously. 
-- Conditional : Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
+- ***Parallel :*** Allow the user to create parallel branches to perform tasks simultaneously. 
+- ***Conditional :*** Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
 
 
 **AI :** Allows to use artificial intelligence to detect faces, tags etc ...
 
-- Videobox : Detects faces, nudity images and tags with Videobox.
-- VideoIndexer :  Detects faces with VideoIndexer.
+- ***Videobox :*** Detects faces, nudity images and tags with Videobox.
+- ***VideoIndexer :***  Detects faces with VideoIndexer.
 
 </details>
 
