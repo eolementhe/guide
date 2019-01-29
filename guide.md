@@ -8,6 +8,8 @@
   
  ![Workflow editor](images/workflow-editor-header.png)
 
+&NewLine;
+&NewLine;
 
 Click on `+` button.
 
