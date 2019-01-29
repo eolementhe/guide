@@ -506,7 +506,7 @@ The file zone. This area contains all the files in the workflow (sources files a
 
 
 <details>
-  <summary><b>Anatomie of file monitoring view</b></summary>
+  <summary><b>Anatomie of file monitoring view.</b></summary>
 
 Click on `My files` button.
 
