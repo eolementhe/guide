@@ -200,7 +200,7 @@ View when a workflow is shared with you.
   
 
 Click on your login at at the top right of Eolementhe then
-lick on  `Naming rule`.
+click on  `Naming rule`.
 
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
 
