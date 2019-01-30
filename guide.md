@@ -87,8 +87,8 @@ Click on `Execute workflow`.
 
 **Metadata :** Create or read metadata to a media in accordance to your template.
 
-- ***Metadata :*** Add metadatas according to your preset.
-- ***Auto retrieve :*** Retrieves metadatas from media files and generate file with metadatas.
+- ***Metadata :*** Add metadata according to your preset.
+- ***Auto retrieve :*** Retrieves metadata from media files and generate file with metadata.
 
 
 **Pause :** Create a pause in the execution of tasks in the workflow.
