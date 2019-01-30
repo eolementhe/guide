@@ -228,7 +228,7 @@ So select your naming rule and this will be applied to all output files of the b
 
 You can notify the status of your workflow to other users with the recipient email feature. 
 
-Recipient email appears in Pause and Delivery block. 
+Recipient email appears in `Pause` and `Delivery` block. 
 
 ![workflow-recipient-email](images/workflow-recipient-email.png)
 
@@ -314,7 +314,7 @@ Select the FTP container you just entered before. Select the folder that will be
 
 ![workflow-ftp-watch-folder-5](images/workflow-ftp-watch-folder-5.png)
 
-You should arrive on this page which lists all your Watchfolder folders that you have entered. This is also where you can delete FTP watchfolder by clicking on the red icon.
+You will have this page which lists all your Watchfolder folders that you have entered. This is also where you can delete FTP watchfolder by clicking on the red icon.
 
 ![workflow-ftp-watch-folder-6](images/workflow-ftp-watch-folder-6.png)
 
@@ -949,7 +949,7 @@ Below example of one schema of the activity report.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
 
-After a modal will ask you: 
+After a pop-up will ask you: 
 
 ![2FA-modal](images/2FA-modal.png)
 
