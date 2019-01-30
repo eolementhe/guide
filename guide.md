@@ -1,4 +1,4 @@
-### Workflows Editor
+### Workflow Editor
 
 <details>
   <summary><b>How to create a new workflow?</b></summary>
@@ -18,7 +18,7 @@ Select the tool to use for each block (including ingest).
 
   ![Select tool](images/workflow-select-tool.png)
 
-Fill all red field in each block.
+Fill all red fields in each block.
 
   ![Fill block](images/workflow-fill-block.png)
 
@@ -46,9 +46,9 @@ Click on `Execute workflow`.
 - ***Internet :*** upload file by URL internet video.
 - ***FTP :*** upload file with FTP protocol.
 - ***Aspera :*** upload file with Aspera specific protocol.
-- ***Live stream :*** upload file from live stream flux.
+- ***Live stream :*** upload file from live stream.
 - ***Twitter :*** upload file from twitter publication.
-- ***Dropbox :*** upload file from DropBox account.
+- ***Dropbox :*** upload file from Dropbox account.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
 
@@ -62,30 +62,30 @@ Click on `Execute workflow`.
 - ***Dropbox :***  deliver file on dropbox account.
 
 
-**Quality control :** Generates a quality control report in accordance with the preset entered. 
+**Quality control :** Generates a quality control report in accordance to the preset entered. 
 
-- ***Baton :*** Generate a quality control with Baton.
-- ***Photon :*** Generate a quality control for package IMF.
-- ***Mediainfo :*** Generate file with informations of media.
+- ***Baton :*** Generate a quality control report with Baton.
+- ***Photon :*** Generate a quality control report for  IMF package.
+- ***Mediainfo :*** Generate report of technical metadata of the media file.
 
 
-**Transcoding :** Generate a new media file in accordance with the preset entered.
+**Transcoding :** Generate a new media file in accordance to the preset entered.
 
 - ***Harmonic WFS :*** Transcode file according to your Harmonic WFS workflows/presets.
 - ***File360 :*** Transcode file on File360 service.
-- ***RewrappAS10 :*** Rewrapp .mxf file with AS10 complient metadata.
+- ***RewrappAS10 :*** Rewrapp .mxf file with AS10 compliant metadata.
 - ***ffmpeg :*** Transcode file with ffmpeg.
-- ***Titan File :*** Transcode file with Titan File.
-- ***Cambria :*** Transcode file with Cambria.
+- ***Titan File :*** Transcode file with Titan File transcoder.
+- ***Cambria :*** Transcode file with Cambria FTC transcoder.
 
 
-**Loudness :** Generates or corrects errors in the soundtracks of the media file.
+**Loudness :** Generate or/and correct errors on audio tracks of the media file.
 
-- ***Minnetonka ATS :***  Check and fix loudness with Minnetonka.
+- ***Minnetonka ATS :***  Check and fix loudness with Minnetonka Audio Tools Server.
 - ***ffmpeg :*** Check and fix loudness with ffmpeg.
 
 
-**Metadata :** Add or read metadatas to a media in accordance with the presets.
+**Metadata :** Create or read metadata to a media in accordance to your template.
 
 - ***Metadata :*** Add metadatas according to your preset.
 - ***Auto retrieve :*** Retrieves metadatas from media files and generate file with metadatas.
@@ -93,36 +93,36 @@ Click on `Execute workflow`.
 
 **Pause :** Create a pause in the execution of tasks in the workflow.
 
-**IMF :** Generate an IMF packages with `.mxf` file.
+**IMF :** Generate an IMF package with `.mxf` file.
 
-**Subtitle :** Generates, converts or writes subtitles on a media file.
+**Subtitle :** Generate, convert or burn subtitles on a media file.
 
 - ***Convert :*** Convert subtitle files to another subtitle file format.
-- ***Burn :*** Allows to integrate the subtitle file into a media file. 
-- ***Translation Google :*** Generates subtitles with Google translation. 
-- ***Translation Microsoft :*** Generates subtitles with Microsoft translation. 
-- ***Translation Deepl :***  Generates subtitles with Deepl translation. 
-- ***Speech to text :*** Allows to create subtitles using the soundtrack of a media file with Autosub.
-- ***Speechmatics :*** Allows you to create subtitles using the soundtrack of a media file with Speechmatic.
-- ***VideoIndexer :*** Allows you to create subtitles using the soundtrack of a media file with videoIndexer.
+- ***Burn :*** Burn the subtitle file into a media file. 
+- ***Translation Google :*** Generate subtitles with Google translation. 
+- ***Translation Microsoft :*** Generate subtitles with Microsoft translation. 
+- ***Translation Deepl :***  Generate subtitles with Deepl translation. 
+- ***Speech to text :*** Generate subtitles from the audio tracks of a media file with Autosub.
+- ***Speechmatics :*** Generate subtitles from the audio tracks of a media file with Speechmatics.
+- ***Video Indexer :*** Generate subtitles from the audio tracks of a media file with Video Indexer.
 
-**Antivirus :** Detects the presence of viruses in media files. 
+**Antivirus :** Detect the presence of viruses in media files. 
 
 - ***Clamav :*** Generate report with Clamav.
 
 
-**Trim :** Allow to cut a media to the time codes specified by the user. 
+**Trim :** Cut a media to the time codes specified. 
 
-**Expand :** Allow to modify the workflow with parallel or conditions.
+**Expand :** Modify the workflow with parallel or conditional actions.
 
-- ***Parallel :*** Allow the user to create parallel branches to perform tasks simultaneously. 
-- ***Conditional :*** Allows the user to create conditions on different branches for doesn't perform the same work according to the result of the previous block. 
+- ***Parallel :*** Create parallel branches to perform tasks simultaneously. 
+- ***Conditional :*** Create conditional rules (if...then) on workflow . 
 
 
-**AI :** Allows to use artificial intelligence to detect faces, tags etc ...
+**AI :** Use of artificial intelligence to detect faces, tags etc ...
 
 - ***Videobox :*** Detects faces, nudity images and tags with Videobox.
-- ***VideoIndexer :***  Detects faces with VideoIndexer.
+- ***Video Indexer :***  Detects faces with Video Indexer.
 
 </details>
 
@@ -137,6 +137,8 @@ Click on `Execute workflow`.
   Check your contract to see if the dates and tools should be available.
 
   Contact an administrator at `support@videomenthe.fr` if the blocks should be available.
+  
+If the blocks are not available but you want the new functionalities please contact the sales team at `contact@videomenthe.fr`.
 
   ![Workflow red blocks](images/workflow-red-blocks.png)
 
@@ -172,13 +174,13 @@ Click on `Execute workflow`.
   <summary><b>How to share a workflow?</b></summary>
   
 
-Sharing a workflow means that the users to whom you have shared your workflow will be able to load and use your workflow. But will not be able to modify it.
+Sharing a workflow means that the users with whom you have shared your workflow will be able to load and use your workflow, but will not be able to modify it.
 
 Load an existing workflow and click on `Share`.
 
 ![workflow-share](images/workflow-share.png)
 
-In the modal you can share the workflow. And see the list of users to whom the workflow is shared.
+In the pop-up you can add and choose the email of the user you want to share the workflow with.
 
 ![workflow-share-modal](images/workflow-share-modal.png)
 
@@ -202,7 +204,7 @@ Click on  `Naming rule`.
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
 
 
-Here you can add naming rules with your custom format. Enter the name of your rule and then you can write the format of naming you want for your files.
+Here you can add naming rules with your custom format. Enter the name of your rule and then you can write the template of naming you want for your files.
 
 Here example of naming rule :
 
@@ -225,35 +227,35 @@ So select your naming rule and this will be applied to all output files of the b
 
 You can notify the status of your workflow to other users with the recipient email feature. 
 
-Recipient email appear in Pause and Delivery block. 
+Recipient email appears in Pause and Delivery block. 
 
 ![workflow-recipient-email](images/workflow-recipient-email.png)
 
-The  recipient email allows users added to had the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
+The  recipient email allows users added to have the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
 
-Your own email adress is automatically add in recipient email list.
+Your own email address is automatically added in the recipient email list.
 
- You can search all users on platform and if user doesn't exist you can add it by writing his email address in the search bar and pressing enter. And you can supress an existing email from list by clicking in the red trash button.
+ You can search all users on the platform and if the user doesn't exist you can add him by writing his email address in the search bar and pressing `Enter`. You can suppress an existing email from list by clicking in the red trash button.
 
 
 </details>
 
 <details>
-  <summary><b>Good practices for collaborate in a workflow.</b></summary>
+  <summary><b>Good practices for collaborative workflow.</b></summary>
 
-If you want to create collaborative workflows. Some good practices must be respected.
+If you want to create collaborative workflows, some good practices must be respected.
 
-The easiest way is to use the pause block. At each pause all users in email recipient will have access to the file generated from the previous block. 
+The easiest way is to use the pause block. At each pause all users in the email recipient list will have access to the file generated from the previous block. 
 
-Thus all user in recipient will receive an email giving them access to the file generated from the previous block. In addition, they will see the workflow in the monitoring view and edit the file in library file. They will also be able to continue or stop the workflow in monitoring view. 
+Thus all users in recipient list will receive an email giving them access to the file generated from the previous block. In addition, they will see the workflow in the monitoring view and  will be allow to edit the file library . They will also be able to continue or stop the workflow in the monitoring view. 
 
 Let's take a simple example: 
 
-A user starts a translation workflow. However, several translators must access the file in order to be able to correct it. We create the following workflow: 
+A user starts a translation workflow. However, several translators must access to the file in order to be able to modify it. We create the following workflow: 
 
 ![workflow-collaborative-subtitle](images/workflow-collaborative-subtitle.png)
 
-Once the workflow is paused. Users in recipient email of the pause block receive the file from previous block (here a speech to text block). So they will just have to correct the subtitles file `.srt`. Once the corrections have been made, one of the users will simply have to continue the pause and the workflow will resume its execution with the corrected subtitle file.
+Once the workflow is paused, users in the recipient email list will be notified by email. They will receive the link to connect to the file library and to check the result of the previous block (here a Speech to text block). In this example they will just have to correct the subtitles file `.srt`. Once the corrections have been made, one of the users can simply  click on `Validate file and continue workflow`to make the workflow continue or click on `Stop workflow for this file` to abort the execution of the workflow (in `File library`on the file paused). 
 
 </details>
 
@@ -262,15 +264,15 @@ Once the workflow is paused. Users in recipient email of the pause block receive
 
 In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
 
-The `Destination folder` field of the Ingest block allows you to redirect all source files to the folder tree you specified. 
+The `Destination folder` field of the Ingest block allows you to redirect all source files to the folder/subfolder you specify. 
 
-The `Destination folder` field of the Delivery block allows you to redirect all generated files to the folder tree you specified. 
+The `Destination folder` field of the Delivery block allows you to redirect all generated files to the folder/subfolder you specify. 
 
 If you leave the fields empty as below: 
 
 ![workflow-editor-ingest-delivery-destination-empty](images/workflow-editor-ingest-delivery-destination-empty.png)
 
-All your source and generated files will be sent to the root of your file server eolementhe.
+All your sources and generated files will be sent to the root of your Eolementhe file server.
 
 ![workflow-editor-ingest-delivery-destination-empty-result](images/workflow-editor-ingest-delivery-destination-empty-result.png)
 
@@ -280,7 +282,7 @@ Example :
 
 ![workflow-editor-ingest-destination-complete](images/workflow-editor-ingest-destination-complete.png)
 
-Here we redirect all the source files to the `eole` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is in the `test` folder.
+Here we redirect all the source files to the `origin` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is in the `test` folder.
 
 Result in the `File Library`: 
 
@@ -291,9 +293,9 @@ Result in the `File Library`:
 <details>
   <summary><b>How to create FTP watchfolder?</b></summary>
 
-An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by eolementhe in a workflow of your choice. 
+An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
 
-First you will need to add your FTP server. For that nothing simpler put the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
 
 Click on `Add Server`
 
@@ -303,11 +305,11 @@ Fill in the data relating to your FTP server and click on `Submit`.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
 
-Now go to the dropdown menu at the top right of eolementhe and click on `FTP Watch Folder`.
+Now click on your login at the top right of Eolementhe and click on `FTP Watch Folder`.
 
 ![workflow-ftp-watch-folder-1](images/workflow-ftp-watch-folder-1.png)
 
-Select the FTP container you just entered just before. Select the folder that will be watched. Select the folder that will be watched. And click on `Submit`.
+Select the FTP container you just entered before. Select the folder that will be watched. And click on `Submit`.
 
 ![workflow-ftp-watch-folder-5](images/workflow-ftp-watch-folder-5.png)
 
@@ -320,10 +322,9 @@ You should arrive on this page which lists all your Watchfolder folders that you
 <details>
   <summary><b>How to add Baton preset?</b></summary>
 
-First add a `Quality Control` block to your workflow. 
+First add a `Quality Control` block to your workflow and choose `Baton`. 
 
-Baton with preset allow quality control according to your requirements. If your test plan list is empty.
-You can add a test plan by click on  `Add a test plan`.
+If your preset list is empty, add a test plan by clicking on  `Add a test plan`.
 
 ![workflow-baton-add-preset-1](images/workflow-baton-add-preset-1.png)
 
@@ -349,10 +350,9 @@ Return to your workflow and select the added test plan.
 <details>
   <summary><b>How to add Harmonic WFS preset?</b></summary>
 
-First add a `Transcoding`  block to your workflow. 
+First add a `Transcoding`  block to your workflow and choose Harmonic WFS. 
 
-Harmonic WFS preset allow transcode according to your requirements. If your preset list is empty.
-You can add a preset by click on  `Add Presets`.
+If your preset list is empty, add a preset by clicking on  `Add Presets`.
 
 ![workflow-harmonic-add-preset-1](images/workflow-harmonic-add-preset-1.png)
 
@@ -380,11 +380,11 @@ Return to your workflow and select the added preset.
 <details>
   <summary><b>Create and manipulate IMF packages.</b></summary>
 
-Create a workflow with an IMF package block and with your `.mxf` file in Ingest as below.
+Create a workflow with an IMF package block and with your `.mxf` files in Ingest as below.
 
 ![workflow-imf-1](images/workflow-imf-1.png)
 
-When your workflow was executed go to the `File library`. You should have a folder with all of your MFI packages as below :
+When your workflow is executed go to the `File library`. A folder with all these files building your IMF package is available.
 
 ![workflow-imf-2](images/workflow-imf-2.png)
 
@@ -392,21 +392,20 @@ Click on the label `IMF` in `File library` :
 
 ![workflow-IMF-button](images/workflow-IMF-button.png)
 
-This should open a window like the one below.
+window will be opened :  
 
 ![workflow-imf-3](images/workflow-imf-3.png)
 
-Eolementhe create a default video. But you can still create your own video with the settings you want with the list of all video files and all audio files. 
+Eolementhe creates a default video. Choose the audi and video file you want to create your  new version. 
 
 ![workflow-imf-4](images/workflow-imf-4.png)
 
-Once your media version have been created, you can click on the envelope icon as below : 
+Once your media version have been created, click on the envelope icon as below : 
 
 ![workflow-imf-6](images/workflow-imf-6.png)
 
 You will be redirected to a workflow with `Cambria` transcoding ready to generate your file.
 
-![workflow-imf-7](images/workflow-imf-7.png)
 
 </details>
 
@@ -419,21 +418,23 @@ You will be redirected to a workflow with `Cambria` transcoding ready to gener
   
   ![workflow-monitoring](images/workflow-monitoring.png)
 
-The `My Workflows` view allow the user to monitor all the workflows you have started. 
+The `My Workflows` view show all the workflows you have started. 
 
 ![workflow-monitoring-view](images/workflow-monitoring-view.png)
 
-The different buttons allows you to change the monitoring view. 
+Different buttons can change the monitoring view. 
 
-A button allow you to switch from the `My Workflow` view to the `My File` view. 
+A button switch from the `My Workflow` view to the `My File` view. 
 
 ![workflow-monitoring-view-button-file](images/workflow-monitoring-view-button-file.png)
 
-And the other button allow you to switch from the `Standard` view which corresponds to all workflows and files sent by the normal ingest. And the `Premium` view that will show all the workflows and files sent by the premium ingest post (Premium mode use Signiant).
+And the other button switch from the `Standard` view to `Premium` view. 
+`Standard` view which corresponds to all workflows and files sent by the normal ingest. 
+The `Premium` view that will show all the workflows and files sent by the premium ingest post (Premium mode use Signiant).
 
 ![workflow-monitoring-view-button-premium](images/workflow-monitoring-view-button-premium.png)
 
-You can also filter your workflow list by dates, file name, file status, etc... Thanks to the two search bars. 
+You can also filter your workflows list by date, file name, file status, etc... thanks to the two search bars. 
 
 ![workflow-monitoring-search-bar](images/workflow-monitoring-search-bar.png)
 
@@ -444,13 +445,13 @@ You can also filter your workflow list by dates, file name, file status, etc... 
 <details>
   <summary><b>Different state display in monitoring view.</b></summary>
 
-Whether in the file or workflow motoring the steps are categorized by color codes corresponding to states.
+In the file or workflow motoring the steps are categorized by color codes corresponding to states.
 
 Here is an exhaustive list of the different possible statuses. 
 
 ![workflow-monitoring-running-task](images/workflow-monitoring-running-task.png)
 
-**Running :** the task is in execution and processing please wait for the end. 
+**Running :** the task is in execution and processing please wait the end. 
 
 ![workflow-monitoring-refused-task](images/workflow-monitoring-refused-task.png)
 
@@ -458,15 +459,15 @@ Here is an exhaustive list of the different possible statuses.
 
 ![workflow-monitoring-pause-task](images/workflow-monitoring-pause-task.png)
 
-**Paused :** the workflow include a Pause block so when the pause block is encountered, platform wait for the user to validate or refused the pause to continue. 
+**Paused :** If Pause block is encountered, platform wait for the user to validate or refused the pause. 
 
 ![workflow-monitoring-partial-task](images/workflow-monitoring-partial-task.png)
 
-**Partial :** workflow are about executing and delivering correctly. But some tasks or files have not been executed correctly and are in error.
+**Partial :** workflow had execute all tasks but some tasks have not been executed correctly.
  
 ![workflow-monitoring-completed-task](images/workflow-monitoring-completed-task.png)
 
-**Completed :** workflow are about executing and delivering correctly. All tasks or files in the workflow were executed correctly. 
+**Completed :** workflow  is execute and deliver correctly. All tasks of the workflow were executed correctly. 
 
 </details>
 
@@ -474,29 +475,30 @@ Here is an exhaustive list of the different possible statuses.
 <details>
   <summary><b>Anatomie of workflow monitoring view.</b></summary>
 
-First unfold the details of your workflow by clicking on its name in the list. 
+In `My workflow` view you can unfold the details of your workflow by clicking on its name. 
 
 ![workflow-monitoring-unfold-workflow](images/workflow-monitoring-unfold-workflow.png)
 
-Then we will be able to see two sub-menus. Two different zones. The first monitoring zone of workflow and the second is the file zone.
+Then we will be able to see two sub-menus. The first monitoring zone of the workflow and the second is the file zone.
 As in the first step, unfold the two submenus.
 
 ![workflow-monitoring-view-zone](images/workflow-monitoring-view-zone.png)
 
-Now you have the complete workflow monitoring view you can have details of the progress of each tasks of your workflow executed. 
+Now you have the complete workflow monitoring view. You can have details of the progress of each tasks of your workflow executed. 
 
 ![workflow-monitoring-complete-view](images/workflow-monitoring-complete-view.png)
 
-The name of the workflow used in list had specific format like : Name of workflow with the start date of the workflow and the total size of all source files and generated by the workflow. 
+The name of the workflow used in list had specific name format like : 
+Name of workflow - Start date of the workflow- Total size of all source and generated files.
 
 ![workflow-monitoring-workflow-title](images/workflow-monitoring-workflow-title.png)
 
 
-At top of the workflow zone we can see the title of file ingest. Below that show the progress and status of each task in your workflow, with the task information and the files generated by each task. 
+At top of the workflow zone we can see the title of file ingest. And the progress and status of each task in your workflow, with the task information and the files generated by each task. 
 
 ![workflow-monitoring-workflow-zone](images/workflow-monitoring-workflow-zone.png)
 
-The file zone. This area contains all the files in the workflow (sources files and generated files). It is also in this area that you will find the deletion information for the different files in your workflow. 
+The file zone  contains all the files in the workflow (sources files and generated files). It is also in this area that you will find all deletion information for the different files of your workflow. 
 
 ![workflow-monitoring-file-zone](images/workflow-monitoring-file-zone.png)
 </details>
@@ -513,7 +515,7 @@ Click on `My files` button.
 ![workflow-monitoring-view-button-file-selected](images/workflow-monitoring-view-button-file-selected.png)
 
 
-In the file monitoring view you can have details of the progress of each task on source file.
+In the file monitoring view you  have details of the progress of each task on source file.
 
 ![workflow-monitoring-file-file-zone](images/workflow-monitoring-file-file-zone.png)
   
@@ -823,6 +825,22 @@ Click on `File Library` menu.
 If your view library does not include timecodes and other informations as above, you are in simplified view. You will just have to click on the button below for complete view : 
 
 ![library-view-subtitle](images/library-view-subtitle.png)
+</details>
+
+
+<details>
+  <summary><b>How to open subtitle editing side-by-side ?</b></summary>
+  
+
+Click on `File Library` menu.
+
+  ![Library](images/library-menu.png)
+
+  Click on an `SRT` file.
+  
+  Only subtitles with .srt extension will show the subtitle editing interface.
+  
+
 </details>
 
 
