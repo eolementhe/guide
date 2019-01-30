@@ -199,7 +199,8 @@ View when a workflow is shared with you.
   <summary><b>How to use naming rule in my workflow?</b></summary>
   
 
-Click on  `Naming rule`.
+Click on your login at at the top right of Eolementhe then
+lick on  `Naming rule`.
 
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
 
@@ -943,8 +944,8 @@ Below example of one schema of the activity report.
   <summary><b>How to more secure my account?</b></summary>
 
   
-  Click on your login at at the top right of Eolementhe. 
-  Click on `Enable 2FA`.
+  Click on your login at at the top right of Eolementhe then
+  click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
 
@@ -968,7 +969,7 @@ Code received on the email address of your Eolementhe account.
 
   Eolementhe can send notifications to your browser.
   
-Click on your login at at the top right of Eolementhe. 
+Click on your login at at the top right of Eolementhe.
 If disabled click on `Activate notification`.
 
 ![dropdown-manage-notification](images/dropdown-manage-notification.png)
@@ -984,8 +985,8 @@ If activated click on `Disable notification`.
   <summary><b>How to see my team?</b></summary>
 
 
-  Click on your login at at the top right of Eolementhe. 
-  Click on `Teams`.
+  Click on your login at at the top right of Eolementhe then
+  click on `Teams`.
 
 ![dropdown-manage-team](images/dropdown-manage-team.png)
 
