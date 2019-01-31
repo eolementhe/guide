@@ -214,7 +214,7 @@ You can expand a user raw of your choice by clicking on it to get all workflow s
 
 You can suppress the link of share of a specific workflow by clicking on block trash icon. 
 
-You can suppress the link of share with a user by clicking on red cross icon. That is going to remove all workflow shared with him. 
+You can suppress the link of share with a user by clicking on red cross icon. That is going to remove all workflows shared with him. 
 
 </details>
 
@@ -250,6 +250,7 @@ So select your naming rule and this will be applied to all output files of the b
 <details>
   <summary><b>How to manage metadata forms?</b></summary>
   
+
 Click on your login at the top right of Eolementhe then
 click on  `Metadata forms`.
 
