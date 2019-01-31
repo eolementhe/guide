@@ -192,6 +192,30 @@ View when a workflow is shared with you.
 
 ![workflows-share-with-me](images/workflows-share-with-me.png)
 
+<hr>
+
+You can also view all shared workflows of your account by following these steps.
+
+Click on your login at the top right of Eolementhe then
+click on  `Shared workflows`.
+
+![manage-shared-workflow](images/manage-shared-workflow.png)
+
+A pop-up will display a page like this (if you have shared workflows) : 
+
+![manage-shared-workflow-list](images/manage-shared-workflow-list.png)
+
+Here we have a list of all user with all this shared workflows. 
+
+
+You can expand a user raw of your choice by clicking on it to get all workflow shared with him.
+
+![manage-shared-workflow-list-complexe](images/manage-shared-workflow-list-complexe.png)
+
+You can suppress the link of share of a specific workflow by clicking on block trash icon. 
+
+You can suppress the link of share with a user by clicking on red cross icon. That is going to remove all workflow shared with him. 
+
 </details>
 
 
@@ -199,13 +223,13 @@ View when a workflow is shared with you.
   <summary><b>How to use naming rule in my workflow?</b></summary>
   
 
-Click on your login at at the top right of Eolementhe then
+Click on your login at the top right of Eolementhe then
 click on  `Naming rule`.
 
 ![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
 
 
-Here you can add naming rules with your custom format. Enter the name of your rule and then you can write the template of naming you want for your files.
+Here you can add naming rules with your custom template. Enter the name of your rule and then you can write the template of naming you want for your files.
 
 Here example of naming rule :
 
@@ -219,6 +243,99 @@ After adding  naming rule, on each block appear this :
 
 So select your naming rule and this will be applied to all output files of the block. 
 
+
+</details>
+
+
+<details>
+  <summary><b>How to manage metadata forms?</b></summary>
+  
+Click on your login at the top right of Eolementhe then
+click on  `Metadata forms`.
+
+![manage-metadata-form](images/manage-metadata-form.png)
+
+A  pop-up appear `Metadata preparation`, this is where we will be able to manage the different metadata templates.
+
+![manage-metadata-1](images/manage-metadata-1.png)
+
+At first we will create a new metadata form model.
+
+Select `Create a new model`.
+![manage-metadata-2](images/manage-metadata-2.png)
+
+Enter the name of your new model metadata form (here `Example_metadata_form`git ).
+
+![manage-metadata-3](images/manage-metadata-3.png)
+
+There are 3 different categories of fields that you can add to Eolementhe.
+
+The `Label` fields allowing to add strings of characters. 
+
+The `Datepicker` fields allowing you to add a date.
+
+The `Dropdown` fields allow you to add a custom drop-down list.
+
+We will add a `Label` field in our example. We  fill the information in our field (label, placeholder, default value, optional). 
+![manage-metadata-4](images/manage-metadata-4.png)
+
+To add the field you just filled in to the model click on `add select`.
+
+![manage-metadata-5](images/manage-metadata-5.png)
+
+The field is now added to the model, and the form preview appears at the bottom of the pop-up window. 
+
+This part allows you to have a preview of the final form before validation. 
+
+![manage-metadata-6](images/manage-metadata-6.png)
+
+We will add a `Dropdown` field in our example. We  fill the information in our field (name, options list, optional). 
+
+![manage-metadata-7](images/manage-metadata-7.png)
+
+To add the field click on `add select` again.
+
+![manage-metadata-5](images/manage-metadata-5.png)
+
+So we now have our new model of metadata with our two fields. To create the metadata model and be able to use it in a workflow click on `Create my model`. 
+
+![manage-metadata-8](images/manage-metadata-8.png)
+
+<hr>
+
+We will now modify the metadata model that we have just added. 
+
+Select your  metadata model in the select. 
+
+![manage-metadata-9](images/manage-metadata-9.png)
+
+When you select an existing metadata model, the preview of the form appears directly at the bottom of the pop-up window. 
+
+![manage-metadata-10](images/manage-metadata-10.png)
+
+If you want to delete a field you have to click on the black cross icon: 
+
+![manage-metadata-11](images/manage-metadata-11.png)
+
+If you want to modify a field, there are several steps to perform.
+
+First you must click on the magnifying glass icon of the field you want to modify:
+
+![manage-metadata-12](images/manage-metadata-12.png)
+
+Then we can see that as the image below that our field was loaded in the part `Add or modify field`.
+
+![manage-metadata-14](images/manage-metadata-14.png)
+
+Modify the information of your choice. 
+
+To finish updating our field, click on `Update label`;
+
+![manage-metadata-15](images/manage-metadata-15.png)
+
+We can see that our field was modified. (In this example we have modified the placeholder). 
+
+![manage-metadata-16](images/manage-metadata-16.png)
 
 </details>
 
@@ -236,7 +353,9 @@ The  recipient email allows users added to have the same follow-up as the owner 
 
 Your own email address is automatically added in the recipient email list.
 
- You can search all users on the platform and if the user doesn't exist you can add him by writing his email address in the search bar and pressing `Enter`. You can suppress an existing email from list by clicking in the red trash button.
+ You can search all users on the platform and if the user doesn't exist you can add him by writing his email address in the search bar and pressing `Enter`.
+ You can also add more than one at a time. It is enough to separate the email addresses by `;`
+  You can suppress an existing email from list by clicking in the red trash button.
 
 
 </details>
@@ -244,9 +363,9 @@ Your own email address is automatically added in the recipient email list.
 <details>
   <summary><b>Good practices for collaborative workflow.</b></summary>
 
-If you want to create collaborative workflows, some good practices must be respected.
+If you want to create collaborative workflow, some good practices must be respected.
 
-The easiest way is to use the pause block. At each pause all users in the email recipient list will have access to the file generated from the previous block. 
+The easiest way is to use the `Pause block`. At each pause all users in the email recipient list will have access to the file generated from the previous block. 
 
 Thus all users in recipient list will receive an email giving them access to the file generated from the previous block. In addition, they will see the workflow in the monitoring view and  will be allow to edit the file library . They will also be able to continue or stop the workflow in the monitoring view. 
 
@@ -256,7 +375,7 @@ A user starts a translation workflow. However, several translators must access t
 
 ![workflow-collaborative-subtitle](images/workflow-collaborative-subtitle.png)
 
-Once the workflow is paused, users in the recipient email list will be notified by email. They will receive the link to connect to the file library and to check the result of the previous block (here a Speech to text block). In this example they will just have to correct the subtitles file `.srt`. Once the corrections have been made, one of the users can simply  click on `Validate file and continue workflow`to make the workflow continue or click on `Stop workflow for this file` to abort the execution of the workflow (in `File library`on the file paused). 
+Once the workflow is paused, users in the recipient email list will be notified by email. They will receive the link to connect to the `File library` and to check the result of the previous block (here a Speech to text block). In this example they will just have to modify the subtitles file `.srt`. Once the modification have been made, one of the user can simply  click on `Validate file and continue workflow`to make the workflow continue or click on `Stop workflow for this file` to abort the execution of the workflow (in `File library`on the file paused). 
 
 </details>
 
@@ -283,7 +402,7 @@ Example :
 
 ![workflow-editor-ingest-destination-complete](images/workflow-editor-ingest-destination-complete.png)
 
-Here we redirect all the source files to the `origin` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is in the `test` folder.
+Here we redirect all the source files to the `origin` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is also in the `test` folder.
 
 Result in the `File Library`: 
 
@@ -329,7 +448,7 @@ If your preset list is empty, add a test plan by clicking on  `Add a test plan`.
 
 ![workflow-baton-add-preset-1](images/workflow-baton-add-preset-1.png)
 
-Clicking again on `Add a test plan` and load your test plan. 
+A  pop-up appear, clicking again on `Add a test plan` and load your test plan. 
 
 ![workflow-baton-add-preset-2](images/workflow-baton-add-preset-2.png)
 
@@ -357,10 +476,10 @@ If your preset list is empty, add a preset by clicking on  `Add Presets`.
 
 ![workflow-harmonic-add-preset-1](images/workflow-harmonic-add-preset-1.png)
 
-Clicking on `Add Workflow` for add your workflow preset. 
+A  pop-up appear, clicking on `Add Workflow` for add your workflow preset. 
 ![workflow-harmonic-add-preset-2](images/workflow-harmonic-add-preset-2.png)
 
-When your workflow preset is added click  on `upload` to load.
+When your workflow preset is added click  on `upload` to load it.
 
 ![workflow-harmonic-add-preset-3](images/workflow-harmonic-add-preset-3.png)
 
@@ -393,15 +512,15 @@ Click on the label `IMF` in `File library` :
 
 ![workflow-IMF-button](images/workflow-IMF-button.png)
 
-window will be opened :  
+A window will be opened :  
 
 ![workflow-imf-3](images/workflow-imf-3.png)
 
-Eolementhe creates a default video. Choose the audi and video file you want to create your  new version. 
+Eolementhe creates a default video. But here you can choose the audio and video file you want to create your  new version. 
 
 ![workflow-imf-4](images/workflow-imf-4.png)
 
-Once your media version have been created, click on the envelope icon as below : 
+Once your media version have been created, click on the `envelope` icon as below : 
 
 ![workflow-imf-6](images/workflow-imf-6.png)
 
@@ -430,8 +549,8 @@ A button switch from the `My Workflow` view to the `My File` view.
 ![workflow-monitoring-view-button-file](images/workflow-monitoring-view-button-file.png)
 
 And the other button switch from the `Standard` view to `Premium` view. 
-`Standard` view which corresponds to all workflows and files sent by the normal ingest. 
-The `Premium` view that will show all the workflows and files sent by the premium ingest post (Premium mode use Signiant).
+The `Standard` view correspond to all workflows and files sent by the normal ingest. 
+The `Premium` view that will show all the workflows and files sent by the premium ingest post (premium mode use Signiant).
 
 ![workflow-monitoring-view-button-premium](images/workflow-monitoring-view-button-premium.png)
 
@@ -460,7 +579,7 @@ Here is an exhaustive list of the different possible statuses.
 
 ![workflow-monitoring-pause-task](images/workflow-monitoring-pause-task.png)
 
-**Paused :** If Pause block is encountered, platform wait for the user to validate or refused the pause. 
+**Paused :** If a Pause block is encountered, platform wait for the user to validate or refused the pause. 
 
 ![workflow-monitoring-partial-task](images/workflow-monitoring-partial-task.png)
 
@@ -480,7 +599,7 @@ In `My workflow` view you can unfold the details of your workflow by clicking on
 
 ![workflow-monitoring-unfold-workflow](images/workflow-monitoring-unfold-workflow.png)
 
-Then we will be able to see two sub-menus. The first monitoring zone of the workflow and the second is the file zone.
+Then we will be able to see two sub-menus. The first the monitoring zone of the workflow and the second is the file zone.
 As in the first step, unfold the two submenus.
 
 ![workflow-monitoring-view-zone](images/workflow-monitoring-view-zone.png)
@@ -559,7 +678,7 @@ If you want to delete a specific file you can click on the trash icon of your ta
 
 ![Library](images/library-menu.png)
 
-In the `File Library` view you have all the files related to your account. To open a file in the library, simply click on the file in this section.
+In the `File Library` view you have all the files related to your account. To open a file in the library, click on the file in this section.
 ![library-view-file-tree](images/library-view-file-tree.png)    
 You can search for a specific file or folder using the search bar. 
 
@@ -583,6 +702,7 @@ When you select several files by checking them. An other menu appear just below.
 
 ![library-view-file-tree-selected](images/library-view-file-tree-selected.png)
 In this menu perform additional actions. 
+
 First, you can delete the selected files. 
 
 ![library-button-deleted](images/library-button-deleted.png)
@@ -606,18 +726,18 @@ At top you can see the file title followed by the number of days remaining befor
 
 ![library-view-file-title](images/library-view-file-title.png)
 
-Then just below there are two icons. The first one is used to download the file, and the other one is used to delete the file.
+  Then just below there are three icons. The first one is used to download the file, the second the trash icon delete the file and the third is used for rename the file.
 
 ![library-view-file-icons](images/library-view-file-icons.png)
-
 Below the two icons you can see labels. These labels are clikable an redirect you on the workflow that contain this file. 
 
 ![library-view-file-workflow](images/library-view-file-workflow.png)
 
-If you find that the preview video of the File library is too small to work comfortably you can click on the icon below to enlarge the view :
+If you find that the preview video of the `File library` is too small to work comfortably you can click on the icon below to switch between enlarge view and basic view:
 
  ![library-view-file-fullscreen](images/library-view-file-fullscreen.png)
 
+![library-view-file-basic-view](images/library-view-file-basic-view.png)
 
 A small keyboard icon is above the video player. When you hover with your mouse, you will see the keyboard shortcuts of the video player. 
 
@@ -754,6 +874,20 @@ Create the file by clicking on:
 
 </details>
 
+<details>
+  <summary><b>How to rename a file?</b></summary>
+
+Click on `File Library` menu.
+
+  ![Library](images/library-menu.png)
+
+Open file you want to rename and in opened window below the title of your file click on the icon `Rename` :
+
+![library-view-file-rename](images/library-view-file-rename.png)
+
+This icon is also present in `My workflow` in the workflow monitoring view and in the file zone. 
+
+</details>
 
 <details>
   <summary><b>Structure of subtitle editing view.</b></summary>
@@ -839,11 +973,24 @@ If your view library does not include timecode and other informations as above, 
 Click on `File Library` menu.
 
   ![Library](images/library-menu.png)
+  
+  Only subtitles with `.srt` extension will show the subtitle editing interface and side by side option.
 
-  Click on an `SRT` file.
+When you have opened your file click on the icon indicated by a red arrow below:
+![library-view-side-by-side-subtitlte](images/library-view-side-by-side-subtitlte.png)
+
+A pop-up will appear listing all the `.srt` files that are present on Eolementhe. Choose which file to display in side by side by clicking on it : 
+
+![library-view-side-by-side-list](images/library-view-side-by-side-list.png)
+
+
+Now you have your side-by-side view :
   
-  Only subtitles with .srt extension will show the subtitle editing interface.
-  
+![library-view-side-by-side-view](images/library-view-side-by-side-view.png)
+
+To leave the side-by-side view, click on the fullscreen button at the top right of the `File library`: 
+
+![library-view-file-basic-view](images/library-view-file-basic-view.png)
 
 </details>
 
@@ -939,12 +1086,28 @@ Below example of one schema of the activity report.
 
 ### Account
 
+<details>
+  <summary><b>How to verify my storage usage of Eolementhe?</b></summary>
+
+When you use Eolementhe you use the storage that was assigned to you when the administrator created your account. 
+
+To consult it, simply look at the icon in the menu. You would have an overview of the percentage usage.
+
+![manage-usage-storage-simply](images/manage-usage-storage-simply.png)
+
+If you want more precise information, just hover the icon with your mouse cursor.
+
+![manage-usage-storage-complexe](images/manage-usage-storage-complexe.png)
+
+
+</details>
+
 
 <details>
   <summary><b>How to more secure my account?</b></summary>
 
   
-  Click on your login at at the top right of Eolementhe then
+  Click on your login at the top right of Eolementhe then
   click on `Enable 2FA`.
 
 ![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
@@ -962,6 +1125,20 @@ Code received on the email address of your Eolementhe account.
 
 </details>
 
+<details>
+  <summary><b>How to manage my API endpoint?</b></summary>
+
+Click on your login at the top right of Eolementhe and click on `API endpoint`.
+
+![manage-api-endpoint](images/manage-api-endpoint.png)
+
+A pop-up will appear, fill the URL of your API that will be called when a workflow finished.
+
+![manage-api-endpoint-empty](images/manage-api-endpoint-empty.png)
+
+![manage-api-enbpoint-fill-form](images/manage-api-enbpoint-fill-form.png)
+
+</details>
 
 <details>
   <summary><b>How to activate or disable notification?</b></summary>
@@ -969,7 +1146,7 @@ Code received on the email address of your Eolementhe account.
 
   Eolementhe can send notifications to your browser.
   
-Click on your login at at the top right of Eolementhe.
+Click on your login at the top right of Eolementhe.
 If disabled click on `Activate notification`.
 
 ![dropdown-manage-notification](images/dropdown-manage-notification.png)
@@ -985,7 +1162,7 @@ If activated click on `Disable notification`.
   <summary><b>How to see my team?</b></summary>
 
 
-  Click on your login at at the top right of Eolementhe then
+  Click on your login at the top right of Eolementhe then
   click on `Teams`.
 
 ![dropdown-manage-team](images/dropdown-manage-team.png)
