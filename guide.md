@@ -268,7 +268,8 @@ Enter the name of your new model metadata form (here `Example_metadata_form`git 
 
 ![manage-metadata-3](images/manage-metadata-3.png)
 
-There are 3 different categories of fields that you can add to Eolementhe.
+There are 3 different categories of fields that you can add to Eolementhe : 
+
 
 The `Label` fields allowing to add strings of characters. 
 
