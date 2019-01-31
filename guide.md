@@ -336,7 +336,6 @@ To finish updating our field, click on `Update label`;
 We can see that our field was modified. (In this example we have modified the placeholder). 
 
 ![manage-metadata-16](images/manage-metadata-16.png)
-
 </details>
 
 <details>
