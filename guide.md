@@ -27,9 +27,7 @@ Select some files to send on `Ingest block`.
   ![Ingest](images/workflow-ingest-files.png)
 
 Click on `Execute workflow`.
-
-  ![Execute](images/workflow-execute.png)
-  
+![workflow-execute](images/workflow-execute.png)
 
 </details>
 
@@ -49,6 +47,8 @@ Click on `Execute workflow`.
 - ***Live stream :*** upload file from live stream.
 - ***Twitter :*** upload file from twitter publication.
 - ***Dropbox :*** upload file from Dropbox account.
+- ***File system :*** upload file from your file system.
+- ***Xendata :*** upload file from XenData clustered server.
 
 **Delivery :** Deliver the generated files (and sources if option added) of the workflow. 
 
@@ -60,7 +60,8 @@ Click on `Execute workflow`.
 - ***Aspera connect :*** deliver file with Aspera protocol.
 - ***Twitter :***  deliver file on twitter account.
 - ***Dropbox :***  deliver file on dropbox account.
-
+- ***File system :*** deliver file from your file system.
+- ***Xendata :*** deliver file from XenData clustered server.
 
 **Quality control :** Generates a quality control report in accordance to the preset entered. 
 
@@ -77,12 +78,15 @@ Click on `Execute workflow`.
 - ***ffmpeg :*** Transcode file with ffmpeg.
 - ***Titan File :*** Transcode file with Titan File transcoder.
 - ***Cambria :*** Transcode file with Cambria FTC transcoder.
+- ***DVS Clipster :*** Transcode file with DVS Clipster transcoder.
+- ***Azure Media Services :*** Transcode file with Azure Media Services Cloud transcoder.
 
 
 **Loudness :** Generate or/and correct errors on audio tracks of the media file.
 
 - ***Minnetonka ATS :***  Check and fix loudness with Minnetonka Audio Tools Server.
-- ***ffmpeg :*** Check and fix loudness with ffmpeg.
+- ***Fix loudness :*** Fix loudness with ffmpeg.
+- ***Check loudness :*** Check loudness with ffmpeg.
 
 
 **Metadata :** Create or read metadata to a media in accordance to your template.
@@ -105,6 +109,7 @@ Click on `Execute workflow`.
 - ***Speech to text :*** Generate subtitles from the audio tracks of a media file with Autosub.
 - ***Speechmatics :*** Generate subtitles from the audio tracks of a media file with Speechmatics.
 - ***Video Indexer :*** Generate subtitles from the audio tracks of a media file with Video Indexer.
+- ***Empty subtitle :*** Generate .srt file empty. 
 
 **Antivirus :** Detect the presence of viruses in media files. 
 
@@ -178,7 +183,7 @@ Sharing a workflow means that the users with whom you have shared your workflow 
 
 Load an existing workflow and click on `Share`.
 
-![workflow-share](images/workflow-share.png)
+![workflow-share-btn](images/workflow-share-btn.png)
 
 In the pop-up you can add and choose the email of the user you want to share the workflow with.
 
@@ -199,7 +204,8 @@ You can also view all shared workflows of your account by following these steps.
 Click on your login at the top right of Eolementhe then
 click on  `Shared workflows`.
 
-![manage-shared-workflow](images/manage-shared-workflow.png)
+
+![workflow-preset-menu](images/workflow-preset-menu.png)
 
 A pop-up will display a page like this (if you have shared workflows) : 
 
@@ -226,7 +232,7 @@ You can suppress the link of share with a user by clicking on red cross icon. Th
 Click on your login at the top right of Eolementhe then
 click on  `Naming rule`.
 
-![dropdown-manage-naming-rule](images/dropdown-manage-naming-rule.png)
+![workflow-preset-menu-naming-rule](images/workflow-preset-menu-naming-rule.png)
 
 
 Here you can add naming rules with your custom template. Enter the name of your rule and then you can write the template of naming you want for your files.
@@ -246,6 +252,107 @@ So select your naming rule and this will be applied to all output files of the b
 
 </details>
 
+<details>
+  <summary><b>Good practices for collaborative workflow.</b></summary>
+
+If you want to create collaborative workflow, some good practices must be respected.
+
+The easiest way is to use the `Pause block`. At each pause all users in the email recipient list will have access to the file generated from the previous block. 
+
+Thus all users in recipient list will receive an email giving them access to the file generated from the previous block. In addition, they will see the workflow in the monitoring view and  will be allow to edit the file library . They will also be able to continue or stop the workflow in the monitoring view. 
+
+Let's take a simple example: 
+
+A user starts a translation workflow. However, several translators must access to the file in order to be able to modify it. We create the following workflow: 
+
+![workflow-share-recipient-email-4](images/workflow-share-recipient-email-4.png)
+
+Once the workflow is paused, users in the recipient email list will be notified by email. They will receive the link to connect to the `File library` and to check the result of the previous block (here a Speech to text block). In this example they will just have to modify the subtitles file `.srt`. Once the modification have been made, one of the user can simply  click on `Validate file and continue workflow`to make the workflow continue or click on `Stop workflow for this file` to abort the execution of the workflow (in `File library`on the file paused). 
+
+</details>
+
+<details>
+  <summary><b>How to notify someone?</b></summary>
+  
+
+You can notify the status of your workflow to other users with the recipient email feature. 
+
+Recipient email appears in `Pause` and `Delivery` block. 
+
+![workflow-recipient-email](images/workflow-recipient-email.png)
+
+The  recipient email allows users added to have the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
+
+Your own email address is automatically added in the recipient email list.
+
+ You can search all users on the platform and if the user doesn't exist you can add him by writing his email address in the search bar and pressing `Enter`.
+ You can also add more than one at a time. It is enough to separate the email addresses by `;`
+  You can suppress an existing email from list by clicking in the red trash button.
+
+
+</details>
+
+
+<details>
+  <summary><b>How to organize my file by folder?</b></summary>
+
+In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
+
+The `Destination folder` field of the Ingest block allows you to redirect all source files to the folder/subfolder you specify. 
+
+The `Destination folder` field of the Delivery block allows you to redirect all generated files to the folder/subfolder you specify. 
+
+If you leave the fields empty as below: 
+
+![workflow-explain-folder-tree-3](images/workflow-explain-folder-tree-3.png)
+
+All your sources and generated files will be sent to the root of your Eolementhe file server.
+
+![workflow-editor-ingest-delivery-destination-empty-result](images/workflow-editor-ingest-delivery-destination-empty-result.png)
+
+If you specify the field `Destination folder` you will be able to classify your files simply. 
+
+Example : 
+
+![workflow-explain-folder-tree-2](images/workflow-explain-folder-tree-2.png) 
+
+Here we redirect all the source files to the `origin` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is also in the `test` folder.
+
+Result in the `File Library`: 
+
+![workflow-editor-ingest-delivery-destination-complete-result](images/workflow-editor-ingest-delivery-destination-complete-result.png)
+
+</details>
+
+<details>
+  <summary><b>How to create FTP watchfolder?</b></summary>
+
+An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
+
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
+
+Click on `Add Server`
+
+![workflow-ftp-export](images/workflow-ftp-export.png)
+
+Fill in the data relating to your FTP server and click on `Submit`.
+
+![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
+
+Now click on your login at the top right of Eolementhe and click on `FTP Watch Folder`.
+
+![workflow-preset-menu-ft-watchfolder](images/workflow-preset-menu-ft-watchfolder.png)
+
+Select the FTP container you just entered before. Select the folder that will be watched. And click on `Submit`.
+
+![workflow-ftp-watch-folder-5](images/workflow-ftp-watch-folder-5.png)
+
+You will have this page which lists all your Watchfolder folders that you have entered. This is also where you can delete FTP watchfolder by clicking on the red icon.
+
+![workflow-ftp-watch-folder-6](images/workflow-ftp-watch-folder-6.png)
+
+</details>
+
 
 <details>
   <summary><b>How to manage metadata forms?</b></summary>
@@ -254,7 +361,7 @@ So select your naming rule and this will be applied to all output files of the b
 Click on your login at the top right of Eolementhe then
 click on  `Metadata forms`.
 
-![manage-metadata-form](images/manage-metadata-form.png)
+![workflow-preset-menu-metadata-form](images/workflow-preset-menu-metadata-form.png)
 
 A  pop-up appear `Metadata preparation`, this is where we will be able to manage the different metadata templates.
 
@@ -340,105 +447,30 @@ We can see that our field was modified. (In this example we have modified the pl
 ![manage-metadata-16](images/manage-metadata-16.png)
 </details>
 
-<details>
-  <summary><b>How to notify someone?</b></summary>
-  
-
-You can notify the status of your workflow to other users with the recipient email feature. 
-
-Recipient email appears in `Pause` and `Delivery` block. 
-
-![workflow-recipient-email](images/workflow-recipient-email.png)
-
-The  recipient email allows users added to have the same follow-up as the owner of the workflows (monitoring, notifications, email ...). 
-
-Your own email address is automatically added in the recipient email list.
-
- You can search all users on the platform and if the user doesn't exist you can add him by writing his email address in the search bar and pressing `Enter`.
- You can also add more than one at a time. It is enough to separate the email addresses by `;`
-  You can suppress an existing email from list by clicking in the red trash button.
-
-
-</details>
 
 <details>
-  <summary><b>Good practices for collaborative workflow.</b></summary>
+  <summary><b>How to manage burn preset?</b></summary>
 
-If you want to create collaborative workflow, some good practices must be respected.
+To manage the burn presets you can go through the burn block or through the preset menu :
 
-The easiest way is to use the `Pause block`. At each pause all users in the email recipient list will have access to the file generated from the previous block. 
+![workflow-preset-menu-burn](images/workflow-preset-menu-burn.png)
 
-Thus all users in recipient list will receive an email giving them access to the file generated from the previous block. In addition, they will see the workflow in the monitoring view and  will be allow to edit the file library . They will also be able to continue or stop the workflow in the monitoring view. 
+![workflow-burn-manage-oupen-wrokflow](images/workflow-burn-manage-oupen-wrokflow.png)
 
-Let's take a simple example: 
+A modal will open that will allow you to configure your burn as you wish : 
 
-A user starts a translation workflow. However, several translators must access to the file in order to be able to modify it. We create the following workflow: 
+![workflow-burn-manage-view](images/workflow-burn-manage-view.png)
 
-![workflow-collaborative-subtitle](images/workflow-collaborative-subtitle.png)
+Eolemente is based on the `.ass` standards so you can use the Ass File documentation or use the informations integrate directly in the modal. 
 
-Once the workflow is paused, users in the recipient email list will be notified by email. They will receive the link to connect to the `File library` and to check the result of the previous block (here a Speech to text block). In this example they will just have to modify the subtitles file `.srt`. Once the modification have been made, one of the user can simply  click on `Validate file and continue workflow`to make the workflow continue or click on `Stop workflow for this file` to abort the execution of the workflow (in `File library`on the file paused). 
+![workflow-burn-manage-info](images/workflow-burn-manage-info.png)
 
+
+In this modal you can add, modify or delete presets. Once your preset has been created, select your preset in the workflow: 
+
+![workflow-burn-preset-selcted](images/workflow-burn-preset-selcted.png)
 </details>
 
-<details>
-  <summary><b>How to organize my file by folder?</b></summary>
-
-In the `ingest` and `delivery` block you can see a `Destination folder` field that allows you to organize these files with folders.
-
-The `Destination folder` field of the Ingest block allows you to redirect all source files to the folder/subfolder you specify. 
-
-The `Destination folder` field of the Delivery block allows you to redirect all generated files to the folder/subfolder you specify. 
-
-If you leave the fields empty as below: 
-
-![workflow-editor-ingest-delivery-destination-empty](images/workflow-editor-ingest-delivery-destination-empty.png)
-
-All your sources and generated files will be sent to the root of your Eolementhe file server.
-
-![workflow-editor-ingest-delivery-destination-empty-result](images/workflow-editor-ingest-delivery-destination-empty-result.png)
-
-If you specify the field `Destination folder` you will be able to classify your files simply. 
-
-Example : 
-
-![workflow-editor-ingest-destination-complete](images/workflow-editor-ingest-destination-complete.png)
-
-Here we redirect all the source files to the `origin` folder, which is in the `test` folder. And we redirect all the generated files to the `loudness` folder which is also in the `test` folder.
-
-Result in the `File Library`: 
-
-![workflow-editor-ingest-delivery-destination-complete-result](images/workflow-editor-ingest-delivery-destination-complete-result.png)
-
-</details>
-
-<details>
-  <summary><b>How to create FTP watchfolder?</b></summary>
-
-An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
-
-At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
-
-Click on `Add Server`
-
-![workflow-ftp-watch-folder-2](images/workflow-ftp-watch-folder-2.png)
-
-Fill in the data relating to your FTP server and click on `Submit`.
-
-![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
-
-Now click on your login at the top right of Eolementhe and click on `FTP Watch Folder`.
-
-![workflow-ftp-watch-folder-1](images/workflow-ftp-watch-folder-1.png)
-
-Select the FTP container you just entered before. Select the folder that will be watched. And click on `Submit`.
-
-![workflow-ftp-watch-folder-5](images/workflow-ftp-watch-folder-5.png)
-
-You will have this page which lists all your Watchfolder folders that you have entered. This is also where you can delete FTP watchfolder by clicking on the red icon.
-
-![workflow-ftp-watch-folder-6](images/workflow-ftp-watch-folder-6.png)
-
-</details>
 
 <details>
   <summary><b>How to add Baton preset?</b></summary>
@@ -451,20 +483,57 @@ If your preset list is empty, add a test plan by clicking on  `Add a test plan`.
 
 A  pop-up appear, clicking again on `Add a test plan` and load your test plan. 
 
-![workflow-baton-add-preset-2](images/workflow-baton-add-preset-2.png)
+![workflow-upload-baton-test-plan](images/workflow-upload-baton-test-plan.png)
 
-When your test plan is added click on `upload` to load your test plan on your profile. 
-
-
-![workflow-baton-add-preset-3](images/workflow-baton-add-preset-3.png)
 
 Once uploaded your test plan will be displayed in the list like this (here we add test plan named `aaaaaa`). You can delete or download your test plan from here.
 
-![workflow-baton-add-preset-4](images/workflow-baton-add-preset-4.png)
+![workflow-upload-baton-test-plan-2](images/workflow-upload-baton-test-plan-2.png)
 
 Return to your workflow and select the added test plan. 
 
 ![workflow-baton-add-preset-5](images/workflow-baton-add-preset-5.png)
+
+</details>
+
+
+<details>
+  <summary><b>How to add Dropbox account?</b></summary>
+
+To add a new dropbox account you need to open the Dropbox management modal which is located in the block itself: 
+![workflow-dropbox-1](images/workflow-dropbox-1.png)
+
+Or in the preset menu : 
+
+![workflow-dropbox-2](images/workflow-dropbox-2.png)
+
+Click on `Connect new Dropbox account`.
+![workflow-dropbox-3](images/workflow-dropbox-3.png)
+
+Another browser page will open with dropbox, log in with the desired account :
+
+![workflow-dropbox-5](images/workflow-dropbox-5.png)
+
+Click on `Allow`for allow dropbox to access to the files and folders on your computer: 
+
+![workflow-dropbox-6](images/workflow-dropbox-6.png)
+
+You would then be redirected to this page :
+Click on `Go to home page`.
+
+![workflow-dropbox-7](images/workflow-dropbox-7.png)
+
+Now you can select your Dropbox account in your workflow. Click on `Choose from dropbow`for To access your dropbox files.
+
+![workflow-dropbox-8](images/workflow-dropbox-8.png)
+
+Dropbox will open a new browser window such as the one below for select your files. 
+
+![workflow-dropbox-9](images/workflow-dropbox-9.png)
+
+At any moment you can see, modify, create and delete dropbox account with preset modal see previously : 
+
+![workflow-dropbox-11](images/workflow-dropbox-11.png)
 
 </details>
 
@@ -478,19 +547,19 @@ If your preset list is empty, add a preset by clicking on  `Add Presets`.
 ![workflow-harmonic-add-preset-1](images/workflow-harmonic-add-preset-1.png)
 
 A  pop-up appear, clicking on `Add Workflow` for add your workflow preset. 
-![workflow-harmonic-add-preset-2](images/workflow-harmonic-add-preset-2.png)
 
-When your workflow preset is added click  on `upload` to load it.
-
-![workflow-harmonic-add-preset-3](images/workflow-harmonic-add-preset-3.png)
+![workflow-upload-harmonic-preset-1](images/workflow-upload-harmonic-preset-1.png)
 
 Now add all presets used by your preset workflow and click `upload` again to load your preset on your profile. 
 
-![workflow-harmonic-add-preset-4](images/workflow-harmonic-add-preset-4.png)
+![workflow-upload-harmonic-preset-2](images/workflow-upload-harmonic-preset-2.png)
+
+
+![workflow-upload-harmonic-preset-3](images/workflow-upload-harmonic-preset-3.png)
 
 Once uploaded your preset will be displayed in the list like this (here we add preset named `EOLE_2`). You can delete or download your test plan from here.
 
-![workflow-harmonic-add-preset-5](images/workflow-harmonic-add-preset-5.png)
+![workflow-upload-harmonic-preset-4](images/workflow-upload-harmonic-preset-4.png)
 
 Return to your workflow and select the added preset. 
 
@@ -503,7 +572,7 @@ Return to your workflow and select the added preset.
 
 Create a workflow with an IMF package block and with your `.mxf` files in Ingest as below.
 
-![workflow-imf-1](images/workflow-imf-1.png)
+![workflow-upload-imf](images/workflow-upload-imf.png)
 
 When your workflow is executed go to the `File library`. A folder with all these files building your IMF package is available.
 
@@ -596,32 +665,34 @@ Here is an exhaustive list of the different possible statuses.
 <details>
   <summary><b>Anatomie of workflow monitoring view.</b></summary>
 
+![workflow-example-analyse-workflow-view](images/workflow-example-analyse-workflow-view.png)
+
 In `My workflow` view you can unfold the details of your workflow by clicking on its name. 
 
-![workflow-monitoring-unfold-workflow](images/workflow-monitoring-unfold-workflow.png)
+![workflow-example-analyse-workflow-view-2](images/workflow-example-analyse-workflow-view-2.png)
 
 Then we will be able to see two sub-menus. The first the monitoring zone of the workflow and the second is the file zone.
 As in the first step, unfold the two submenus.
 
-![workflow-monitoring-view-zone](images/workflow-monitoring-view-zone.png)
+![workflow-example-analyse-workflow-view-3](images/workflow-example-analyse-workflow-view-3.png)
 
 Now you have the complete workflow monitoring view. You can have details of the progress of each tasks of your workflow executed. 
 
-![workflow-monitoring-complete-view](images/workflow-monitoring-complete-view.png)
+![workflow-example-analyse-workflow-view-4](images/workflow-example-analyse-workflow-view-4.png)
 
 The name of the workflow used in list had specific name format like : 
 Name of workflow - Start date of the workflow- Total size of all source and generated files.
 
-![workflow-monitoring-workflow-title](images/workflow-monitoring-workflow-title.png)
+![workflow-example-analyse-workflow-view-5](images/workflow-example-analyse-workflow-view-5.png)
 
 
 At top of the workflow zone we can see the title of file ingest. And the progress and status of each task in your workflow, with the task information and the files generated by each task. 
 
-![workflow-monitoring-workflow-zone](images/workflow-monitoring-workflow-zone.png)
+![workflow-example-analyse-workflow-view-6](images/workflow-example-analyse-workflow-view-6.png)
 
 The file zone  contains all the files in the workflow (sources files and generated files). It is also in this area that you will find all deletion informations for files of your workflow. 
 
-![workflow-monitoring-file-zone](images/workflow-monitoring-file-zone.png)
+![workflow-example-analyse-workflow-view-7](images/workflow-example-analyse-workflow-view-7.png)
 </details>
 
 
@@ -638,7 +709,7 @@ Click on `My files` button.
 
 In the file monitoring view you  have details of the progress of each task on the source file.
 
-![workflow-monitoring-file-file-zone](images/workflow-monitoring-file-file-zone.png)
+![workflow-example-analyse-workflow-view-8](images/workflow-example-analyse-workflow-view-8.png)
   
 In the file zone we can see the title of source file. And that show the progress and status of each task on your source file.
 </details>
@@ -888,6 +959,8 @@ Open file you want to rename and in opened window below the title of your file c
 
 This icon is also present in `My workflow` in the workflow monitoring view and in the file zone. 
 
+![workflow-example-analyse-workflow-view-9](images/workflow-example-analyse-workflow-view-9.png)
+
 </details>
 
 <details>
@@ -900,15 +973,19 @@ Click on `File Library` menu.
 
 Click on an `SRT` file.
 
-![library-view-structure-1](images/library-view-structure-1.png)
+![workflow-srt-file-view](images/workflow-srt-file-view.png)
 
 If your view library does not include timecode and other informations as above, you are in simplified view. You will just have to click on the button like below for complete view : 
 
-![library-view-subtitle](images/library-view-subtitle.png)
+![workflow-srt-file-view-btn-config](images/workflow-srt-file-view-btn-config.png)
+
+A modal will appear allowing to configure the subtitle editing view :
+
+![workflow-srt-file-full-view-modal](images/workflow-srt-file-full-view-modal.png)
 
 The current captions of subtitle is displayed as follows.
 
-![library-view-structure-2](images/library-view-structure-2.png)
+![workflow-srt-file-view-explain](images/workflow-srt-file-view-explain.png)
 
 If you click on the character limits a pop-up open allowing you to change the limits for all the file.
 
@@ -937,6 +1014,13 @@ You can add a caption by clicking on the icon surrounded in red below (the subti
 
 ![library-view-structure-8](images/library-view-structure-8.png)
 
+You can also merge two captions using the merge button.
+
+![workflow-srt-file-merge-btn](images/workflow-srt-file-merge-btn.png)
+
+
+![workflow-srt-file-merge-btn-example](images/workflow-srt-file-merge-btn-example.png)
+
 By clicking on icons bellow you could advance or reverse by 100 milliseconds all subtitles captions of your file. 
 
 ![library-view-structure-9](images/library-view-structure-9.png)
@@ -944,6 +1028,37 @@ By clicking on icons bellow you could advance or reverse by 100 milliseconds all
 When you have finished working on your subtitle, don't forget to save with the following button: 
 
 ![library-view-structure-10](images/library-view-structure-10.png)
+
+</details>
+
+<details>
+  <summary><b>How use search and replace?</b></summary>
+
+The search and replace feature only works on `.txt` files. It allows you to search for all occurrences corresponding to your search and then replace them with a single click : 
+
+Click on magnifying glass icon : 
+
+![workflow-search-and-replace](images/workflow-search-and-replace.png)
+
+The following interface appears :
+
+![workflow-search-and-replace-view](images/workflow-search-and-replace-view.png)
+
+You can now search for occurrences : 
+
+![workflow-search-and-replace-in-action](images/workflow-search-and-replace-in-action.png)
+
+You can configure the search with or without the case sensitive by clicking on button :
+
+![workflow-btn-case-sensitive](images/workflow-btn-case-sensitive.png)
+
+When your search is complete and you want to replace the occurrence by another one :
+
+ ![workflow-search-and-replace-in-action](images/workflow-search-and-replace-in-action.png)
+
+To validate the replacement click on : 
+
+![workflow-btn-replace](images/workflow-btn-replace.png)
 
 </details>
 
@@ -958,12 +1073,16 @@ Click on `File Library` menu.
   Click on an `SRT` file.
   
   Only subtitles with `.srt` extension will show the subtitle editing interface.
-
-  ![Subtitle editing](images/library-subtitle-editing.png)
+  
+![workflow-srt-file-view-basic-3](images/workflow-srt-file-view-basic-3.png)
 
 If your view library does not include timecode and other informations as above, you are in simplified view. You will just have to click on the button below for complete view : 
 
-![library-view-subtitle](images/library-view-subtitle.png)
+![workflow-srt-file-view-btn-config](images/workflow-srt-file-view-btn-config.png)
+
+A modal will appear allowing to configure the subtitle editing view :
+
+![workflow-srt-file-full-view-modal](images/workflow-srt-file-full-view-modal.png)
 </details>
 
 
@@ -978,7 +1097,7 @@ Click on `File Library` menu.
   Only subtitles with `.srt` extension will show the subtitle editing interface and side by side option.
 
 When you have opened your file click on the icon indicated by a red arrow below:
-![library-view-side-by-side-subtitlte](images/library-view-side-by-side-subtitlte.png)
+![workflow-srt-file-view-basic-4](images/workflow-srt-file-view-basic-4.png)
 
 A pop-up will appear listing all the `.srt` files that are present on Eolementhe. Choose which file to display in side by side by clicking on it : 
 
@@ -987,7 +1106,7 @@ A pop-up will appear listing all the `.srt` files that are present on Eolementhe
 
 Now you have your side-by-side view :
   
-![library-view-side-by-side-view](images/library-view-side-by-side-view.png)
+![workflow-srt-file-side-by-side-example](images/workflow-srt-file-side-by-side-example.png)
 
 To leave the side-by-side view, click on the fullscreen button at the top right of the `File library`: 
 
@@ -1033,15 +1152,15 @@ The advantage of the dashboard is that there are many filter to apply.
 
 You will have something like this: 
 
-![dashboard-complete-view](images/dashboard-complete-view.png)
+![workflow-dashboard-1](images/workflow-dashboard-1.png)
 
 The select at top allows you to add or remove rows from the table. In order to customize your dashboard. 
 
-![dashboard-select-filter](images/dashboard-select-filter.png)
+![workflow-dashboard-3](images/workflow-dashboard-3.png)
 
 Just below the first select, you can select your custom period : 
 
-![dashboard-period-select-filter](images/dashboard-period-select-filter.png)
+![workflow-dashboard-4](images/workflow-dashboard-4.png)
 
 You can also change the way the rows of your table are ordered by clicking on the icon next to the name of the column you want to order : 
 
@@ -1081,6 +1200,8 @@ The list of selected emails is displayed. You can export the report as a `PDF` o
 
 Below example of one schema of the activity report.
 
+![workflow-dashboard-5](images/workflow-dashboard-5.png)
+
 ![analytics-graphic](images/analytics-graphic.png)
 
 </details>
@@ -1111,7 +1232,8 @@ If you want more precise information, just hover the icon with your mouse cursor
   Click on your login at the top right of Eolementhe then
   click on `Enable 2FA`.
 
-![dropdown-manage-2FA](images/dropdown-manage-2FA.png)
+
+![workflow-preset-menu-2fa](images/workflow-preset-menu-2fa.png)
 
 After a pop-up will ask you: 
 
@@ -1131,13 +1253,21 @@ Code received on the email address of your Eolementhe account.
 
 Click on your login at the top right of Eolementhe and click on `API endpoint`.
 
-![manage-api-endpoint](images/manage-api-endpoint.png)
+![workflow-preset-menu-api-endpoint](images/workflow-preset-menu-api-endpoint.png)
 
 A pop-up will appear, fill the URL of your API that will be called when a workflow finished.
 
 ![manage-api-endpoint-empty](images/manage-api-endpoint-empty.png)
 
 ![manage-api-enbpoint-fill-form](images/manage-api-enbpoint-fill-form.png)
+
+After adding your first API endpoint. You can modify, add or delete endpoints in the modal. 
+
+
+![workflow-api-endpoint](images/workflow-api-endpoint.png)
+After adding some, on the delivery and pause block you can choose the endpoint API to use.
+
+![workflow-preset-api-endpoint-form](images/workflow-preset-api-endpoint-form.png)
 
 </details>
 
@@ -1150,11 +1280,11 @@ A pop-up will appear, fill the URL of your API that will be called when a workfl
 Click on your login at the top right of Eolementhe.
 If disabled click on `Activate notification`.
 
-![dropdown-manage-notification](images/dropdown-manage-notification.png)
+![workflow-preset-menu-activate-notification](images/workflow-preset-menu-activate-notification.png)
 
 If activated click on `Disable notification`.
 
-![dropdown-manage-notification-disab](images/dropdown-manage-notification-disab.png)
+![workflow-preset-menu-disable-notification](images/workflow-preset-menu-disable-notification.png)
 
 </details>
 
@@ -1166,7 +1296,7 @@ If activated click on `Disable notification`.
   Click on your login at the top right of Eolementhe then
   click on `Teams`.
 
-![dropdown-manage-team](images/dropdown-manage-team.png)
+![workflow-preset-menu-teams](images/workflow-preset-menu-teams.png)
 
 If a team exists it will be displayed like this.
 
