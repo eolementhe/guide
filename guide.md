@@ -535,7 +535,7 @@ You would then be redirected to this page. Click on `Go to home page`.
 
 ![workflow-dropbox-7](images/workflow-dropbox-7.png)
 
-Now you can select your Dropbox account in your workflow. Click on `Choose from dropbox` for To access your dropbox files.
+Now you can select your Dropbox account in your workflow. Click on `Choose from dropbox` for to access your dropbox files.
 
 
 ![workflow-dropbox-8](images/workflow-dropbox-8.png)
