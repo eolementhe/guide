@@ -449,7 +449,7 @@ We can see that our field was modified. (In this example we have modified the pl
 
 
 <details>
-  <summary><b>How to manage burn preset?</b></summary>
+  <summary><b>How to manage Burn preset?</b></summary>
 
 To manage the burn presets you can go through the burn block or through the preset menu :
 
@@ -500,7 +500,7 @@ Return to your workflow and select the added test plan.
 <details>
   <summary><b>How to add Dropbox account?</b></summary>
 
-To add a new dropbox account you need to open the Dropbox management modal which is located in the block itself: 
+To add a new dropbox account you need to open the `Dropbox` management modal which is located in the block itself: 
 
 
 ![workflow-dropbox-1](images/workflow-dropbox-1.png)
@@ -524,7 +524,7 @@ Another browser page will open with dropbox, log in with the desired account :
 ![workflow-dropbox-5](images/workflow-dropbox-5.png)
 
 
-Click on `Allow`for allow dropbox to access to the files and folders on your computer: 
+Click on `Allow` for allow dropbox to access to the files and folders of your computer: 
 
 
 ![workflow-dropbox-6](images/workflow-dropbox-6.png)
@@ -535,7 +535,7 @@ You would then be redirected to this page. Click on `Go to home page`.
 
 ![workflow-dropbox-7](images/workflow-dropbox-7.png)
 
-Now you can select your Dropbox account in your workflow. Click on `Choose from dropbow`for To access your dropbox files.
+Now you can select your Dropbox account in your workflow. Click on `Choose from dropbox` for To access your dropbox files.
 
 
 ![workflow-dropbox-8](images/workflow-dropbox-8.png)
@@ -1054,7 +1054,7 @@ When you have finished working on your subtitle, don't forget to save with the f
 
 The search and replace feature only works on `.txt` files. It allows you to search for all occurrences corresponding to your search and then replace them with a single click : 
 
-Click on magnifying glass icon : 
+Click on search icon : 
 
 ![workflow-search-and-replace](images/workflow-search-and-replace.png)
 
