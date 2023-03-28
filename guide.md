@@ -355,6 +355,21 @@ You will have this page which lists all your Watchfolder folders that you have e
 
 
 <details>
+  <summary><b>How to create a watchfolder ?</b></summary>
+
+This option is only avaliable for `standalone version`.
+A filesystem WatchFolder allows you to specify a folder on an external share file or NAS. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
+
+First, if it is a new storage folder, you need to map this NAS on Eolementhe server by `mouting it` on /var/ingest. On linux server, check how mount NAS (fstab configuration). This mount need to be preserved on your docker configuration.
+  
+After it, you need to go to Administration Tab > Resources > Watchfolder. Here you need to specify the `local path` on the watchfolder and `shared path` (shared path will send to others integrations. After configuration is done, you need to activate the wathfolder in your user profil > Watchfolder.
+  
+Select the `base folder`, `subfolder` if necessary and the `workflow` to launch automatically
+  
+</details>
+
+
+<details>
   <summary><b>How to manage metadata forms?</b></summary>
   
 
