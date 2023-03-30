@@ -360,11 +360,38 @@ You will have this page which lists all your Watchfolder folders that you have e
 This option is only avaliable for `standalone version`.
 A filesystem WatchFolder allows you to specify a folder on an external share file or NAS. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
 
-First, if it is a new storage folder, you need to map this NAS on Eolementhe server by `mouting it` on /var/ingest. On linux server, check how mount NAS (fstab configuration). This mount need to be preserved on your docker configuration.
+`Prerequisite`
+First, if it is a `new storage folderv, you need to `map` this NAS on Eolementhe server by `mouting it` on /var/ingest. On linux server, check `how mount NAS` (fstab configuration). This mount need to be preserved on your docker configuration.
   
-After it, you need to go to Administration Tab > Resources > Watchfolder. Here you need to specify the `local path` on the watchfolder and `shared path` (shared path will send to others integrations. After configuration is done, you need to activate the wathfolder in your user profil > Watchfolder.
+After it, you need to go to Administration Tab :
+    
+![workflow-watchfolder-2](images/workflow-watchfolder-2.png)
   
-Select the `base folder`, `subfolder` if necessary and the `workflow` to launch automatically
+Now click on `Resources` and find `Watchfolder`.
+
+Here you need to specify the `local path` on the watchfolder and `shared path` (shared path will send to others integrations AND mapped on it).
+  
+![workflow-watchfolder-1](images/workflow-watchfolder-1.png)
+  
+After configuration is done, you need to activate the wathfolder. Go in your `user profil` and select `Watchfolder`.
+  
+  ![workflow-watchfolder-3](images/workflow-watchfolder-3.png)
+  
+Select the `base folder`, `subfolder` if necessary (or / if empty) and the `workflow` to launch automatically.
+    
+  ![workflow-watchfolder-4](images/workflow-watchfolder-4.png)
+  
+Now, new files are automatically taken and send to the specified workflow .
+  
+    ![workflow-watchfolder-6](images/workflow-watchfolder-6.png)
+  
+If you want remove source file after the end on the workflow, you need to select `purge after delivery` in the workflow.
+  
+  ![workflow-watchfolder-7](images/workflow-watchfolder-7.png)
+  
+Also, You can see your `active watchfolder` and you can manage it in the `watchfolder tab`. For remove it, click on the `red cross`
+ 
+    ![workflow-watchfolder-5](images/workflow-watchfolder-5.png)
   
 </details>
 
