@@ -1353,12 +1353,15 @@ If activated click on `Disable notification`.
   <summary><b>How to manage my team?</b></summary>
 
 You can see your `actual team` in the top right.
+  
 ![user-team-1](images/user-team-1.png) 
   
 Click on your login at the top right of Eolementhe then you can change your `workscope`.
+  
 ![user-team-2](images/user-team-2.png) 
 
 For manage your team, click on `Users Manager`.
+  
 ![workflow-preset-menu-teams](images/workflow-preset-menu-teams.png)
 
 If a team exists it will be displayed like this.
@@ -1366,6 +1369,7 @@ If a team exists it will be displayed like this.
 ![team-view](images/team-view.png)
 
 After that, just click on it to get all the information (if you are a simple user you can only see your team manager. Only manager can see all users of a team and edit it).
+  
 ![team-complete-view](images/team-complete-view.png)
 
 </details>
