@@ -1,3 +1,3 @@
 ### Subtitling Guide
 
-Test Vidéomenthe Antoine :) 
+Test Videomenthe Antoine :) 
