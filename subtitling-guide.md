@@ -1,6 +1,6 @@
 ![french](images/french.jpg) 
 
-Ce guide n'est actuellement disponible qu'en francais.
+Ce guide n'est actuellement disponible qu'en francais.f
 
 ### Bonnes pratiques à respecter pour l’édition de sous-titres FR :
 
