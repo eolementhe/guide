@@ -6,9 +6,9 @@ Ce guide n'est actuellement disponible qu'en francais.
 
 <details>
   <summary><b>Principales Guidelines.</b></summary>
-  
+
 Cette liste est amenée à évoluer réguilérement.
-  
+
 - Le nombre de caractères par ligne doit être inférieur ou égal à 37 si présence de control code (ex : italique,…). Sinon 40, espaces inclus. Respecter les seuils précisés par Videomenthe, par projet.
 - Utilisation des majuscules et minuscules.
 - 2 lignes maximum.
@@ -37,7 +37,8 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - Utiliser les guillemets anglais : "", sans espace (suivant le client).
 - Dans la mesure où la lecture est trop longue ou césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
 - Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image.
-- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO.
+- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO. 
+
 </details>
 
 <details>
