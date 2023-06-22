@@ -7,6 +7,7 @@ Ce guide n'est actuellement disponible qu'en francais.
 <details>
   <summary><b>Principales Guidelines.</b></summary>
 Cette liste est amenée à évoluer réguilérement.
+  
 - Le nombre de caractères par ligne doit être inférieur ou égal à 37 si présence de control code (ex : italique,…). Sinon 40, espaces inclus. Respecter les seuils précisés par Videomenthe, par projet.
 - Utilisation des majuscules et minuscules.
 - 2 lignes maximum.
