@@ -105,7 +105,7 @@ Métadonnées obligatoires dans le fichier d'en-tête STL :
 <details>
   <summary><b>Guidelines supplémentaires SME.</b></summary>
 Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respecter ces règles : 
-  
+
 - Respecter l'image : ne couvrez pas le texte incrusté ou les zones importantes de l'image.
 - Utiliser toujours des tirets (-) pour indiquer que le locuteur a changé. Pas d’espace après.
 - Placer les sous-titres le plus proche de la source sonore.
@@ -137,7 +137,7 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 
 <details>
   <summary><b>Positionnement des sous titres.</b></summary>
-  
+
 - Positionner les sous-titres de manière à permettre aux téléspectateurs de situer l'orateur. 
 - Placer les sous-titres sous l'orateur et gardez la 1ère ligne plus courte que les autres si possible.
 - Lorsque l'orateur est en arrière-plan entouré d'autres personnes, placez les sous-titres au-dessus de lui.
