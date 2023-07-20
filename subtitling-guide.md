@@ -30,15 +30,18 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - Voix off
   - Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
   - Echange au téléphone (uniquement la personne hors champ)
-- Le titre traduit sera communiqué par le client. 
+  - Si tout le fichier est en voix off > pas d'italique.
+- Le titre traduit sera communiqué par le client si le titre à une traduction (sinon ne pas le traduire).
 - Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
 - Divers types de textes incrustés peuvent nécessiter un sous-titrage et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
 - Placer le nom du fournisseur (Videomenthe) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture. 
 - Utiliser les guillemets anglais : "", sans espace (suivant le client).
 - Dans la mesure où la lecture est trop longue ou césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
 - Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image.
-- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO. 
-
+- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO.
+- Le choix des mots est à la charge du traducteur
+- Garder les valeurs de mesure de la VO.
+- Rajouter des lignes vide sur les captions qui n'ont qu'une ligne (mettre la ligne le plus au bord de l'écran) 
 </details>
 
 <details>
