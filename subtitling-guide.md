@@ -39,7 +39,11 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - Dans la mesure où la lecture est trop longue ou césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
 - Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image.
 - Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO.
-- Le choix des mots est à la charge du traducteur
+- Le choix des mots est à la charge du traducteur.
+- Les sous-titres doivent être synchronisés avec le son.
+- Faire attention à la césure, essayer de ne pas couper les phrases (si possible).
+- Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
+- Ne pas hésiter à créer des nouvelles captions pour que les captions ne soient pas surchargées.
 - Garder les valeurs de mesure de la VO.
 - Rajouter des lignes vide sur les captions qui n'ont qu'une ligne (mettre la ligne le plus au bord de l'écran) 
 </details>
