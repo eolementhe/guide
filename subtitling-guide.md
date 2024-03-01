@@ -177,4 +177,15 @@ Lorsque la même personne reprend la parole après une période de silence, ou a
 - EBU Tech Doc 3264 
 
 </details>
-  
+  ### Directives pour le sous-titrage à destination du CANADA :
+
+<details>
+  <summary><b>Guidelines CANADA.</b></summary>
+Le sous-titrage à destination du canada doit respecter ces règles : 
+
+- Le nombre de caractères par ligne doit être inférieure ou égale à 32.
+- Le temps d’affichage d’une caption doit être compris entre 2 et 5 sec.
+- Utiliser l’italique pour ces situations : Langue étrangère, voix hors champs, pensées d’un personnage, titre d’une œuvre.
+- La traduction doit être fidéle à l'audio, il ne faut pas reformuler les phrases.
+
+</details>
