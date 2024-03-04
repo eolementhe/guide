@@ -178,6 +178,9 @@ Lorsque la même personne reprend la parole après une période de silence, ou a
 
 </details>
 
+
+![canada](images/canada.png) 
+
   ### Directives pour le sous-titrage à destination du CANADA :
 
 <details>
