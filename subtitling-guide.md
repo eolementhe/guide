@@ -156,7 +156,7 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 <details>
   <summary><b>Composition des captions.</b></summary>
 
-- ***Blanc*** lorsque le locuteur est visible (même partiellement) à l'écran. 
+- ***Silence*** : Si le silence dépasse 20 secondes, placez 3 points blancs (sans espace), justifiés à gauche pendant toute la durée de cette séquence.
 - ***Jaune*** lorsque le locuteur n’est pas visible (hors champ) ou pour les voix off.
 - ***Rouge*** indique des effets sonores. 
 Un astérisque (*) est utilisé pour tous les sons provenant de : haut-parleur, radio, télévision, téléphone… 
