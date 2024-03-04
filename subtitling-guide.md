@@ -181,10 +181,10 @@ Lorsque la même personne reprend la parole après une période de silence, ou a
 
 ![canada](images/canada.png) 
 
-  ### Directives pour le sous-titrage à destination du CANADA :
+  ### Directives pour le sous-titrage à destination du CANADA francophone:
 
 <details>
-  <summary><b>Guidelines CANADA.</b></summary>
+  <summary><b>Guidelines CANADA Francophone.</b></summary>
 Le sous-titrage à destination du canada doit respecter ces règles : 
 
 - Le nombre de caractères par ligne doit être inférieure ou égale à 32.
