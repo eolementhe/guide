@@ -187,9 +187,10 @@ Lorsque la même personne reprend la parole après une période de silence, ou a
   <summary><b>Guidelines CANADA Francophone.</b></summary>
 Le sous-titrage à destination du canada doit respecter ces règles : 
 
-- Le nombre de caractères par ligne doit être inférieure ou égale à 32.
+- Le nombre de caractères par ligne doit être inférieur ou égale à 32.
 - Le temps d’affichage d’une caption doit être compris entre 2 et 5 sec.
 - Utiliser l’italique pour ces situations : Langue étrangère, voix hors champs, pensées d’un personnage, titre d’une œuvre.
 - La traduction doit être fidéle à l'audio, il ne faut pas reformuler les phrases.
+- Remarque : en Canadien, il n'y a pas d'espace avant certaines ponctuation (?!: ....)
 
 </details>
