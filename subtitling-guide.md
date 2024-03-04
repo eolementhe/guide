@@ -4,7 +4,12 @@ Ce guide n'est actuellement disponible qu'en francais.
 
 ### Bonnes pratiques à respecter pour l’édition de sous-titres FR :
 
+<details>
+  <summary><b>Principales Guidelines.</b></summary>
 
+Cette liste est amenée à évoluer réguilérement.
+
+</details>
 
 <details>
   <summary><b>Caractères autorisés.</b></summary>
