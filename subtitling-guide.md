@@ -156,6 +156,18 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 <details>
   <summary><b>Composition des captions.</b></summary>
 
+- ***Blanc*** lorsque le locuteur est visible (même partiellement) à l'écran.
+- ***Jaune*** lorsque le locuteur n’est pas visible (hors champ) ou pour les voix off.
+- ***Rouge*** indique des effets sonores. 
+Un astérisque (*) est utilisé pour tous les sons provenant de : haut-parleur, radio, télévision, téléphone… 
+L’astérisque sera de la couleur du sous-titre. Il n’y a pas d’espace avant le sous-titre. 
+- ***Vert*** indique une langue étrangère (par exemple "dialecte indien…").
+Ne traduisez pas cette langue et ne la transcrivez que si les mots étrangers sont très bien connus.
+- ***Cyan*** indique des pensées non dites ou des flashbacks (les téléspectateurs entendent les pensées du
+personnage mais sa bouche ne bouge pas).
+Le cyan est utilisé pour les séquences de narration dans les documentaires et reportages. 
+- ***Magenta*** est utilisé pour les indications musicales et les paroles d'une chanson.
+
 </details>
 
 <details>
