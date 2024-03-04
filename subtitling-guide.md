@@ -4,49 +4,7 @@ Ce guide n'est actuellement disponible qu'en francais.
 
 ### Bonnes pratiques à respecter pour l’édition de sous-titres FR :
 
-<details>
-  <summary><b>Principales Guidelines.</b></summary>
 
-Cette liste est amenée à évoluer réguilérement.
-
-- Le nombre de caractères par ligne doit être inférieur ou égal à 37 si présence de control code (ex : italique,…). Sinon 40, espaces inclus. Respecter les seuils précisés par Videomenthe, par projet.
-- Utilisation des majuscules et minuscules.
-- 2 lignes maximum.
-- Ne pas utiliser les espaces pour positionner le texte, seulement la justification.
-- Ne pas placer de sous-titres dans les 10 premières images utiles d'un programme (400 premières ms).
-- Durée minimale : 15 images (600ms) / maximale : 30 secondes, selon la taille des sous-titres.
-- Laisser au moins 4 images (160ms) entre deux sous-titres.
-- Boucler une fin de phrase par un point final, un point d’exclamation, d’interrogation ou trois petits points.
-- Utilisation du tiret (ajouter un espace entre le – et le premier caractère) lors de dialogues notamment
-- Supprimer le dernier sous-titre, au plus tard, 1 seconde avant la fin du programme.
-- Les sous-titres ne doivent pas se chevaucher.
-- Ne jamais placer de sous-titre sur le programme Copyright.
-- Ne pas inclure de texte du programme dans le fichier de sous-titres. Ne pas remplir de champ
-supplémentaire ou ne pas créer de sous-titres de durée nulle.
-- Respecter le sens du discours et règles d’orthographes, grammaire et conjugaison de la langue française.
-- (OPTIONNEL - SME) Plages de silence : "..." (trois points blancs) calés à gauche si le silence dure plus de 20 secondes
-- En cas de mots grossiers, les remplacer par des *** si ils sont censurées (« bip »), sinon les transcrire.
-- L’italique doit être utilisé dans les cas suivants :
-- Voix off
-  - Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
-  - Echange au téléphone (uniquement la personne hors champ)
-  - Si tout le fichier est en voix off > pas d'italique.
-- Le titre traduit sera communiqué par le client si le titre à une traduction (sinon ne pas le traduire).
-- Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
-- Divers types de textes incrustés peuvent nécessiter un sous-titrage et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
-- Placer le nom du fournisseur (Videomenthe) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture. 
-- Utiliser les guillemets anglais : "", sans espace (suivant le client).
-- Dans la mesure où la lecture est trop longue ou césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
-- Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image.
-- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO.
-- Le choix des mots est à la charge du traducteur.
-- Les sous-titres doivent être synchronisés avec le son.
-- Faire attention à la césure, essayer de ne pas couper les phrases (si possible).
-- Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
-- Ne pas hésiter à créer des nouvelles captions pour que les captions ne soient pas surchargées.
-- Garder les valeurs de mesure de la VO.
-- Rajouter des lignes vide sur les captions qui n'ont qu'une ligne (mettre la ligne le plus au bord de l'écran) 
-</details>
 
 <details>
   <summary><b>Caractères autorisés.</b></summary>
