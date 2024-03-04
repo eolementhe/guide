@@ -155,17 +155,6 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 
 <details>
   <summary><b>Composition des captions.</b></summary>
-  
-- ***Silence*** : Si le silence dépasse 20 secondes, placez 3 points blancs (sans espace), justifiés à gauche pendant toute la durée de cette séquence.
-- ***Phrases*** : Lorsque les phrases s'étendent sur plus d'une ligne de caption, ajoutez 2 points (..) à la fin d'une ligne et au début de la suivante (sans espace entre les deux). 
-- ***Autre ponctuation*** : Lorsque des indications concernant la musique ou d'autres effets sonores forment des phrases complètes, ponctuez-les comme telles. 
-Par exemple : Téléphone ou Le téléphone sonne. 
-- ***Dialogue*** :Utiliser une ligne à simple interligne pour séparer deux lignes de légende à double hauteur.
-Placez un tiret sans espace entre les deux lorsque le haut-parleur change. 
-Lorsque la même personne reprend la parole après une période de silence, ou après de la musique ou d'autres effets sonores, n'utilisez plus le tiret.
-- ***Début du programme*** : Tous les programmes commencent par 3 points (sans espace) justifiés à gauche pendant toute la durée du générique d'ouverture, afin que le téléspectateur sache que le sous-titrage du télétexte fonctionne correctement. 
-- ***Fin de programme*** : Indiquez la fin des sous-titres du programme avec la signature (traducteur et fournisseur) lors du générique de clôture. 
-- ***Niveau de langue*** : Transcrire le texte dans son intégralité (pas d'abrégé ni de simplification).
 
 </details>
 
