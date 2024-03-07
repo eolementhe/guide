@@ -124,6 +124,14 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 - Utiliser des parenthèses pour les chuchotements ou les conversations privées.
 - Utiliser des majuscules lorsque plusieurs personnes récitent le même texte (et utiliser des minuscules pour tout le reste, sauf pour des abréviations, des acronymes spécifiques).
 - Décomposer les phrases de manière intelligible. Lorsqu'une phrase s'étend sur plus d'une caption, décomposez-la à l’endroit approprié pour éviter tout contresens.
+- La durée du  sous-titre doit être d'au moins 15 images pour une bonne lecture et compréhension.
+-	Les caractères spéciaux sur majuscules ne sont pas autorisés: pas de 'E' avec accent, de 'C' avec cédille, etc...
+-	Si une phrase se lit sur deux sous-titres consécutifs, l'écart enter ces derniers doit être de 4 images.
+- Si une musique est citée puis elle continue sur un autre plan,  il faut noter trois petits points en majenta.
+-	Si un bruit est décrit, puis il continue sur un autre plan, il faut noter trois petits points en rouge.
+-	Le bruitage doit être décrit uniquement s'il n'est pas visible dans l'image.
+-	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
+
 
 </details>
 
