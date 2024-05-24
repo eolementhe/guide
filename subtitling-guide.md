@@ -108,7 +108,7 @@ Métadonnées obligatoires dans le fichier d'en-tête STL :
 </details>
 
 
-![SME](images/SME.png) 
+![SME](images/SME_.png) 
 
 ### Directives supplémentaires pour le sous-titrage à destination des sourds et les malentendants SME :
 
