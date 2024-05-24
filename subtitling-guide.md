@@ -45,7 +45,6 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
 - Ne pas hésiter à créer des nouvelles captions pour que les captions ne soient pas surchargées.
 - Garder les valeurs de mesure de la VO.
-- Rajouter des lignes vide sur les captions qui n'ont qu'une ligne (mettre la ligne le plus au bord de l'écran)
   
 </details>
 
