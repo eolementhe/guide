@@ -27,7 +27,7 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - (OPTIONNEL - SME) Plages de silence : "..." (trois points blancs) calés à gauche si le silence dure plus de 20 secondes
 - En cas de mots grossiers, les remplacer par des *** si ils sont censurées (« bip »), sinon les transcrire.
 - L’italique doit être utilisé dans les cas suivants :
-- Voix off
+    * Voix off
     * Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
     * Echange au téléphone (uniquement la personne hors champ)
     * Si tout le fichier est en voix off > pas d'italique.
