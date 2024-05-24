@@ -2,7 +2,7 @@
 
 Ce guide n'est actuellement disponible qu'en francais.
 
-### Bonnes pratiques à respecter pour l’édition de sous-titres FR :
+### Bonnes pratiques à respecter pour l’édition de sous-titres FR et par defaut :
 
 <details>
   <summary><b>Principales Guidelines.</b></summary>
