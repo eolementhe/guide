@@ -28,9 +28,9 @@ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - En cas de mots grossiers, les remplacer par des *** si ils sont censurées (« bip »), sinon les transcrire.
 - L’italique doit être utilisé dans les cas suivants :
 - Voix off
-  - Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
-  - Echange au téléphone (uniquement la personne hors champ)
-  - Si tout le fichier est en voix off > pas d'italique.
+    * Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
+    * Echange au téléphone (uniquement la personne hors champ)
+    * Si tout le fichier est en voix off > pas d'italique.
 - Le titre traduit sera communiqué par le client si le titre à une traduction (sinon ne pas le traduire).
 - Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
 - Divers types de textes incrustés peuvent nécessiter un sous-titrage et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
