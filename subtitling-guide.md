@@ -207,7 +207,7 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 </details>
 
 
-![how](https://github.com/eolementhe/guide/assets/7905418/3be881c5-058b-40a6-be42-8016ddb48fc3)
+![how](images/how.jpg)
 
   ### Procédure modification caption:
 
@@ -217,11 +217,11 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 Afin de modifier le style du texte d'une caption, il suffit de :
 
 - Cliquer sur ***Paramétres*** puis ***Afficher le bouton SME*** : \
-![bouton_sme](https://github.com/eolementhe/guide/assets/7905418/99ff7dbf-3e83-4f1f-8d25-c94805a1f81c)
+![bouton_sme](images/bouton_sme.jpg)
 - Un nouvel icone apparait a coté de chaque caption : \
-![sme_icon](https://github.com/eolementhe/guide/assets/7905418/d4d445c2-f5e0-427a-909f-f842b6794fb3)
+![sme_icon](images/sme_icon.jpg)
 - Un clique sur cet icone permet d'afficher le pannel SME pour modifier individuellement chaque caption :\
-![sme_panel](https://github.com/eolementhe/guide/assets/7905418/1052d9cf-3f7f-48f1-b78b-4e9c0ae0d569)
+![sme_panel](images/sme_panel.jpg)
 
 </details>
 
