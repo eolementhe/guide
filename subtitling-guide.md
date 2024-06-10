@@ -2,6 +2,7 @@
 
 Ce guide n'est actuellement disponible qu'en francais.
 
+![cc](images/cc.jpg) 
 ### Bonnes pratiques à respecter pour l’édition de sous-titres FR et par defaut :
 
 <details>
@@ -107,7 +108,6 @@ Métadonnées obligatoires dans le fichier d'en-tête STL :
 
 </details>
 
-
 ![SME](images/SME_.png) 
 
 ### Directives supplémentaires pour le sous-titrage à destination des sourds et les malentendants SME :
@@ -205,3 +205,23 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 - Remarque : en Canadien, il n'y a pas d'espace avant certaines ponctuation (?!: ....)
 
 </details>
+
+
+![how](https://github.com/eolementhe/guide/assets/7905418/3be881c5-058b-40a6-be42-8016ddb48fc3)
+
+  ### Procédure modification caption:
+
+<details>
+  <summary><b>Comment modifier le style du texte d'une caption?</b></summary>
+  
+Afin de modifier le style du texte d'une caption, il suffit :
+
+- Cliquer sur ***Paramétres*** puis ***Afficher le bouton SME*** : \
+![bouton_sme](https://github.com/eolementhe/guide/assets/7905418/99ff7dbf-3e83-4f1f-8d25-c94805a1f81c)
+- Un nouvel icone apparait a coté de chaque caption : \
+![sme_icon](https://github.com/eolementhe/guide/assets/7905418/d4d445c2-f5e0-427a-909f-f842b6794fb3)
+- Un clique sur cet icone permet d'afficher le pannel SME pour modifier individuellement chaque caption :\
+![sme_panel](https://github.com/eolementhe/guide/assets/7905418/1052d9cf-3f7f-48f1-b78b-4e9c0ae0d569)
+
+</details>
+
