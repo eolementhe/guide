@@ -214,7 +214,7 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 <details>
   <summary><b>Comment modifier le style du texte d'une caption?</b></summary>
   
-Afin de modifier le style du texte d'une caption, il suffit :
+Afin de modifier le style du texte d'une caption, il suffit de :
 
 - Cliquer sur ***Paramétres*** puis ***Afficher le bouton SME*** : \
 ![bouton_sme](https://github.com/eolementhe/guide/assets/7905418/99ff7dbf-3e83-4f1f-8d25-c94805a1f81c)
