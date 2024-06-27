@@ -59,7 +59,7 @@ Cette liste est amenée à évoluer régulièrement.
 - Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
 
 *Crédits*
-- Placer le nom du fournisseur et du traducteur (Sous-titrage : Videomenthe – nom du traducteur) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture, sauf s'il s'agit d'un SME (si SME, le nom du traducteur n'est pas requis car pas d'adaptation).
+- Placer le nom du fournisseur et du traducteur (Sous-titrage : Videomenthe – nom du traducteur) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture, sauf s'il s'agit d'un SME (si SME, le nom du traducteur n'est pas requis car pas d'adaptation, uniquement afficher : Sous-titrage : Videomenthe).
 
   
 </details>
@@ -146,7 +146,8 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 -	Si un bruit est décrit, puis continue sur un autre plan, il faut noter trois petits points en rouge.
 -	Le bruitage doit être décrit uniquement s'il n'est pas visible à l'image.
 -	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
-- Dans le cas d'un SME, le nom du traducteur n'est pas requis dans les crédit car il n'y a pas d'adaptation.
+-	Privilégier la compréhension globale du sous-titre plutot que la syncronisation.
+- Dans le cas d'un SME, affichier uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
 
 </details>
 
