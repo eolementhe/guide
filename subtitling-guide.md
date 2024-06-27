@@ -3,49 +3,64 @@
 Ce guide n'est actuellement disponible qu'en francais.
 
 ![cc](images/cc.jpg) 
-### Bonnes pratiques à respecter pour l’édition de sous-titres FR et par defaut :
+### Bonnes pratiques à respecter pour l’édition de sous-titres FR et par défaut :
 
 <details>
   <summary><b>Principales Guidelines.</b></summary>
 
-Cette liste est amenée à évoluer réguilérement.
+Cette liste est amenée à évoluer régulièrement.
 
-- Le nombre de caractères par ligne doit être inférieur ou égal à 37 si présence de control code (ex : italique,…). Sinon 40, espaces inclus. Respecter les seuils précisés par Videomenthe, par projet.
-- Utilisation des majuscules et minuscules.
-- 2 lignes maximum.
-- Ne pas utiliser les espaces pour positionner le texte, seulement la justification.
+*Composition des sous-titres*
+- 2 lignes maximum
+- Nombre de caractères par ligne :  
+    * 40, espaces inclus
+    * inférieur ou égal à 37 si présence de control code (ex : italique,…) 
+    * ces indications peuvent être modifiées par projet : dans ce cas, respecter les seuils précisés par Videomenthe
+- Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
+
+*Durée*
 - Ne pas placer de sous-titres dans les 10 premières images utiles d'un programme (400 premières ms).
 - Durée minimale : 15 images (600ms) / maximale : 30 secondes, selon la taille des sous-titres.
 - Laisser au moins 4 images (160ms) entre deux sous-titres.
+- Supprimer le dernier sous-titre, au plus tard, 1 seconde avant la fin du programme. Ne jamais placer de sous-titre sur le programme Copyright.
+- Les sous-titres doivent être synchronisés avec le son.
+
+*Mise en forme / ponctuation*
+- Utilisation des majuscules et minuscules.
+- Les sous-titres ne doivent pas se chevaucher.
 - Boucler une fin de phrase par un point final, un point d’exclamation, d’interrogation ou trois petits points.
 - Utilisation du tiret (ajouter un espace entre le – et le premier caractère) lors de dialogues notamment
-- Supprimer le dernier sous-titre, au plus tard, 1 seconde avant la fin du programme.
-- Les sous-titres ne doivent pas se chevaucher.
-- Ne jamais placer de sous-titre sur le programme Copyright.
-- Ne pas inclure de texte du programme dans le fichier de sous-titres. Ne pas remplir de champ
-supplémentaire ou ne pas créer de sous-titres de durée nulle.
-- Respecter le sens du discours et règles d’orthographes, grammaire et conjugaison de la langue française.
-- (OPTIONNEL - SME) Plages de silence : "..." (trois points blancs) calés à gauche si le silence dure plus de 20 secondes
-- En cas de mots grossiers, les remplacer par des *** si ils sont censurées (« bip »), sinon les transcrire.
 - L’italique doit être utilisé dans les cas suivants :
     * Voix off
-    * Personne qui parle complétement hors champ aussi (si hors champ puis dans le champ > pas d'italique)
+    * Personne qui parle complétement hors champ (si hors champ puis dans le champ > pas d'italique)
     * Echange au téléphone (uniquement la personne hors champ)
     * Si tout le fichier est en voix off > pas d'italique.
-- Le titre traduit sera communiqué par le client si le titre à une traduction (sinon ne pas le traduire).
-- Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
-- Divers types de textes incrustés peuvent nécessiter un sous-titrage et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
-- Placer le nom du fournisseur (Videomenthe) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture. 
-- Utiliser les guillemets anglais : "", sans espace (suivant le client).
-- Dans la mesure où la lecture est trop longue ou césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
-- Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image.
-- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO.
-- Le choix des mots est à la charge du traducteur.
-- Les sous-titres doivent être synchronisés avec le son.
+- Ne pas utiliser les espaces pour positionner le texte, seulement la justification.
+- Ne pas inclure de texte du programme dans le fichier de sous-titres. Ne pas remplir de champ supplémentaire ou ne pas créer de sous-titres de durée nulle.
+- Ne pas ajouter d'espace entre le - et la première lettre.
+- Préconiser la forme pyramidale si une ligne est plus longue que l'autre dans un sous-titre en deux lignes. 
+
+*Règles de fond*
+- Respecter le sens du discours et règles d’orthographes, grammaire et conjugaison de la langue française.
 - Faire attention à la césure, essayer de ne pas couper les phrases (si possible).
-- Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
+- Dans la mesure où la lecture est trop longue ou la césure mal placée, ne pas hésiter à adapter la traduction du discours. Mieux vaut adapter que d'avoir un sous-titre trop long ou une césure disgracieuse.
 - Ne pas hésiter à créer des nouvelles captions pour que les captions ne soient pas surchargées.
-- Garder les valeurs de mesure de la VO.
+- Le choix des mots est à la charge du traducteur.
+- En cas de mots grossiers, les remplacer par des *** s’ils sont censurés (« bip »), sinon les transcrire.
+- Conserver les valeurs de mesure de la VO : par exemple, un prix en $ ne doit pas être converti en €
+- Divers textes incrustés peuvent nécessiter un sous-titrage (exemple : SMS, etc) et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
+- Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres nécessaires présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image. -> A REMPLACER par
+- Utilisez les options de placement disponibles dans la section SME. Le sous-titre doit gêner le moins possible l'image.)
+
+
+*Titre du programme*
+- Ne pas traduire les titres génériques des programmes, uniquement les titres des épisodes d’une série qui seraient incrustés à l’image en VO. 
+- Si le titre a une traduction, il sera communiqué.
+- Afficher ce titre pendant au moins 4 secondes (si possible). Ce titre ne doit jamais recouvrir le titre original.
+
+*Crédits*
+- Placer le nom du fournisseur et du traducteur (Sous-titrage : Videomenthe – nom du traducteur) sur le carton du distributeur ou générique de fin, en perturbant le moins possible la lecture, sauf s'il s'agit d'un SME (si SME, le nom du traducteur n'est pas requis car pas d'adaptation).
+
   
 </details>
 
@@ -108,6 +123,7 @@ Métadonnées obligatoires dans le fichier d'en-tête STL :
 
 </details>
 
+
 ![SME](images/SME_.png) 
 
 ### Directives supplémentaires pour le sous-titrage à destination des sourds et les malentendants SME :
@@ -116,21 +132,21 @@ Métadonnées obligatoires dans le fichier d'en-tête STL :
   <summary><b>Guidelines supplémentaires SME.</b></summary>
 Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respecter ces règles : 
 
-- Respecter l'image : ne couvrez pas le texte incrusté ou les zones importantes de l'image.
+- Respecter l'image : ne couvrez pas le texte incrusté, les zones importantes de l'image ni les visages (nottament la bouche).
 - Utiliser toujours des tirets (-) pour indiquer que le locuteur a changé. Pas d’espace après.
 - Placer les sous-titres le plus proche de la source sonore.
 - Respecter le code couleurs défini pour le sous-titrage (cf couleurs).
 - Utiliser des parenthèses pour les chuchotements ou les conversations privées.
 - Utiliser des majuscules lorsque plusieurs personnes récitent le même texte (et utiliser des minuscules pour tout le reste, sauf pour des abréviations, des acronymes spécifiques).
 - Décomposer les phrases de manière intelligible. Lorsqu'une phrase s'étend sur plus d'une caption, décomposez-la à l’endroit approprié pour éviter tout contresens.
-- La durée du  sous-titre doit être d'au moins 15 images pour une bonne lecture et compréhension.
--	Les caractères spéciaux sur majuscules ne sont pas autorisés: pas de 'E' avec accent, de 'C' avec cédille, etc...
--	Si une phrase se lit sur deux sous-titres consécutifs, l'écart enter ces derniers doit être de 4 images.
-- Si une musique est citée puis elle continue sur un autre plan,  il faut noter trois petits points en majenta.
--	Si un bruit est décrit, puis il continue sur un autre plan, il faut noter trois petits points en rouge.
--	Le bruitage doit être décrit uniquement s'il n'est pas visible dans l'image.
+- La durée du sous-titre doit être d'au moins 15 images pour une bonne lecture et compréhension.
+-	Les caractères spéciaux sur majuscules ne sont pas autorisés : pas de 'E' avec accent, de 'C' avec cédille, etc...
+- Si une phrase se lit sur deux sous-titres consécutifs, l'écart entre ces derniers doit être de 4 images.
+- Si une musique est citée puis continue sur un autre plan, il faut noter trois petits points en magenta.
+-	Si un bruit est décrit, puis continue sur un autre plan, il faut noter trois petits points en rouge.
+-	Le bruitage doit être décrit uniquement s'il n'est pas visible à l'image.
 -	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
-
+- Dans le cas d'un SME, le nom du traducteur n'est pas requis dans les crédit car il n'y a pas d'adaptation.
 
 </details>
 
@@ -162,6 +178,7 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 - Positionner les sous-titres en fonction de la source sonore. Si aucune source n'est identifiée, centrez les sous-titres. 
 - Préférer la première captions plus courte que la seconde si possible, néanmoins la césure par la ponctuation prime toujours.
 
+
 </details>
 
 <details>
@@ -175,7 +192,7 @@ Par exemple : Téléphone ou Le téléphone sonne.
 Placez un tiret sans espace entre les deux lorsque le haut-parleur change. 
 Lorsque la même personne reprend la parole après une période de silence, ou après de la musique ou d'autres effets sonores, n'utilisez plus le tiret.
 - ***Début du programme*** : Tous les programmes commencent par 3 points (sans espace) justifiés à gauche pendant toute la durée du générique d'ouverture, afin que le téléspectateur sache que le sous-titrage du télétexte fonctionne correctement. 
-- ***Fin de programme*** : Indiquez la fin des sous-titres du programme avec la signature (traducteur et fournisseur) lors du générique de clôture. 
+- ***Fin de programme*** : Indiquez la fin des sous-titres du programme avec la signature (Sous-titrage : Videomenthe – nom du traducteur) lors du générique de clôture. 
 - ***Niveau de langue*** : Transcrire le texte dans son intégralité (pas d'abrégé ni de simplification).
 
 </details>
@@ -205,6 +222,7 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 - Remarque : en Canadien, il n'y a pas d'espace avant certaines ponctuation (?!: ....)
 
 </details>
+
 
 
 ![how](images/how.jpg)
