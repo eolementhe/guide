@@ -136,6 +136,7 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 - Utiliser toujours des tirets (-) pour indiquer que le locuteur a changé. Pas d’espace après.
 - Placer les sous-titres le plus proche de la source sonore.
 - Respecter le code couleurs défini pour le sous-titrage (cf couleurs).
+- Pas d'italique pour un sous titre SME (cf couleurs).
 - Utiliser des parenthèses pour les chuchotements ou les conversations privées.
 - Utiliser des majuscules lorsque plusieurs personnes récitent le même texte (et utiliser des minuscules pour tout le reste, sauf pour des abréviations, des acronymes spécifiques).
 - Décomposer les phrases de manière intelligible. Lorsqu'une phrase s'étend sur plus d'une caption, décomposez-la à l’endroit approprié pour éviter tout contresens.
