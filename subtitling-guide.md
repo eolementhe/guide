@@ -38,7 +38,11 @@ Cette liste est amenée à évoluer régulièrement.
 - Ne pas utiliser les espaces pour positionner le texte, seulement la justification.
 - Ne pas inclure de texte du programme dans le fichier de sous-titres. Ne pas remplir de champ supplémentaire ou ne pas créer de sous-titres de durée nulle.
 - Ne pas ajouter d'espace entre le - et la première lettre.
-- Préconiser la forme pyramidale si une ligne est plus longue que l'autre dans un sous-titre en deux lignes. 
+- Préconiser la forme pyramidale si une ligne est plus longue que l'autre dans un sous-titre en deux lignes.
+- Les sous-titres du narrateur/voix off doivent être en italique.
+- Lorsqu’il y a des stt VO déjà présents à l’image, positionner les stt VOST juste au-dessus si possible, autrement les placer en haut de l’image.
+- Lorsqu’il n’y a qu’une ligne dans un sous-titre il faut que la ligne soit le proche du bord de l’écran.
+ 
 
 *Règles de fond*
 - Respecter le sens du discours et règles d’orthographes, grammaire et conjugaison de la langue française.
