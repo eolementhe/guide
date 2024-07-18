@@ -53,8 +53,7 @@ Cette liste est amenée à évoluer régulièrement.
 - En cas de mots grossiers, les remplacer par des *** s’ils sont censurés (« bip »), sinon les transcrire.
 - Conserver les valeurs de mesure de la VO : par exemple, un prix en $ ne doit pas être converti en €
 - Divers textes incrustés peuvent nécessiter un sous-titrage (exemple : SMS, etc) et ne doivent jamais recouvrir ce texte incrusté : placez les sous-titres ailleurs dans l'image ou échelonnez-les dans le temps.
-- Utilisez le preset adapté parmi la liste disponible en fonction de la position des titres nécessaires présents dans l'image et du contenu de l'image. Le sous-titre doit gêner le moins possible l'image. -> A REMPLACER par
-- Utilisez les options de placement disponibles dans la section SME. Le sous-titre doit gêner le moins possible l'image.)
+- Utilisez les options de placement disponibles dans la section SME. Le sous-titre doit gêner le moins possible l'image, ni étre situé sur un visage (nottament la bouche).
 
 
 *Titre du programme*
