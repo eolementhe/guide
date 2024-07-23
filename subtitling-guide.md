@@ -16,7 +16,7 @@ Cette liste est amenée à évoluer régulièrement.
     * 40, espaces inclus
     * inférieur ou égal à 37 si présence de control code (ex : italique,…) 
     * ces indications peuvent être modifiées par projet : dans ce cas, respecter les seuils précisés par Videomenthe
-- Les 2 lignes doivent être équilibrées en termes de caractère par ligne.
+- Les 2 lignes doivent être équilibrées en termes de caractère par ligne, en privilégiant une forme pyramidale.
 
 *Durée*
 - Ne pas placer de sous-titres dans les 10 premières images utiles d'un programme (400 premières ms).
@@ -41,8 +41,7 @@ Cette liste est amenée à évoluer régulièrement.
 - Préconiser la forme pyramidale si une ligne est plus longue que l'autre dans un sous-titre en deux lignes.
 - Les sous-titres du narrateur/voix off doivent être en italique.
 - Lorsqu’il y a des stt VO déjà présents à l’image, positionner les stt VOST juste au-dessus si possible, autrement les placer en haut de l’image.
-- Lorsqu’il n’y a qu’une ligne dans un sous-titre il faut que la ligne soit le proche du bord de l’écran.
- 
+- Lorsqu’il n’y a qu’une ligne dans un sous-titre il faut que la ligne soit le proche du bord de l’écran. Ainsi, par exemple, il convient d'ajouter une ligne vide (entrée) si le sous-titre est tout en bas de l'écran.
 
 *Règles de fond*
 - Respecter le sens du discours et règles d’orthographes, grammaire et conjugaison de la langue française.
@@ -182,7 +181,7 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 - Lorsque l'orateur est en arrière-plan entouré d'autres personnes, placez les sous-titres au-dessus de lui.
 - Positionner les sous-titres en fonction de la source sonore. Si aucune source n'est identifiée, centrez les sous-titres. 
 - Préférer la première captions plus courte que la seconde si possible, néanmoins la césure par la ponctuation prime toujours.
-
+- La découpe des sous-titres doit correspondre au maximum au changement de plan, par exemple lorsqu'une perdonne parle arrive a l'écran changez de caption et utiliser la couleur adéquat.
 
 </details>
 
