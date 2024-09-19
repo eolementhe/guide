@@ -1266,6 +1266,50 @@ Below example of one schema of the activity report.
 
 </details>
 
+<details>
+  <summary><b>How to check user in my organisation?</b></summary>
+
+In Analytics tab, the manager can check user in your organisation and  connection details.
+
+![image](https://github.com/user-attachments/assets/0ba575c5-45d1-4c76-8162-aad855dc411d)
+
+### User Management
+
+<details>
+  <summary><b>User Manager Tab</b></summary>
+
+Eolementhe allow the manager to add user in their organisation, with specific roles :
+- Manager.
+- User.
+- Reviewer.
+- Reader.
+  
+![image](https://github.com/user-attachments/assets/2f5e1830-790b-47b1-8e83-8ecf1e683a65)
+
+
+<details>
+  <summary><b>How to add a user in my organisation ?</b></summary>
+
+In the `User Manager` Tab, go in the `Users` Tab and select `Enroll User`.
+
+![image](https://github.com/user-attachments/assets/2d3b7d8d-ce0b-479d-9a33-d1b74c57baff)
+
+Fill all values (organization, name, first name, email and rôle) and click on `Submit`.
+
+![image](https://github.com/user-attachments/assets/71d5969b-ff7e-44a0-a5d0-e208a11ae190)
+The newly registered user will receive an email to activate their account and create a password.
+
+<details>
+  <summary><b>How to remove a user in my organisation ?</b></summary>
+
+In the `User Manager` Tab, go in the `Users`.
+Select the user and go in `Actions` tab
+![image](https://github.com/user-attachments/assets/6083e689-3d56-486d-a624-c7da5494493c)
+
+You can click on `Manage User organisation` icon and remove the user from the organisation :
+![image](https://github.com/user-attachments/assets/665075bc-1780-4875-bb86-8adf022c6055)
+
+
 ### Account
 
 <details>
