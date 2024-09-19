@@ -1273,6 +1273,8 @@ In Analytics tab, the manager can check user in your organisation and  connectio
 
 ![image](images/analytics_1.png)
 
+</details>
+
 ### User Management
 
 <details>
@@ -1286,6 +1288,7 @@ Eolementhe allow the manager to add user in their organisation, with specific ro
   
 ![image](images/user_manager_1.png)
 
+</details>
 
 <details>
   <summary><b>How to add a user in my organisation ?</b></summary>
@@ -1298,6 +1301,7 @@ Fill all values (organization, name, first name, email and rôle) and click on `
 
 ![image](images/user_manager_3.png)
 The newly registered user will receive an email to activate their account and create a password.
+</details>
 
 <details>
   <summary><b>How to remove a user in my organisation ?</b></summary>
@@ -1308,7 +1312,7 @@ Select the user and go in `Actions` tab
 
 You can click on `Manage User organisation` icon and remove the user from the organisation :
 ![image](images/user_manager_5.png)
-
+</details>
 
 ### Account
 
