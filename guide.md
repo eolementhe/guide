@@ -1420,6 +1420,6 @@ After that, just click on it to get all the information (if you are a simple use
   
 ![team-complete-view](images/team-complete-view.png)
 
-</details>
+</details> 
 
 
