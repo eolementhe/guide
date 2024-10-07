@@ -150,7 +150,7 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 -	Le bruitage doit être décrit uniquement s'il n'est pas visible à l'image.
 -	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
 -	Privilégier la compréhension globale du sous-titre plutot que la syncronisation.
-- Dans le cas d'un SME, affichier uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
+- Dans le cas d'un SME, afficher uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
 
 </details>
 
