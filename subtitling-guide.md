@@ -231,7 +231,7 @@ Le sous-titrage à destination du canada doit respecter ces règles : 
 
 ![how](images/how.jpg)
 
-  ### Procédure modification caption:
+  ### Documentation complémentaires édition de sous-titres :
 
 <details>
   <summary><b>Comment modifier le style du texte d'une caption?</b></summary>
@@ -248,3 +248,6 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 
 </details>
 
+<details>
+  <summary><b>Comment activer les QC automatiques ?</b></summary>
+</details>
