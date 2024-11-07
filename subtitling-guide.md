@@ -251,3 +251,27 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 <details>
   <summary><b>Comment activer les QC automatiques ?</b></summary>
 </details>
+
+<details>
+  <summary><b>Liste des raccourcis disponibles</b></summary>
+
+
+- ***COULEURS*** 	
+- CTRL + SHIFT + 1	| Blanc
+- CTRL + SHIFT + 2	| Jaune
+- CTRL + SHIFT + 3 |	Vert
+- CTRL + SHIFT + 4 |	Cyan
+- CTRL + SHIFT + 5 |	Rouge
+- CTRL + SHIFT + 6 |	Magenta
+- ***JUSTIFICATION***
+- CTRL + SHIFT + LEFT |	Déplacer sur la gauche
+- CTRL + SHIFT + RIGHT |	Déplacer sur la droite
+- ***POSITION VERTICALE***
+- CTRL + SHIFT + UP |	Déplacer ligne supérieur
+- CTRL + SHIFT + DOWN |	Déplacer ligne inférieur
+- ***PLAYER***
+- ALT + J |	5 images précédentes
+- ALT + K |	Play / Pause
+- ALT + L |	5 images suivantes
+
+</details>
