@@ -249,10 +249,19 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 </details>
 
 <details>
-  <summary><b>Comment activer les QC automatiques ?</b></summary>
-![image](https://github.com/user-attachments/assets/11d554c0-480a-4130-9a94-140028eac3a9)
-![image](https://github.com/user-attachments/assets/71e100a1-8980-4f18-bb41-c9caf1cd7e8a)
+  <summary><b>QC automatiques</b></summary>
+- ***Explication des différents QC automatiques***
+- Le paramètre "Écart minimum d'images entre les sous-titres" définit le nombre minimum d'images (frames) qu'il doit y avoir entre deux sous-titres ; le sous-titre sera marqué comme en erreur s'il ne correspond pas à la valeur configurée.
+- Le paramètre "Durée minimale du sous-titre en images" définit la durée minimale durant laquelle un sous-titre doit rester affiché à l'écran ; le sous-titre sera marqué comme en erreur s'il ne correspond pas à la valeur configurée.
+_ Le paramètre "Pas de sous-titre sur une coupure de scène" signifie que les sous-titres qui chevauchent une coupure de scène seront marqués comme en erreur.
+- Le paramètre "Pas de mots répétés dans le même sous-titre" signifie que les sous-titres où un mot est écrit en double seront marqués comme en erreur.
+- Le paramètre "Pas de caractère spécial dans le sous-titre" signifie que tous les sous-titres avec un caractère spécial seront marqués comme en erreur.
 
+- ***Comment activer les QC automatiques ?***
+![image](https://github.com/user-attachments/assets/11d554c0-480a-4130-9a94-140028eac3a9)
+![image](https://github.com/user-attachments/assets/056b87d8-8e55-4241-8217-d4ac02c270bb)
+![Capture d’écran 2024-11-13 165610](https://github.com/user-attachments/assets/f510b789-7c52-470d-b998-e31dd975145d)
+  
 </details>
 
 <details>
