@@ -250,8 +250,9 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 
 <details>
   <summary><b>Comment activer les QC automatiques ?</b></summary>
-- ![image](https://github.com/user-attachments/assets/11d554c0-480a-4130-9a94-140028eac3a9)
-- ![image](https://github.com/user-attachments/assets/f026941a-7699-4b03-b3e6-281a0023695c)
+![image](https://github.com/user-attachments/assets/11d554c0-480a-4130-9a94-140028eac3a9)
+![image](https://github.com/user-attachments/assets/71e100a1-8980-4f18-bb41-c9caf1cd7e8a)
+
 </details>
 
 <details>
