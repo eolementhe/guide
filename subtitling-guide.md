@@ -260,9 +260,8 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 - Le paramètre "Pas de caractère spécial dans le sous-titre" signifie que tous les sous-titres avec un caractère spécial seront marqués comme en erreur.
 
   ### Comment activer les QC automatiques ?
-![image](https://github.com/user-attachments/assets/11d554c0-480a-4130-9a94-140028eac3a9)
-
-![Capture d’écran 2024-11-13 165610](https://github.com/user-attachments/assets/f510b789-7c52-470d-b998-e31dd975145d)
+  images/QC_automatique.png
+![QC_automatique](images/QC_automatique.png)
   
 </details>
 
