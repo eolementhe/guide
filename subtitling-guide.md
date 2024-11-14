@@ -250,7 +250,7 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 
 <details>
   <summary><b>QC automatiques</b></summary>
-  
+
   ### Explication des différents QC automatiques
 
 - Le paramètre "Écart minimum d'images entre les sous-titres" définit le nombre minimum d'images (frames) qu'il doit y avoir entre deux sous-titres ; le sous-titre sera marqué comme en erreur s'il ne correspond pas à la valeur configurée.
@@ -260,7 +260,7 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 - Le paramètre "Pas de caractère spécial dans le sous-titre" signifie que tous les sous-titres avec un caractère spécial seront marqués comme en erreur.
 
   ### Comment activer les QC automatiques ?
-  images/QC_automatique.png
+
 ![QC_automatique](images/QC_automatique.png)
   
 </details>
