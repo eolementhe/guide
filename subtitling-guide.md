@@ -268,7 +268,6 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 <details>
   <summary><b>Liste des raccourcis disponibles</b></summary>
 
-
 - ***COULEURS*** 	
 - ALT + SHIFT + 1 = Blanc
 - ALT + SHIFT + 2 = Jaune
@@ -289,4 +288,5 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 - ***MAJ TIMECODE***
 - ALT + SHIFT + Q = Renseigne le TC IN de la caption avec la valeur de la tête de lecture
 - ALT + SHIFT + D = Renseigne le TC OUT de la caption avec la valeur de la tête de lecture
+  
 </details>
