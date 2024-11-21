@@ -268,24 +268,24 @@ Afin de modifier le style du texte d'une caption, il suffit de :
 <details>
   <summary><b>Liste des raccourcis disponibles</b></summary>
 
-- ***COULEURS*** 	
+***COULEURS*** 	
 - ALT + SHIFT + 1 = Blanc
 - ALT + SHIFT + 2 = Jaune
 - ALT + SHIFT + 3 = Vert
 - ALT + SHIFT + 4 = Cyan
 - ALT + SHIFT + 5 = Rouge
 - ALT + SHIFT + 6 = Magenta
-- ***JUSTIFICATION***
+***JUSTIFICATION***
 - ALT + SHIFT + LEFT =	Déplacer sur la gauche
 - ALT + SHIFT + RIGHT = Déplacer sur la droite
-- ***POSITION VERTICALE***
+***POSITION VERTICALE***
 - ALT + SHIFT + UP =	Déplacer ligne supérieur
 - ALT + SHIFT + DOWN =	Déplacer ligne inférieur
-- ***PLAYER***
+***PLAYER***
 - ALT + SHIFT + J =	image précédente
 - ALT + SHIFT + K =	Play / Pause
 - ALT + SHIFT + L =	image suivante
-- ***MAJ TIMECODE***
+***MAJ TIMECODE***
 - ALT + SHIFT + Q = Renseigne le TC IN de la caption avec la valeur de la tête de lecture
 - ALT + SHIFT + D = Renseigne le TC OUT de la caption avec la valeur de la tête de lecture
   
