@@ -150,7 +150,7 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 -	Le bruitage doit être décrit uniquement s'il n'est pas visible à l'image.
 -	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
 -	Privilégier la compréhension globale du sous-titre plutot que la syncronisation.
--	Si des sous-titres sont déjà affichés à l'image, ne pas les sous-titrer à nouveau. Indiquez simplement la langue parlée entre parenthèses si c'est une langue étrangère, par exemple : (Anglais).
+-	Si des sous-titres sont déjà incrusté à l'image, ne pas les sous-titrer à nouveau. Indiquez simplement la langue parlée entre parenthèses si c'est une langue étrangère, par exemple : (Anglais).
 - Dans le cas d'un SME, afficher uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
 
 </details>
