@@ -1312,6 +1312,12 @@ Select the user and go in `Actions` tab
 
 You can click on `Manage User organisation` icon and remove the user from the organisation :
 ![image](images/user_manager_5.png)
+
+</details>
+
+<details>
+  <summary><b>How to add a Team to an user ?</b></summary>
+
 </details>
 
 ### Account
