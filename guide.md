@@ -1316,7 +1316,7 @@ You can click on `Manage User organisation` icon and remove the user from the or
 </details>
 
 <details>
-  <summary><b>How to add a Team to a user ?</b></summary>
+  <summary><b>How to add a user in a Team ?</b></summary>
 
 A team is a sub-level of an organisation.
 
