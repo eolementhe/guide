@@ -1316,6 +1316,23 @@ You can click on `Manage User organisation` icon and remove the user from the or
 </details>
 
 <details>
+  <summary><b>How to create a Team ?</b></summary>
+
+A team is a sub-level of an organisation.
+
+A user in a team will only see workflows started in the same team.
+
+A user in an organisation without a team will see all workflows.
+
+Team are created and assigned by the manager of the organisation in the Users Managers tab
+
+
+
+
+
+</details>
+
+<details>
   <summary><b>How to add a user in a Team ?</b></summary>
 
 A team is a sub-level of an organisation.
