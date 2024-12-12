@@ -1326,9 +1326,8 @@ A user in an organisation without a team will see all workflows.
 
 Team are created and assigned by the manager of the organisation in the Users Managers tab
 
-
-
-
+![image](images/create_team.png)
+![image](images/create_team2.png)
 
 </details>
 
@@ -1344,7 +1343,7 @@ A user in an organisation without a team will see all workflows.
 Team are assigned by the manager of the organisation in the Users Managers tab
 
 
-![image](images/usermanager_team.png)
+![image](images/add_user_team.png)
 
 
 </details>
