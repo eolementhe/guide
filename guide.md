@@ -326,12 +326,12 @@ Result in the `File Library`:
 
 
 <details>
-  <summary><b>How to create a FTP / SFTP / FTPS ?</b></summary>
+  <summary><b>How to create an FTP / SFTP / FTPS ?</b></summary>
   
-An FTP bloc allows you to upload or downlad files from an FTP / SFTP / FTPS server. 
+An FTP block allows you to upload or download files from an FTP / SFTP / FTPS server. 
 
-At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. 
-Or directly in your profile, selelct `Manage Preset` then `FTP export`
+At first you will need to add your FTP server. For that, select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. 
+Or directly in your profile, select `Manage Preset`, then `FTP export`
 
 Click on `Add Server`
 
@@ -339,14 +339,14 @@ Click on `Add Server`
 
 Fill in the data relating to your FTP server and click on `Submit`.
 
-  - ***Name*** : name of the ressource
+  - ***Name*** : name of the resource
   - ***Hostname*** : Address of the FTP server
-  - ***Username*** : Username for connect to the FTP server
-  - ***Password*** : Optional - Password for connect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if needed)
+  - ***Username*** : Username to connect to the FTP server
+  - ***Password*** : Optional - Password to connect to the FTP server. In case of SFTP with a private key, you can use this value for the passphrase (if needed)
   - ***Protocol*** : ftp / sftp / ftps
   - ***Port number*** : number of the ftp port (21 - ftp / 22 - sftp)
-  - ***Choose a folder*** : if specific folder needed (if empty it choose the root folder)
-  - ***SSH private key*** : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be imported in Eolementhe, past it in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
+  - ***Choose a folder*** : if a specific folder is needed (leave empty if you want to choose the default folder)
+  - ***SSH private key*** : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. The Private key must be imported in Eolementhe, paste it in the SFTP form in `SSH private key` field. The public key must be added to your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
 
