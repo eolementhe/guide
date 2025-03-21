@@ -325,9 +325,9 @@ Result in the `File Library`:
 </details>
 
 <details>
-  <summary><b>How to create FTP watchfolder?</b></summary>
+  <summary><b>How to create a FTP / SFTP / FTPS ?</b></summary>
 
-An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
+An FTP bloc allows you to upload or downlad files from an FTP server. 
 
 At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
 
@@ -338,6 +338,13 @@ Click on `Add Server`
 Fill in the data relating to your FTP server and click on `Submit`.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
+
+<details>
+  <summary><b>How to create FTP watchfolder?</b></summary>
+
+An FTP WatchFolder allows you to specify a folder on an external FTP server. When adding files to this folder all the files added will be taken as source files and launched by Eolementhe in a workflow of your choice. 
+
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
 
 Now click on your login at the top right of Eolementhe and click on `FTP Watch Folder`.
 
