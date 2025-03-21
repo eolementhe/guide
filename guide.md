@@ -327,10 +327,11 @@ Result in the `File Library`:
 
 <details>
   <summary><b>How to create a FTP / SFTP / FTPS ?</b></summary>
-
+  
 An FTP bloc allows you to upload or downlad files from an FTP / SFTP / FTPS server. 
 
-At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. Or directly in your profile `Manage Preset` and `FTP export`
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. 
+Or directly in your profile, selelct `Manage Preset` then `FTP export`
 
 Click on `Add Server`
 
@@ -352,6 +353,8 @@ Fill in the data relating to your FTP server and click on `Submit`.
 After you can click on `Test connection`. You can see a green popup if connection is successful.
 
 ![workflow-ftp-export](images/workflow-ftp-success.png)
+
+</details>
 
 
 <details>
