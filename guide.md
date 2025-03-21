@@ -327,7 +327,7 @@ Result in the `File Library`:
 <details>
   <summary><b>How to create a FTP / SFTP / FTPS ?</b></summary>
 
-An FTP bloc allows you to upload or downlad files from an FTP server. 
+An FTP bloc allows you to upload or downlad files from an FTP / SFTP / FTPS server. 
 
 At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
 
@@ -337,7 +337,18 @@ Click on `Add Server`
 
 Fill in the data relating to your FTP server and click on `Submit`.
 
+- `Name` : name of the ressource
+- `Hostname` : Address of the FTP server
+- `Username` : Username for connect to the FTP server
+- `Password` : Optional - Password for conect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if necessary)
+- `Protocol` : ftp / sftp / ftps
+- `Port number` : number of the ftp port (21 - ftp / 22 - sftp)
+- `Choose a folder` : if specific folder needed (if empty it choose the root folder)
+- `SSH private key` : optional - `only needed for sftp connection with private key`. Private key and public key must be generated in our environment. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be past in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. 
+
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
+
+After you can click on `Test connection`. You can see a green popup if connection is successful.
 
 <details>
   <summary><b>How to create FTP watchfolder?</b></summary>
