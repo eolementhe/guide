@@ -337,14 +337,14 @@ Click on `Add Server`
 
 Fill in the data relating to your FTP server and click on `Submit`.
 
-- `Name` : name of the ressource
-- `Hostname` : Address of the FTP server
-- `Username` : Username for connect to the FTP server
-- `Password` : Optional - Password for conect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if necessary)
-- `Protocol` : ftp / sftp / ftps
-- `Port number` : number of the ftp port (21 - ftp / 22 - sftp)
-- `Choose a folder` : if specific folder needed (if empty it choose the root folder)
-- `SSH private key` : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be imported in Eolementhe, past it in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
+  - ***Name*** : name of the ressource
+  - ***Hostname*** : Address of the FTP server
+  - ***Username : Username for connect to the FTP server
+  - ***Password*** : Optional - Password for conect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if necessary)
+  - ***Protocol*** : ftp / sftp / ftps
+  - ***Port number*** : number of the ftp port (21 - ftp / 22 - sftp)
+  - ***Choose a folder*** : if specific folder needed (if empty it choose the root folder)
+  - ***SSH private key*** : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be imported in Eolementhe, past it in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
 
