@@ -346,11 +346,12 @@ Fill in the data relating to your FTP server and click on `Submit`.
   - ***Protocol*** : ftp / sftp / ftps
   - ***Port number*** : number of the ftp port (21 - ftp / 22 - sftp)
   - ***Choose a folder*** : if a specific folder is needed (leave empty if you want to choose the default folder)
-  - ***SSH private key*** : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. The Private key must be imported in Eolementhe, paste it in the SFTP form in `SSH private key` field. The public key must be added to your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
+  - ***SSH private key*** : Optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe doesn't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh to create an SSH key pair. The Private key must be imported in Eolementhe, in the SFTP form `SSH private key` field.
+The public key must be added to your sftp server. After the configuration in Eolementhe, for security reason, we advise you to remove the private key generated on your computer.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
 
-After you can click on `Test connection`. You can see a green popup if connection is successful.
+After you can click on `Test connection`. You can see a green popup if the connection is successful.
 
 ![workflow-ftp-export](images/workflow-ftp-success.png)
 
