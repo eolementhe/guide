@@ -330,11 +330,11 @@ Result in the `File Library`:
 
 An FTP bloc allows you to upload or downlad files from an FTP / SFTP / FTPS server. 
 
-At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. Or directly in `Manage Preset` > `FTP export`
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. Or directly in your profile `Manage Preset` and `FTP export`
 
 Click on `Add Server`
 
-![workflow-ftp-export](images/workflow-ftp-export.png)
+![workflow-ftp-export](images/workflow-ftp-import.png)
 
 Fill in the data relating to your FTP server and click on `Submit`.
 
