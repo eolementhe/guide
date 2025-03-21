@@ -342,7 +342,7 @@ Fill in the data relating to your FTP server and click on `Submit`.
   - ***Name*** : name of the ressource
   - ***Hostname*** : Address of the FTP server
   - ***Username*** : Username for connect to the FTP server
-  - ***Password*** : Optional - Password for conect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if necessary)
+  - ***Password*** : Optional - Password for connect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if needed)
   - ***Protocol*** : ftp / sftp / ftps
   - ***Port number*** : number of the ftp port (21 - ftp / 22 - sftp)
   - ***Choose a folder*** : if specific folder needed (if empty it choose the root folder)
