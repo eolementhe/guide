@@ -324,6 +324,7 @@ Result in the `File Library`:
 
 </details>
 
+
 <details>
   <summary><b>How to create a FTP / SFTP / FTPS ?</b></summary>
 
@@ -339,7 +340,7 @@ Fill in the data relating to your FTP server and click on `Submit`.
 
   - ***Name*** : name of the ressource
   - ***Hostname*** : Address of the FTP server
-  - ***Username : Username for connect to the FTP server
+  - ***Username*** : Username for connect to the FTP server
   - ***Password*** : Optional - Password for conect to the FTP server. In case of SFTP with private key, you can use this value for the passphrase (if necessary)
   - ***Protocol*** : ftp / sftp / ftps
   - ***Port number*** : number of the ftp port (21 - ftp / 22 - sftp)
@@ -351,6 +352,7 @@ Fill in the data relating to your FTP server and click on `Submit`.
 After you can click on `Test connection`. You can see a green popup if connection is successful.
 
 ![workflow-ftp-export](images/workflow-ftp-success.png)
+
 
 <details>
   <summary><b>How to create FTP watchfolder?</b></summary>
