@@ -42,7 +42,7 @@ Click on `Execute workflow`.
 - ***Premium :*** upload file with Signiant App.
 - ***Premium Object Storage :*** upload file with Signiant App from OVH, AZURE or AMAZON.
 - ***Internet :*** upload file by URL internet video.
-- ***FTP :*** upload file with FTP protocol.
+- ***FTP :*** upload file with FTP / SFTP / FTPS protocol.
 - ***Aspera :*** upload file with Aspera specific protocol.
 - ***Live stream :*** upload file from live stream.
 - ***Twitter :*** upload file from twitter publication.
@@ -55,7 +55,7 @@ Click on `Execute workflow`.
 - ***Manual :*** deliver file on Eolementhe platform.
 - ***Object Storage :*** deliver file on OVH, AZURE or AMAZON.
 - ***Mediashuttle :*** deliver file on mediashuttle portal.
-- ***FTP export :*** deliver file on FTP instance.
+- ***FTP export :*** deliver file on FTP / SFTP / FTPS instance.
 - ***Youtube :*** deliver file on youtube account.
 - ***Aspera connect :*** deliver file with Aspera protocol.
 - ***Twitter :***  deliver file on twitter account.
@@ -329,7 +329,7 @@ Result in the `File Library`:
 
 An FTP bloc allows you to upload or downlad files from an FTP / SFTP / FTPS server. 
 
-At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow.  
+At first you will need to add your FTP server. For that nothing simplier select the `FTP`or `FTP export` option in the ingest or delivery of your workflow. Or directly in `Manage Preset` > `FTP export`
 
 Click on `Add Server`
 
@@ -344,11 +344,13 @@ Fill in the data relating to your FTP server and click on `Submit`.
 - `Protocol` : ftp / sftp / ftps
 - `Port number` : number of the ftp port (21 - ftp / 22 - sftp)
 - `Choose a folder` : if specific folder needed (if empty it choose the root folder)
-- `SSH private key` : optional - `only needed for sftp connection with private key`. Private key and public key must be generated in our environment. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be past in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. 
+- `SSH private key` : optional - `only needed for sftp connection with private key`. Private key and public key must be generated before. Eolementhe don't generate SSH key pair. You can use 'ssh-keygen' on Windows, putty or openssh for create an SSH key pair. Private key must be imported in Eolementhe, past it in the SFTP form in `SSH private key` field. The public key must be added in your sftp server. After the configuration in Eolementhe, we advise you to remove the private key generated on your computer.
 
 ![workflow-ftp-watch-folder-3](images/workflow-ftp-watch-folder-3.png)
 
 After you can click on `Test connection`. You can see a green popup if connection is successful.
+
+![workflow-ftp-export](images/workflow-ftp-success.png)
 
 <details>
   <summary><b>How to create FTP watchfolder?</b></summary>
