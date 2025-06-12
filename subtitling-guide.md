@@ -149,7 +149,7 @@ Le sous-titrage destiné spécifiquement aux personnes malentendantes doit respe
 -	Si un bruit est décrit, puis continue sur un autre plan, il faut noter trois petits points en rouge.
 -	Le bruitage doit être décrit uniquement s'il n'est pas visible à l'image.
 -	Il faut faire une adaptation, par exemple ne pas écrire les mots répétés.
--	Privilégier la compréhension globale du sous-titre plutot que la syncronisation.
+-	Privilégier la compréhension globale du sous-titre plutot que la synchronisation.
 -	Si des sous-titres sont déjà incrusté à l'image, ne pas les sous-titrer à nouveau. Indiquez simplement la langue parlée entre parenthèses si c'est une langue étrangère, par exemple : (Anglais).
 - Dans le cas d'un SME, afficher uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
 
@@ -190,7 +190,6 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
   <summary><b>Composition des captions.</b></summary>
 
 - ***Silence*** : Si le silence dépasse 20 secondes, placez 3 points blancs (sans espace), justifiés à gauche pendant toute la durée de cette séquence.
-- ***Phrases*** : Lorsque les phrases s'étendent sur plus d'une ligne de caption, ajoutez 2 points (..) à la fin d'une ligne et au début de la suivante (sans espace entre les deux). 
 - ***Autre ponctuation*** : Lorsque des indications concernant la musique ou d'autres effets sonores forment des phrases complètes, ponctuez-les comme telles. 
 Par exemple : Téléphone ou Le téléphone sonne. 
 - ***Dialogue*** :Utiliser une ligne à simple interligne pour séparer deux lignes de légende à double hauteur.
