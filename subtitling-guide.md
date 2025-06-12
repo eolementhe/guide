@@ -182,7 +182,7 @@ Le cyan est utilisé pour les séquences de narration dans les documentaires et 
 - Lorsque l'orateur est en arrière-plan entouré d'autres personnes, placez les sous-titres au-dessus de lui.
 - Positionner les sous-titres en fonction de la source sonore. Si aucune source n'est identifiée, centrez les sous-titres. 
 - Préférer la première captions plus courte que la seconde si possible, néanmoins la césure par la ponctuation prime toujours.
-- La découpe des sous-titres doit correspondre au maximum au changement de plan, par exemple lorsqu'une perdonne parle arrive a l'écran changez de caption et utiliser la couleur adéquat.
+- La découpe des sous-titres doit correspondre au maximum au changement de plan. Par exemple, lorsqu'une personne qui parle hors champ arrive à l'écran (jaune), il convient de changer de caption et utiliser la couleur adéquat (blanc).
 
 </details>
 
@@ -197,8 +197,7 @@ Par exemple : Téléphone ou Le téléphone sonne.
 Placez un tiret sans espace entre les deux lorsque le haut-parleur change. 
 Lorsque la même personne reprend la parole après une période de silence, ou après de la musique ou d'autres effets sonores, n'utilisez plus le tiret.
 - ***Début du programme*** : Tous les programmes commencent par 3 points (sans espace) justifiés à gauche pendant toute la durée du générique d'ouverture, afin que le téléspectateur sache que le sous-titrage du télétexte fonctionne correctement. 
-- ***Fin de programme*** : Indiquez la fin des sous-titres du programme avec la signature (Sous-titrage : Videomenthe – nom du traducteur) lors du générique de clôture. 
-- ***Niveau de langue*** : Transcrire le texte dans son intégralité (pas d'abrégé ni de simplification).
+- ***Fin de programme*** : Dans le cas d'un SME, afficher uniquement le nom du fournisseur dans les crédits (Sous-titrage : Videomenthe)
 
 </details>
 
